@@ -1,0 +1,19 @@
+{
+ "titel": ["WER HAT DIE MEISTEN", "CL-TITEL? 🏆"],
+ "einheit": "TITEL",
+ "hook": {"szene": "h1", "gross": "99 %", "stempel": "TIPPEN FALSCH!", "frage_wort": "Welcher"},
+ "items": [
+  {"szene": "r8", "rang": 8, "name": "PARIS SG", "wert": 2, "wertwort": "Zwei", "fakt": "2025 + 2026 – direkt hintereinander!", "ball": {"typ": "mitte", "farben": ["#0a1a4a", "#da291c"]}},
+  {"szene": "r7", "rang": 7, "name": "INTER MAILAND", "wert": 3, "wertwort": "Drei", "fakt": "Letzter Titel 2010 – mit Mourinho", "ball": {"typ": "streifen", "farben": ["#0057b8", "#111111"], "n": 6}},
+  {"szene": "r6", "rang": 6, "name": "AJAX", "wert": 4, "wertwort": "Vier", "fakt": "1971, 1972, 1973 – dreimal in Folge!", "ball": {"typ": "mitte", "farben": ["#ffffff", "#d2122e"]}},
+  {"szene": "r5", "rang": 5, "name": "FC BARCELONA", "wert": 5, "wertwort": "Fünf", "fakt": "2015 mit Messi, Suárez & Neymar", "ball": {"typ": "streifen", "farben": ["#004d98", "#a50044"], "n": 5}},
+  {"szene": "r4", "rang": 4, "name": "LIVERPOOL", "wert": 6, "wertwort": "Sechs", "fakt": "2005: Wunder von Istanbul nach 0:3!", "ball": {"typ": "voll", "farben": ["#c8102e"]}},
+  {"szene": "r3", "rang": 3, "name": "FC BAYERN", "wert": 6, "wertwort": "sechs", "fakt": "Letzter Titel 2020 – 1:0 gegen Paris", "ball": {"typ": "band", "farben": ["#dc052d", "#ffffff"]}},
+  {"szene": "r2", "rang": 2, "name": "AC MAILAND", "wert": 7, "wertwort": "Sieben", "fakt": "Letzter Titel 2007 – gegen Liverpool", "ball": {"typ": "streifen", "farben": ["#d21f26", "#111111"], "n": 6}},
+  {"szene": "r1", "rang": 1, "name": "REAL MADRID", "wert": 15, "wertwort": "Fünfzehn", "namewort": "Real", "fakt": "6 Titel allein seit 2014!", "ball": {"typ": "band", "farben": ["#fafafa", "#febe10"]}}
+ ],
+ "fragen": [{"szene": "q1", "text": "NA, WER FEHLT NOCH? 🤔"}, {"szene": "q2", "text": "JETZT WIRD'S ENG … 😬"}],
+ "finale": {"szene": "r1", "wow": "MEHR ALS MAILAND + BAYERN ZUSAMMEN! 🤯", "wowwort": "Mehr"},
+ "cta": {"szene": "c1", "text": "💬 HÄTTEST DU'S GEWUSST?", "sub": "SCHREIB'S IN DIE KOMMENTARE 👇"},
+ "hot": ["FALSCH!", "REAL", "MADRID!", "FÜNFZEHN", "ENG.", "ZWEI!", "KOMMENTARE!", "BAYERN", "MEHR"]
+}

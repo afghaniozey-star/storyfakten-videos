@@ -1,0 +1,131 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.4,
+ "lead": 0.08,
+ "scenes": [
+  {
+   "id": "h1",
+   "groups": [
+    [
+     "99 % tippen hier falsch! Welcher Verein hat die meisten Champions-League-Titel?",
+     "Neunundneunzig Prozent tippen hier falsch! Welcher Verein hat die meisten Champions League Titel?"
+    ]
+   ],
+   "tail": 0.5,
+   "lead": 0.15
+  },
+  {
+   "id": "r8",
+   "groups": [
+    [
+     "Platz 8: Paris. Zwei Titel – beide in den letzten zwei Jahren!",
+     "Platz acht: Paris. Zwei Titel, beide in den letzten zwei Jahren!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r7",
+   "groups": [
+    [
+     "Platz 7: Inter Mailand. Drei Titel – der letzte 2010 mit Mourinho.",
+     "Platz sieben: Inter Mailand. Drei Titel, der letzte zweitausendzehn mit Mourinho."
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r6",
+   "groups": [
+    [
+     "Platz 6: Ajax Amsterdam. Vier Titel – drei davon hintereinander!",
+     "Platz sechs: Ajax Amsterdam. Vier Titel, drei davon hintereinander!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q1",
+   "groups": [
+    [
+     "Na, wer fehlt noch?",
+     "Na, wer fehlt noch?"
+    ]
+   ],
+   "tail": 0.3
+  },
+  {
+   "id": "r5",
+   "groups": [
+    [
+     "Platz 5: Barcelona. Fünf Titel – zuletzt mit Messi, Suárez und Neymar.",
+     "Platz fünf: Der FC Barcelona. Fünf Titel, zuletzt mit Messi, Suárez und Neymar."
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r4",
+   "groups": [
+    [
+     "Platz 4: Liverpool. Sechs Titel – inklusive Wunder von Istanbul nach 0:3-Rückstand!",
+     "Platz vier: Liverpool. Sechs Titel, inklusive Wunder von Istanbul, nach null zu drei Rückstand!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r3",
+   "groups": [
+    [
+     "Platz 3: Der FC Bayern. Auch sechs Titel – der letzte 2020 gegen Paris.",
+     "Platz drei: Der FC Bayern. Auch sechs Titel, der letzte zweitausendzwanzig gegen Paris."
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q2",
+   "groups": [
+    [
+     "Jetzt wird's eng … nur noch zwei!",
+     "Jetzt wird's eng. Nur noch zwei!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "r2",
+   "groups": [
+    [
+     "Platz 2: AC Mailand. Sieben Titel – der letzte 2007.",
+     "Platz zwei: Der AC Mailand. Sieben Titel, der letzte zweitausendsieben."
+    ]
+   ],
+   "tail": 1.6
+  },
+  {
+   "id": "r1",
+   "groups": [
+    [
+     "Und Platz 1 … Real Madrid! Fünfzehn Titel! Mehr als Mailand und Bayern zusammen!",
+     "Und Platz eins: Real Madrid! Fünfzehn Titel! Mehr als Mailand und Bayern zusammen!"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "c1",
+   "groups": [
+    [
+     "Hättest du's gewusst? Schreib's in die Kommentare!",
+     "Hättest du es gewusst? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 1.4
+  }
+ ]
+}
