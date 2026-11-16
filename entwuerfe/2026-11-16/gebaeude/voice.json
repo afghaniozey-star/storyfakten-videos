@@ -1,0 +1,121 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.4,
+ "lead": 0.08,
+ "scenes": [
+  {
+   "id": "h1",
+   "groups": [
+    [
+     "90 % schätzen das falsch! Welches Gebäude ist das höchste der Welt?",
+     "Neunzig Prozent schätzen das falsch! Welches Gebäude ist das höchste der Welt?"
+    ]
+   ],
+   "tail": 0.5,
+   "lead": 0.15
+  },
+  {
+   "id": "r7",
+   "groups": [
+    [
+     "Platz 7: Das One World Trade Center. 541 Meter – exakt 1776 Fuß, wie das Jahr der US-Unabhängigkeit!",
+     "Platz sieben: Das One World Trade Center. Fünfhunderteinundvierzig Meter, exakt siebzehnhundertsechsundsiebzig Fuß, wie das Jahr der US-Unabhängigkeit!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r6",
+   "groups": [
+    [
+     "Platz 6: Der Lotte World Tower in Seoul. 555 Meter und 123 Stockwerke.",
+     "Platz sechs: Der Lotte World Tower in Seoul. Fünfhundertfünfundfünfzig Meter und hundertdreiundzwanzig Stockwerke."
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r5",
+   "groups": [
+    [
+     "Platz 5: Das Ping An Center in Shenzhen. 599 Meter – nur zwei zu wenig für Platz 4!",
+     "Platz fünf: Das Ping An Center in Shenzhen. Fünfhundertneunundneunzig Meter, nur zwei zu wenig für Platz vier!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q1",
+   "groups": [
+    [
+     "Na, wer fehlt noch?",
+     "Na, wer fehlt noch?"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r4",
+   "groups": [
+    [
+     "Platz 4: Der Uhrenturm in Mekka. 601 Meter – mit der größten Turmuhr der Welt!",
+     "Platz vier: Der Uhrenturm in Mekka. Sechshunderteins Meter, mit der größten Turmuhr der Welt!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r3",
+   "groups": [
+    [
+     "Platz 3: Der Shanghai Tower. 632 Meter – und um 120 Grad verdreht!",
+     "Platz drei: Der Shanghai Tower. Sechshundertzweiunddreißig Meter, und um hundertzwanzig Grad verdreht!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q2",
+   "groups": [
+    [
+     "Jetzt wird's eng … nur noch zwei!",
+     "Jetzt wird's eng. Nur noch zwei!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "r2",
+   "groups": [
+    [
+     "Platz 2: Merdeka 118 in Kuala Lumpur. 679 Meter mit 118 Stockwerken.",
+     "Platz zwei: Merdeka hundertachtzehn in Kuala Lumpur. Sechshundertneunundsiebzig Meter, mit hundertachtzehn Stockwerken."
+    ]
+   ],
+   "tail": 1.6
+  },
+  {
+   "id": "r1",
+   "groups": [
+    [
+     "Und Platz 1 … der Burj Khalifa in Dubai! 828 Meter! Fast 150 Meter höher als Platz 2!",
+     "Und Platz eins: Der Burj Khalifa in Dubai! Achthundertachtundzwanzig Meter! Fast hundertfünfzig Meter höher als Platz zwei!"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "c1",
+   "groups": [
+    [
+     "Würdest du ganz nach oben fahren? Schreib's in die Kommentare!",
+     "Würdest du ganz nach oben fahren? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 1.4
+  }
+ ]
+}

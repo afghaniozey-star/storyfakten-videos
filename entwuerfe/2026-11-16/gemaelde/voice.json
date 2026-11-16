@@ -1,0 +1,111 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.4,
+ "lead": 0.08,
+ "scenes": [
+  {
+   "id": "h1",
+   "groups": [
+    [
+     "90 % tippen hier falsch! Welches Gemälde wurde am teuersten versteigert?",
+     "Neunzig Prozent tippen hier falsch! Welches Gemälde wurde am teuersten versteigert?"
+    ]
+   ],
+   "tail": 0.5,
+   "lead": 0.15
+  },
+  {
+   "id": "r6",
+   "groups": [
+    [
+     "Platz 6: Modigliani. 170 Millionen Dollar – gekauft von einem früheren Taxifahrer!",
+     "Platz sechs: Modigliani. Hundertsiebzig Millionen Dollar, gekauft von einem früheren Taxifahrer!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r5",
+   "groups": [
+    [
+     "Platz 5: Picasso. 179 Millionen – 2015 war das Weltrekord!",
+     "Platz fünf: Picasso. Hundertneunundsiebzig Millionen, zweitausendfünfzehn war das Weltrekord!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q1",
+   "groups": [
+    [
+     "Na, wer fehlt noch?",
+     "Na, wer fehlt noch?"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r4",
+   "groups": [
+    [
+     "Platz 4: Jackson Pollock. 181 Millionen – für Farbspritzer, versteigert erst im Mai!",
+     "Platz vier: Jackson Pollock. Hunderteinundachtzig Millionen, für Farbspritzer, versteigert erst im Mai!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "r3",
+   "groups": [
+    [
+     "Platz 3: Andy Warhol. 195 Millionen für ein Bild von Marilyn Monroe!",
+     "Platz drei: Andy Warhol. Hundertfünfundneunzig Millionen für ein Bild von Marilyn Monroe!"
+    ]
+   ],
+   "tail": 0.35
+  },
+  {
+   "id": "q2",
+   "groups": [
+    [
+     "Jetzt wird's eng … nur noch zwei!",
+     "Jetzt wird's eng. Nur noch zwei!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "r2",
+   "groups": [
+    [
+     "Platz 2: Gustav Klimt. 236 Millionen – erst letztes Jahr versteigert!",
+     "Platz zwei: Gustav Klimt. Zweihundertsechsunddreißig Millionen, erst letztes Jahr versteigert!"
+    ]
+   ],
+   "tail": 1.6
+  },
+  {
+   "id": "r1",
+   "groups": [
+    [
+     "Und Platz 1 … Salvator Mundi von Leonardo da Vinci! 450 Millionen Dollar! Fast doppelt so viel wie Platz 2!",
+     "Und Platz eins: Salvator Mundi von Leonardo da Vinci! Vierhundertfünfzig Millionen Dollar! Fast doppelt so viel wie Platz zwei!"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "c1",
+   "groups": [
+    [
+     "Welches würdest du kaufen? Schreib's in die Kommentare!",
+     "Welches würdest du kaufen? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 1.4
+  }
+ ]
+}

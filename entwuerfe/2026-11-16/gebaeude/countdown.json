@@ -1,0 +1,158 @@
+{
+ "titel": [
+  "DIE HÖCHSTEN",
+  "GEBÄUDE DER WELT 🏙️"
+ ],
+ "einheit": "METER",
+ "hook": {
+  "szene": "h1",
+  "gross": "90 %",
+  "stempel": "SCHÄTZEN FALSCH!",
+  "frage_wort": "Welches"
+ },
+ "items": [
+  {
+   "szene": "r7",
+   "rang": 7,
+   "name": "ONE WTC NEW YORK",
+   "wert": 541,
+   "wertwort": "Fünfhunderteinundvierzig",
+   "fakt": "1776 Fuß – wie das Jahr der US-Unabhängigkeit!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#2a6fdb"
+    ],
+    "emoji": "🗽",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r6",
+   "rang": 6,
+   "name": "LOTTE WORLD TOWER",
+   "wert": 555,
+   "wertwort": "Fünfhundertfünfundfünfzig",
+   "fakt": "123 Stockwerke – in Seoul",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#ffffff"
+    ],
+    "emoji": "🇰🇷",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r5",
+   "rang": 5,
+   "name": "PING AN CENTER",
+   "wert": 599,
+   "wertwort": "Fünfhundertneunundneunzig",
+   "fakt": "Nur 2 Meter fehlen zu Platz 4!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#e63946"
+    ],
+    "emoji": "🏢",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r4",
+   "rang": 4,
+   "name": "UHRENTURM MEKKA",
+   "wert": 601,
+   "wertwort": "Sechshunderteins",
+   "fakt": "Größte Turmuhr der Welt 🕰️",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#1f9d55"
+    ],
+    "emoji": "🕰️",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r3",
+   "rang": 3,
+   "name": "SHANGHAI TOWER",
+   "wert": 632,
+   "wertwort": "Sechshundertzweiunddreißig",
+   "fakt": "Um 120 Grad in sich verdreht!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#4cc9f0"
+    ],
+    "emoji": "🌀",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r2",
+   "rang": 2,
+   "name": "MERDEKA 118",
+   "wert": 679,
+   "wertwort": "Sechshundertneunundsiebzig",
+   "fakt": "118 Stockwerke – in Kuala Lumpur",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#0a1a4a"
+    ],
+    "emoji": "🇲🇾",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r1",
+   "rang": 1,
+   "name": "BURJ KHALIFA",
+   "wert": 828,
+   "wertwort": "Achthundertachtundzwanzig",
+   "namewort": "Burj",
+   "fakt": "Seit 2010 die Nummer 1 – in Dubai",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#febe10"
+    ],
+    "emoji": "🏙️",
+    "augen": false
+   }
+  }
+ ],
+ "fragen": [
+  {
+   "szene": "q1",
+   "text": "NA, WER FEHLT NOCH? 🤔"
+  },
+  {
+   "szene": "q2",
+   "text": "JETZT WIRD'S ENG … 😬"
+  }
+ ],
+ "finale": {
+  "szene": "r1",
+  "wow": "FAST 150 M HÖHER ALS PLATZ 2! 🤯",
+  "wowwort": "Fast"
+ },
+ "cta": {
+  "szene": "c1",
+  "text": "💬 WÜRDEST DU HOCHFAHREN?",
+  "sub": "SCHREIB'S IN DIE KOMMENTARE 👇"
+ },
+ "hot": [
+  "FALSCH!",
+  "BURJ",
+  "KHALIFA!",
+  "ENG.",
+  "KOMMENTARE!",
+  "FAST",
+  "VERDREHT!",
+  "WELT!"
+ ]
+}

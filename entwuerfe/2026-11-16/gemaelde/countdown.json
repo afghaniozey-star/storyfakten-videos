@@ -1,0 +1,142 @@
+{
+ "titel": [
+  "DIE TEUERSTEN GEMÄLDE",
+  "BEI AUKTIONEN 🖼️"
+ ],
+ "einheit": "MIO. $",
+ "hook": {
+  "szene": "h1",
+  "gross": "90 %",
+  "stempel": "TIPPEN FALSCH!",
+  "frage_wort": "Welches"
+ },
+ "items": [
+  {
+   "szene": "r6",
+   "rang": 6,
+   "name": "MODIGLIANI",
+   "wert": 170,
+   "wertwort": "Hundertsiebzig",
+   "fakt": "Käufer: ein früherer Taxifahrer! 🚕",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#e76f51"
+    ],
+    "emoji": "🎨",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r5",
+   "rang": 5,
+   "name": "PICASSO",
+   "wert": 179,
+   "wertwort": "Hundertneunundsiebzig",
+   "fakt": "2015 – damals Weltrekord!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#4cc9f0"
+    ],
+    "emoji": "🖌️",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r4",
+   "rang": 4,
+   "name": "POLLOCK",
+   "wert": 181,
+   "wertwort": "Hunderteinundachtzig",
+   "fakt": "Nur Farbspritzer – versteigert im Mai 2026!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#2a9d8f"
+    ],
+    "emoji": "💦",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r3",
+   "rang": 3,
+   "name": "WARHOL",
+   "wert": 195,
+   "wertwort": "Hundertfünfundneunzig",
+   "fakt": "Marilyn Monroe – in Pop-Art-Blau",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#ff4fa3"
+    ],
+    "emoji": "💋",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r2",
+   "rang": 2,
+   "name": "KLIMT",
+   "wert": 236,
+   "wertwort": "Zweihundertsechsunddreißig",
+   "fakt": "Versteigert erst im November 2025",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#c9a227"
+    ],
+    "emoji": "✨",
+    "augen": false
+   }
+  },
+  {
+   "szene": "r1",
+   "rang": 1,
+   "name": "DA VINCI",
+   "wert": 450,
+   "wertwort": "Vierhundertfünfzig",
+   "namewort": "Salvator",
+   "fakt": "Seit 2017 nie mehr öffentlich gezeigt!",
+   "ball": {
+    "typ": "emoji",
+    "farben": [
+     "#febe10"
+    ],
+    "emoji": "🖼️",
+    "augen": false
+   }
+  }
+ ],
+ "fragen": [
+  {
+   "szene": "q1",
+   "text": "NA, WER FEHLT NOCH? 🤔"
+  },
+  {
+   "szene": "q2",
+   "text": "JETZT WIRD'S ENG … 😬"
+  }
+ ],
+ "finale": {
+  "szene": "r1",
+  "wow": "FAST DOPPELT SO VIEL WIE PLATZ 2! 🤯",
+  "wowwort": "Fast"
+ },
+ "cta": {
+  "szene": "c1",
+  "text": "💬 WELCHES WÜRDEST DU KAUFEN?",
+  "sub": "SCHREIB'S IN DIE KOMMENTARE 👇"
+ },
+ "hot": [
+  "FALSCH!",
+  "SALVATOR",
+  "MUNDI",
+  "ENG.",
+  "KOMMENTARE!",
+  "FAST",
+  "TAXIFAHRER!",
+  "DOLLAR!"
+ ]
+}
