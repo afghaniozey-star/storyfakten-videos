@@ -1,0 +1,173 @@
+{
+ "titel": [
+  "WELCHES GEBÄUDE IST",
+  "DAS HÖCHSTE? 🏙️"
+ ],
+ "einheit": "METER",
+ "skala": {
+  "max": 900,
+  "schritt": 100
+ },
+ "hook": {
+  "szene": "s1",
+  "banner": "😳 90 % TIPPEN FALSCH!",
+  "wort": "Neunzig"
+ },
+ "items": [
+  {
+   "code": "WTC",
+   "kurz": "WTC",
+   "name": "One World Trade Center",
+   "wert": 541,
+   "raus": {
+    "szene": "e1"
+   },
+   "fakt": "541 m = 1776 Fuß – das Jahr der US-Unabhängigkeit!",
+   "ball": {
+    "typ": "quer",
+    "farben": [
+     "#b22234",
+     "#ffffff",
+     "#b22234",
+     "#ffffff",
+     "#3c3b6e"
+    ]
+   }
+  },
+  {
+   "code": "LOT",
+   "kurz": "LOTTE",
+   "name": "Lotte World Tower",
+   "wert": 555,
+   "raus": {
+    "szene": "e2"
+   },
+   "fakt": "555 m – 123 Stockwerke in Seoul",
+   "ball": {
+    "typ": "quer",
+    "farben": [
+     "#ffffff",
+     "#cd2e3a",
+     "#0047a0"
+    ]
+   }
+  },
+  {
+   "code": "PAC",
+   "kurz": "PING AN",
+   "name": "Ping An Center",
+   "wert": 599,
+   "raus": {
+    "szene": "e3"
+   },
+   "fakt": "599 m – nur 2 m zu wenig für Platz 4!",
+   "ball": {
+    "typ": "voll",
+    "farben": [
+     "#de2910"
+    ]
+   }
+  },
+  {
+   "code": "MEK",
+   "kurz": "MEKKA",
+   "name": "Uhrenturm Mekka",
+   "wert": 601,
+   "raus": {
+    "szene": "e4"
+   },
+   "fakt": "601 m – größte Turmuhr der Welt 🕰️",
+   "ball": {
+    "typ": "voll",
+    "farben": [
+     "#006c35"
+    ]
+   }
+  },
+  {
+   "code": "SHA",
+   "kurz": "SHANGHAI",
+   "name": "Shanghai Tower",
+   "wert": 632,
+   "raus": {
+    "szene": "e5"
+   },
+   "fakt": "632 m – um 120 Grad in sich verdreht!",
+   "ball": {
+    "typ": "band",
+    "farben": [
+     "#de2910",
+     "#ffde00"
+    ]
+   }
+  },
+  {
+   "code": "MER",
+   "kurz": "MERDEKA",
+   "name": "Merdeka 118",
+   "wert": 679,
+   "raus": {
+    "szene": "s5a"
+   },
+   "fakt": "679 m – 118 Stockwerke in Kuala Lumpur",
+   "ball": {
+    "typ": "streifen",
+    "farben": [
+     "#cc0001",
+     "#ffffff"
+    ],
+    "n": 7
+   }
+  },
+  {
+   "code": "BUR",
+   "kurz": "BURJ",
+   "name": "Burj Khalifa",
+   "wert": 828,
+   "ball": {
+    "typ": "quer",
+    "farben": [
+     "#00732f",
+     "#ffffff",
+     "#000000"
+    ]
+   }
+  }
+ ],
+ "fragen": [
+  {
+   "szene": "e4",
+   "wort": "Na",
+   "text": "NA, WER FEHLT NOCH? 🤔"
+  }
+ ],
+ "duell": {
+  "szene": "s4",
+  "vs": "MERDEKA 679 m vs. ??? BURJ KHALIFA",
+  "like": "👍 LIKE = MERDEKA",
+  "kommentar": "💬 KOMMENTAR = BURJ",
+  "likewort": "Like",
+  "kommentarwort": "Kommentar"
+ },
+ "sieger": {
+  "szene": "s5b",
+  "namewort": "Burj",
+  "zahlwort": "Achthundertachtundzwanzig",
+  "wow": "🏆 828 m · FAST 150 m HÖHER ALS PLATZ 2!"
+ },
+ "cta": {
+  "szene": "s6",
+  "text": "💬 WELCHES GEBÄUDE ALS NÄCHSTES? ➕ FOLGEN"
+ },
+ "hot": [
+  "FALSCH!",
+  "BURJ",
+  "KHALIFA!",
+  "828",
+  "MERDEKA",
+  "LIKE",
+  "KOMMENTAR",
+  "FOLG!",
+  "ENG:"
+ ]
+}

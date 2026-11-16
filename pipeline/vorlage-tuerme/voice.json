@@ -1,0 +1,111 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "90 % tippen hier falsch! Welches Gebäude ist das höchste der Welt?",
+     "Neunzig Prozent tippen hier falsch! Welches Gebäude ist das höchste der Welt?"
+    ]
+   ],
+   "tail": 1.0,
+   "lead": 0.15
+  },
+  {
+   "id": "e1",
+   "groups": [
+    [
+     "Das One World Trade Center, raus!",
+     "Das One World Trade Center, raus!"
+    ]
+   ],
+   "tail": 1.1
+  },
+  {
+   "id": "e2",
+   "groups": [
+    [
+     "Der Lotte World Tower, raus!",
+     "Der Lotte World Tower, raus!"
+    ]
+   ],
+   "tail": 1.1
+  },
+  {
+   "id": "e3",
+   "groups": [
+    [
+     "Das Ping An Center, raus!",
+     "Das Ping An Center, raus!"
+    ]
+   ],
+   "tail": 1.1
+  },
+  {
+   "id": "e4",
+   "groups": [
+    [
+     "Der Uhrenturm in Mekka, raus! Na, wer fehlt noch?",
+     "Der Uhrenturm in Mekka, raus! Na, wer fehlt noch?"
+    ]
+   ],
+   "tail": 1.2
+  },
+  {
+   "id": "e5",
+   "groups": [
+    [
+     "Und der Shanghai Tower? Auch raus!",
+     "Und der Shanghai Tower? Auch raus!"
+    ]
+   ],
+   "tail": 1.4
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Jetzt wird's eng: Merdeka 118 gegen den Burj Khalifa! Like für Merdeka, Kommentar für Burj Khalifa!",
+     "Jetzt wird's eng: Merdeka hundertachtzehn gegen den Burj Khalifa! Like für Merdeka, Kommentar für Burj Khalifa!"
+    ]
+   ],
+   "tail": 1.6
+  },
+  {
+   "id": "s5a",
+   "groups": [
+    [
+     "Und Merdeka, raus!",
+     "Und Merdeka, raus!"
+    ]
+   ],
+   "tail": 0.9
+  },
+  {
+   "id": "s5b",
+   "groups": [
+    [
+     "Der Burj Khalifa! 828 Meter, fast 150 Meter höher als Platz 2!",
+     "Der Burj Khalifa! Achthundertachtundzwanzig Meter, fast hundertfünfzig Meter höher als Platz zwei!"
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Welches Gebäude soll als Nächstes antreten? Schreib's in die Kommentare und folg!",
+     "Welches Gebäude soll als Nächstes antreten? Schreib es in die Kommentare und folg!"
+    ]
+   ],
+   "tail": 1.8
+  }
+ ]
+}
