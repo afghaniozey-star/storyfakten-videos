@@ -5,8 +5,9 @@
  ],
  "einheit": "METER",
  "skala": {
+  "min": 450,
   "max": 900,
-  "schritt": 100
+  "schritt": 50
  },
  "hook": {
   "szene": "s1",

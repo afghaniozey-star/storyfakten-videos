@@ -23,9 +23,10 @@ N = len(IT); WIN = IT[-1]; LOS = IT[-2]
 VAL = {i["code"]: i["wert"] for i in IT}
 MAXV = C.get("skala", {}).get("max") or WIN["wert"] * 1.05
 STEP = C.get("skala", {}).get("schritt") or max(1, round(MAXV / 8))
+MINV = C.get("skala", {}).get("min", 0)   # Skala-Start (z. B. 450 bei Gebäudehöhen), damit Unterschiede sichtbar werden
 GROUND, R = 1580, 50
-UNIT = (GROUND - 700) / MAXV          # Pixel pro Einheit, höchster Turm endet bei ~y=700
-M = MAXV * 0.03                       # kleiner Überstand beim Wachsen
+UNIT = (GROUND - 700) / (MAXV - MINV)         # Pixel pro Einheit, höchster Turm endet bei ~y=700
+M = (MAXV - MINV) * 0.03                       # kleiner Überstand beim Wachsen
 order = sorted(IT, key=lambda i: i["wert"])  # Anzeige: links klein -> rechts groß
 X = {i["code"]: round(1080 / N * (k + .5)) for k, i in enumerate(order)}
 
@@ -53,12 +54,12 @@ defs = ('<defs><pattern id="brick" width="40" height="24" patternUnits="userSpac
         '<path d="M0 0 H40 M0 12 H40 M20 0 V12 M0 12 V24 M40 12 V24" stroke="#8a5a36" stroke-width="2.5"/></pattern>'
         '<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1b3e"/><stop offset=".55" stop-color="#2b4c8c"/><stop offset="1" stop-color="#7fb2e5"/></linearGradient></defs>')
 stars = "".join(f'<circle cx="{(k * 137) % 1080}" cy="{(k * 97) % 700 + 20}" r="{1 + k % 3}" fill="#fff" opacity="{.3 + (k % 4) * .15}"/>' for k in range(40))
-gl = []
-v = STEP
+gl, glab = [], []
+v = (MINV // STEP + 1) * STEP
 while v <= MAXV:
-    y = GROUND - v * UNIT
-    gl.append(f'<path d="M0 {y:.0f} H1080" stroke="rgba(255,255,255,.18)" stroke-width="2" stroke-dasharray="10 10"/>'
-              f'<text x="12" y="{y - 8:.0f}" style="font:800 24px Inter,sans-serif;fill:rgba(255,255,255,.55)">{v:g}</text>')
+    y = GROUND - (v - MINV) * UNIT
+    gl.append(f'<path d="M0 {y:.0f} H1080" stroke="rgba(255,255,255,.18)" stroke-width="2" stroke-dasharray="10 10"/>')
+    glab.append(f'<text x="8" y="{y - 6:.0f}" style="font:800 22px Inter,sans-serif;fill:#fff;stroke:#0d1b3e;stroke-width:5px;paint-order:stroke fill;opacity:.8">{v:g}</text>')
     v += STEP
 grid = "".join(gl)
 TW = min(92, int(1080 / N * .72))
@@ -72,13 +73,13 @@ for i in IT:
                f'<text x="{x}" y="{GROUND + 44}" text-anchor="middle" style="font:900 {28 if len(i.get("kurz", c)) <= 5 else 22}px Inter,sans-serif;fill:#fff">{i.get("kurz", c)}</text>')
 crown = '<g id="crown" opacity="0"><path d="M-44 0 L-44 -40 L-22 -18 L0 -50 L22 -18 L44 -40 L44 0 Z" fill="#ffd60a" stroke="#111" stroke-width="4"/></g>'
 SVG = (f'{defs}<rect width="1080" height="1920" fill="url(#sky)"/>{stars}{grid}'
-       f'<rect y="{GROUND}" width="1080" height="{1920 - GROUND}" fill="#3a5a2a"/><rect y="{GROUND}" width="1080" height="10" fill="#6fa84a"/>{towers}{crown}')
+       f'<rect y="{GROUND}" width="1080" height="{1920 - GROUND}" fill="#3a5a2a"/><rect y="{GROUND}" width="1080" height="10" fill="#6fa84a"/>{towers}{"".join(glab)}{crown}')
 
 # ---------- Zeitplan ----------
 out = {i["code"]: w(i["raus"]["szene"], i["raus"].get("wort", "raus!"), i["raus"].get("n", 1)) for i in IT[:-1]}
 D = C["duell"]; S = C["sieger"]
 first = IT[0]["raus"]["szene"]
-KEY = [(0, 0), (st(first) - .4, IT[0]["wert"] * .5)]
+KEY = [(0, MINV), (st(first) - .4, MINV + (IT[0]["wert"] - MINV) * .5)]
 for i in IT[:-2]:
     c = i["code"]; KEY += [(out[c] - .05, VAL[c] + M), (out[c] + .5, VAL[c] + 1.5 * M)]
 lv = LOS["wert"]
@@ -87,13 +88,13 @@ tw0 = w(S["szene"], S["namewort"]); tz = w(S["szene"], S["zahlwort"])
 KEY += [(max(tw0, out[LOS["code"]] + .3), lv + 3 * M), (tz + .1, WIN["wert"])]
 KEY.sort()
 js = f'''const KEY = {json.dumps(KEY)}, VAL = {json.dumps(VAL)}, X = {json.dumps(X)}, OUT = {json.dumps(out)};
-const G = {GROUND}, U = {UNIT:.5f}, R = {R}, WIN = {json.dumps(WIN["code"])}, MAXL = {WIN["wert"]};
+const G = {GROUND}, U = {UNIT:.5f}, R = {R}, MINV = {MINV}, WIN = {json.dumps(WIN["code"])}, MAXL = {WIN["wert"]};
 const lev = (t) => {{ for (let i = 1; i < KEY.length; i++) if (t <= KEY[i][0]) {{ const [a, la] = KEY[i - 1], [b, lb] = KEY[i]; const k = (t - a) / Math.max(1e-6, b - a); const e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2; return la + (lb - la) * e; }} return KEY[KEY.length - 1][1]; }};
 const $ = (i) => document.getElementById(i);
 const draw = (t) => {{
   const L = lev(t);
   for (const c in VAL) {{
-    const h = Math.min(L, VAL[c]) * U, top = G - h;
+    const h = Math.max(0, Math.min(L, VAL[c]) - MINV) * U, top = G - h;
     $("t" + c).setAttribute("y", top); $("t" + c).setAttribute("height", h);
     const o = OUT[c]; let by = top - R, rot = 0, op = 1;
     if (o !== undefined && t > o) {{ const d = t - o; by = top - R + 900 * d * d + 60 * d; rot = 260 * d; op = Math.max(0, 1 - d * 1.2); }}
@@ -103,7 +104,7 @@ const draw = (t) => {{
     const oo = $("o" + c); if (o !== undefined && t > o) {{ oo.setAttribute("opacity", 1); oo.setAttribute("transform", "translate(0 " + (top - 46) + ")"); }} else oo.setAttribute("opacity", 0);
   }}
   $("lv").textContent = Math.min(MAXL, Math.floor(L + 0.02)).toLocaleString("de-DE");
-  const ger = G - MAXL * U - 2 * R - 14; $("crown").setAttribute("transform", "translate(" + X[WIN] + " " + ger + ")");
+  const ger = G - (MAXL - MINV) * U - 2 * R - 14; $("crown").setAttribute("transform", "translate(" + X[WIN] + " " + ger + ")");
 }};
 const tl = gsap.timeline({{ paused: true }}); const o = {{ t: 0 }};
 tl.fromTo(o, {{ t: 0 }}, {{ t: {END}, duration: {END}, ease: "none", onUpdate: () => draw(o.t) }}, 0); draw(0);
