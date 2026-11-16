@@ -101,11 +101,11 @@ for k, it in enumerate(items):
     tn = w(s, it["namewort"]) if it.get("namewort") else t0
     tv = w(s, it["wertwort"])
     tf = tv + .75
-    R = 190 if big else 150
+    R = 160 if big else 150
     inner = (f'<div id="rk{r}" style="font:900 {150 if not big else 170}px/1 Inter,sans-serif;color:#ffd60a;{STROKE.format(12)}">#{r}</div>'
              f'<div id="bl{r}" style="margin:10px auto 0;width:{2*R+12}px;height:{2*R+12}px;position:relative">'
              + (f'<div id="rays" style="position:absolute;left:50%;top:50%;width:1400px;height:1400px;margin:-700px 0 0 -700px;border-radius:50%;background:repeating-conic-gradient(rgba(255,214,10,.28) 0 10deg,transparent 10deg 20deg);opacity:0"></div>'
-                f'<div id="crown" style="position:absolute;left:50%;top:-120px;margin-left:-90px;width:180px;opacity:0"><svg viewBox="-50 -55 100 60" width="180"><path d="M-44 0 L-44 -40 L-22 -18 L0 -50 L22 -18 L44 -40 L44 0 Z" fill="#ffd60a" stroke="#111" stroke-width="4"/></svg></div>' if big else "")
+                f'<div id="crown" style="position:absolute;left:-40px;top:-30px;width:150px;opacity:0;transform:rotate(-24deg)"><svg viewBox="-50 -55 100 60" width="150"><path d="M-44 0 L-44 -40 L-22 -18 L0 -50 L22 -18 L44 -40 L44 0 Z" fill="#ffd60a" stroke="#111" stroke-width="4"/></svg></div>' if big else "")
              + f'<div style="position:relative">{ball(it["ball"], R, "b" + str(r))}</div></div>'
              f'<div id="nm{r}" style="margin-top:14px;font:900 {84 if len(it["name"]) < 12 else 70}px/1 Inter,sans-serif;color:#fff;{STROKE.format(10)}">{it["name"]}</div>'
              f'<div id="vl{r}" style="margin-top:12px;font:900 {170 if big else 120}px/1 Inter,sans-serif;color:{"#ffd60a" if big else "#4cf0a8"};{STROKE.format(12)}"><span id="vn{r}">0</span> <span style="font-size:.45em">{U}</span></div>')
@@ -150,7 +150,8 @@ J += [f'tl.fromTo("#flash", {{ opacity: 1 }}, {{ opacity: 0, duration: .45 }}, {
 tw = w(FS, items[-1]["wertwort"])
 J.append(f'tl.to("#cam", {{ x: "+=10", duration: .04, yoyo: true, repeat: 7, ease: "none" }}, {F(tw)});')
 tww = w(FS, fin["wowwort"])
-cam += ui("wow", tww, END, chip("wow-in", fin["wow"], "#ffd60a", "#111", 46), "left:0;right:0;top:1060px;text-align:center")
+cam += ui("wow", tww, END, chip("wow-in", fin["wow"], "#ffd60a", "#111", 40), "left:0;right:0;top:300px;text-align:center")
+J.append(f'tl.to("#rk1", {{ opacity: 0, duration: .15 }}, {F(tww - .1)});')
 J.append(f'tl.fromTo("#wow-in", {{ scale: 1.8, opacity: 0 }}, {{ scale: 1, opacity: 1, duration: .3, ease: "back.out(2)" }}, {F(tww)});')
 J.append(f'tl.to("#fk1", {{ opacity: 0, duration: .15 }}, {F(tww - .1)});')
 conf = "".join(f'<div class="cf" style="position:absolute;left:{(k*83) % 1040}px;top:-40px;width:18px;height:28px;border-radius:4px;background:{["#ffd60a","#e63946","#fff","#4cf0a8","#4cc9f0"][k % 5]}"></div>' for k in range(60))
