@@ -63,7 +63,7 @@ Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (n
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
 - Video 1 → 16:30, Video 2 → 23:30.
-- **TikTok bis einschließlich 28.11.2026 nur Video 1 (16:30)**, ab 29.11.2026 beide. YouTube & Instagram immer beide.
+- **Alle 3 Kanäle bekommen beide Videos** (TikTok auch 2 pro Tag – Wunsch des Nutzers vom 17.11.2026).
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
   `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: false}`.
 - Gratis-Tarif: max. 10 geplante Posts gleichzeitig → vorher `list_posts` (status scheduled) prüfen.
