@@ -53,10 +53,11 @@ ffmpeg -y -i roh.mp4 -c:v libx264 -crf 23 -preset slow -pix_fmt yuv420p -af "ali
 ## 4. Ablage
 Zweig `videos`: `videos/JJJJ-MM-TT-<thema>.mp4` committen und pushen. Link siehe CLAUDE.md.
 
-## 5. Vorschau & Freigabe
-Push-Nachricht an den Nutzer (PushNotification-Tool bzw. Abschlussnachricht der Sitzung) mit: Thema, Hook-Satz, Länge,
-Quellen, Links zu beiden Videos und den Texten. **Erst nach „ok“ des Nutzers einplanen.**
-Kommt das ok zu spät für 16:30, den nächsten freien Termin nehmen (nie in der Vergangenheit).
+## 5. Einplanen OHNE Freigabe (Anweisung des Nutzers vom 17.11.2026)
+Der Nutzer will KEIN „ok“ mehr geben müssen: Sind beide Videos fertig und geprüft, sofort in Buffer einplanen (Abschnitt 6).
+Nur wenn eine Prüfung scheitert (Fakt nicht belegbar, Stimme falsch, Video kaputt, Link nicht 200), das betroffene Video NICHT einplanen.
+Danach Push-Nachricht an den Nutzer: was wann wo eingeplant ist, Thema, Hook-Satz, Quellen, Videos als Anhang (SendUserFile) – und was ggf. nicht geklappt hat.
+Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (nie in der Vergangenheit).
 
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
