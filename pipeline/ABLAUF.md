@@ -1,10 +1,13 @@
 # Täglicher Ablauf (gestartet um 13:32 Berlin)
 
-## 0. Einrichtung in einer frischen Sitzung
+## 0. Einrichtung in einer frischen Sitzung (ZUERST, dauert ~10–20 min)
+Das Setup-Skript der Umgebung installiert absichtlich nur Kleinkram (sonst bricht es wegen Zeitlimit ab).
+Die Stimme (OmniVoice, ~6 GB + Modell 3 GB) installierst du selbst – **im Hintergrund** (Bash mit run_in_background), während du Themen recherchierst:
 ```bash
-bash pipeline/setup.sh          # nur nötig, wenn das Setup-Skript der Umgebung es nicht schon erledigt hat
+bash pipeline/setup.sh > ~/setup.log 2>&1; echo FERTIG >> ~/setup.log
 ```
-Danach gibt es: `/opt/omni/venv` (OmniVoice), `piper`, `faster-whisper`, `ffmpeg`, `npx hyperframes`.
+Fertig, wenn `~/setup.log` "FERTIG" und "bereit" enthält. Danach gibt es `/opt/omni/venv` (OmniVoice), `piper`, `faster-whisper`, `ffmpeg`, `npx hyperframes`.
+Scheitert es (z. B. gesperrte Adresse), dem Nutzer sofort per Push-Nachricht melden, mit der genauen Fehlermeldung.
 
 ## 1. Themen (2 Videos)
 Themen gemischt: Fakten, Statistiken, Storys, Geld & Business, Fußball. Pro Tag zwei verschiedene Bereiche.
