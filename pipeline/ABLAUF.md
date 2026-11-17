@@ -63,8 +63,8 @@ Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, 
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
 - Video 1 → 16:30, Video 2 → 23:30.
 - **TikTok bis einschließlich 28.11.2026 nur Video 1 (16:30)**, ab 29.11.2026 beide. YouTube & Instagram immer beide.
-- Immer KI-Kennzeichnung: `metadata.tiktok.isAiGenerated: true` (+ `title`), `metadata.youtube {title, categoryId, isAiGenerated: true, madeForKids: false, privacy: "public"}`,
-  `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: true}`.
+- **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
+  `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: false}`.
 - Gratis-Tarif: max. 10 geplante Posts gleichzeitig → vorher `list_posts` (status scheduled) prüfen.
 - Texte pro Plattform: TikTok kurz + Frage + 3–5 Themen-Hashtags (KEIN #fyp/#reels); YouTube Titel ≤ 70 Zeichen mit #shorts, Beschreibung mit Frage;
   Instagram Text mit Frage + 3–5 Themen-Hashtags.
