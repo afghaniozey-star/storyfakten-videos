@@ -1,0 +1,102 @@
+{
+ "engine": "piper",
+ "model": "/home/user/tiktok/stimmen/de_DE-thorsten-high.onnx",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.3,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Tag 3 in unserer Stadt. Gestern 21 Häuser – heute ist die Stadt zu klein. Wir bauen ein komplett neues Viertel.",
+     "Tag drei in unserer Stadt. Gestern einundzwanzig Häuser, heute ist die Stadt zu klein. Wir bauen ein komplett neues Viertel."
+    ]
+   ],
+   "lead": 0.2
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Paul und Lias wollten ein Stadion. Hier ist es: das größte Gebäude der Stadt.",
+     "Paul und Lias wollten ein Stadion. Hier ist es: das größte Gebäude der Stadt."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Daneben: eine echte Formel-1-Strecke für dsvd. Und Shadow bekommt Garage und Hangar – mit eigenem Flugzeug.",
+     "Daneben: eine echte Formel eins Strecke für D S V D. Und Schädo bekommt Garage und Hangar, mit eigenem Flugzeug."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Und Carl leitet ab heute das Polizeipräsidium. Leonard bekommt einen Jugendtreff. Ohne Politik – hier wird nur gechillt.",
+     "Und Carl leitet ab heute das Polizeipräsidium. Leonard bekommt einen Jugendtreff. Ohne Politik, hier wird nur gechillt."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Rogal Dorn verkauft Supersportwagen, Lorenz nur BMW. Mal sehen, wer mehr verkauft.",
+     "Rogal Dorn verkauft Supersportwagen, Lorenz nur B M W. Mal sehen, wer mehr verkauft."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Und jetzt wird's lecker: Justus eröffnet ein Restaurant, 04mg eine Pizzeria und Liam eine Eisdiele.",
+     "Und jetzt wirds lecker: Justus eröffnet ein Restaurant, Null Vier M G eine Pizzeria und Liam eine Eisdiele."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Effe hat einen Dönerladen mit riesigem Efes-Kebab-Schild. Und direkt daneben: die Dönerbude von Pokcollect. Der Döner-Krieg beginnt.",
+     "Effe hat einen Dönerladen mit riesigem Efes Kebab Schild. Und direkt daneben: die Dönerbude von Pockollekt. Der Döner Krieg beginnt."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Darkest bekommt einen Supermarkt, D' einen Discounter. Und Paul seinen eigenen Bolzplatz.",
+     "Darkest bekommt einen Supermarkt, D einen Discounter. Und Paul seinen eigenen Bolzplatz."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "36 Häuser! Noch 264, dann sind wir größer als Arnis.",
+     "Sechsunddreißig Häuser! Noch zweihundertvierundsechzig, dann sind wir größer als Arnis."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Was fehlt noch in unserer Stadt? Folg und schreib dein Wunschhaus in die Kommentare. Morgen wird weitergebaut.",
+     "Was fehlt noch in unserer Stadt? Folg und schreib dein Wunschhaus in die Kommentare. Morgen wird weitergebaut."
+    ]
+   ],
+   "tail": 2.4
+  }
+ ]
+}

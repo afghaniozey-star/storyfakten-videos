@@ -1,0 +1,337 @@
+{
+ "haeuser": [
+  {
+   "name": "FABI",
+   "reihe": 0,
+   "platz": 0,
+   "art": "pool",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "DAMIEN",
+   "reihe": 0,
+   "platz": 1,
+   "art": "kiosk",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "PORSCHE_FAN",
+   "reihe": 0,
+   "platz": 2,
+   "art": "werkstatt",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "GLOBI",
+   "reihe": 0,
+   "platz": 3,
+   "art": "",
+   "tag": 1,
+   "viertel": 0
+  },
+  {
+   "name": "CHATTI",
+   "reihe": 0,
+   "platz": 4,
+   "art": "feuerwehr",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "PAUL W.",
+   "reihe": 0,
+   "platz": 5,
+   "art": "auto",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "TYLER",
+   "reihe": 0,
+   "platz": 6,
+   "art": "c63",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "IMER",
+   "reihe": 1,
+   "platz": 0,
+   "art": "flagge",
+   "tag": 2,
+   "wand": "#5cb85c",
+   "dach": "#2f6b3a",
+   "viertel": 0
+  },
+  {
+   "name": "NOAH",
+   "reihe": 1,
+   "platz": 1,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "SAMUEL",
+   "reihe": 1,
+   "platz": 2,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "ARON",
+   "reihe": 1,
+   "platz": 3,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "TINÖ",
+   "reihe": 1,
+   "platz": 4,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "SHADOW",
+   "reihe": 1,
+   "platz": 5,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "LEON",
+   "reihe": 1,
+   "platz": 6,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "DAVID",
+   "reihe": 2,
+   "platz": 0,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "LEO",
+   "reihe": 2,
+   "platz": 1,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "GERMAN",
+   "reihe": 2,
+   "platz": 2,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "TIMUR",
+   "reihe": 2,
+   "platz": 3,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "PAUL G.",
+   "reihe": 2,
+   "platz": 4,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "THEODOR",
+   "reihe": 2,
+   "platz": 5,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "ALISAN",
+   "reihe": 2,
+   "platz": 6,
+   "art": "",
+   "tag": 2,
+   "viertel": 0
+  },
+  {
+   "name": "PAUL & LIAS",
+   "reihe": 2,
+   "platz": 1,
+   "art": "stadion",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "DSVD",
+   "reihe": 2,
+   "platz": 4,
+   "art": "f1",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "SHADOW ✈️",
+   "reihe": 2,
+   "platz": 6,
+   "art": "hangar",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "CARL",
+   "reihe": 1,
+   "platz": 0,
+   "art": "polizei",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "LEONARD",
+   "reihe": 1,
+   "platz": 1,
+   "art": "jugend",
+   "wand": "#ffb703",
+   "dach": "#8338ec",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "ROGAL DORN",
+   "reihe": 1,
+   "platz": 2,
+   "art": "autohaus",
+   "schild": "SUPERSPORT",
+   "super": true,
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "LORENZ",
+   "reihe": 1,
+   "platz": 3,
+   "art": "autohaus",
+   "schild": "BMW-HAUS",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "PAUL ⚽",
+   "reihe": 1,
+   "platz": 5,
+   "art": "bolz",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "JUSTUS",
+   "reihe": 0,
+   "platz": 0,
+   "art": "laden",
+   "schild": "RESTAURANT",
+   "emoji": "🍝",
+   "farbe": "#2a9d8f",
+   "wand": "#fde2b8",
+   "dach": "#264653",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "04MG",
+   "reihe": 0,
+   "platz": 1,
+   "art": "laden",
+   "schild": "PIZZERIA",
+   "emoji": "🍕",
+   "farbe": "#2a9d8f",
+   "wand": "#fff1c1",
+   "dach": "#c1121f",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "EFFE",
+   "reihe": 0,
+   "platz": 2,
+   "art": "laden",
+   "schild": "EFES KEBAB",
+   "emoji": "🥙",
+   "farbe": "#e63946",
+   "wand": "#fff",
+   "dach": "#c1121f",
+   "gross": true,
+   "schildfarbe": "#ffd60a",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "POKCOLLECT",
+   "reihe": 0,
+   "platz": 3,
+   "art": "laden",
+   "schild": "DÖNERBUDE",
+   "emoji": "🥙",
+   "farbe": "#f4a261",
+   "wand": "#f6d6d6",
+   "dach": "#6d597a",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "LIAM59",
+   "reihe": 0,
+   "platz": 4,
+   "art": "laden",
+   "schild": "EISDIELE",
+   "emoji": "🍦",
+   "farbe": "#ff8fab",
+   "wand": "#d8eef0",
+   "dach": "#ff8fab",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "DARKEST",
+   "reihe": 0,
+   "platz": 5,
+   "art": "laden",
+   "schild": "SUPERMARKT",
+   "emoji": "🛒",
+   "farbe": "#2a9d8f",
+   "wand": "#e2f0d9",
+   "dach": "#2a9d8f",
+   "viertel": 1,
+   "tag": 3
+  },
+  {
+   "name": "D'",
+   "reihe": 0,
+   "platz": 6,
+   "art": "laden",
+   "schild": "DISCOUNTER",
+   "emoji": "🏷️",
+   "farbe": "#1d4ed8",
+   "wand": "#fff1c1",
+   "dach": "#1d4ed8",
+   "schildfarbe": "#ffd60a",
+   "viertel": 1,
+   "tag": 3
+  }
+ ]
+}

@@ -9,14 +9,27 @@ bash pipeline/setup.sh > ~/setup.log 2>&1; echo FERTIG >> ~/setup.log
 Fertig, wenn `~/setup.log` "FERTIG" und "bereit" enthält. Danach gibt es `/opt/omni/venv` (OmniVoice), `piper`, `faster-whisper`, `ffmpeg`, `npx hyperframes`.
 Scheitert es (z. B. gesperrte Adresse), dem Nutzer sofort per Push-Nachricht melden, mit der genauen Fehlermeldung.
 
-## 1. Themen (2 Videos)
-Themen gemischt: Fakten, Statistiken, Storys, Geld & Business, Fußball. Pro Tag zwei verschiedene Bereiche.
-Das Thema muss als **Vergleich mit Zahl** funktionieren: 6–8 Kandidaten (Länder, Vereine, Gebäude, Firmen, Personen …),
-jeder mit klarer Zahl (Titel, Meter, Milliarden, Einwohner …). Die Zahl wird zur Turmhöhe.
-Jeden Fakt per WebSearch prüfen (mindestens 1 seriöse Quelle pro Zahl), Quellen in der Push-Vorschau nennen.
-Keine Themen, die schon in `videos/` liegen (Dateinamen ansehen).
+## 1. Drei Videos pro Tag – Aufgaben an die Helfer-Agenten verteilen
+Es gibt zwei Helfer (Ordner `.claude/agents/` im Zweig `main`, als Subagent über das Agent-Werkzeug aufrufen):
+- **`recherche`** – sucht Trend-Themen und prüft alle Fakten mit Quellen. Liefert fertige Daten (Kandidaten, Zahlen, Fakten, Quellen).
+- **`video-produktion`** – baut, schneidet, rendert und prüft ein Video aus diesen Daten (Türme oder Stadt).
+Der Haupt-Ablauf (du) verteilt die Aufgaben, lädt hoch, plant in Buffer ein und benachrichtigt den Nutzer.
 
-## 2. FORMAT: TÜRME (Standard – vom Nutzer ausdrücklich gewünscht, wie sein erfolgreiches WM-Finale-Video)
+Pro Tag:
+- **Türme A** und **Türme B**: zwei Trend-Themen aus ALLEN Bereichen (Geld, Länder, Tiere, Rekorde, Technik, Essen, Promis, Sport, Geschichte, Natur …) – nicht nur Fußball, nie zweimal derselbe Bereich an einem Tag.
+  Themen müssen überraschen („Platz 1 hätte keiner gedacht“). Trends kostenlos über WebSearch (Google Trends DE, aktuelle News, was gerade viral ist).
+- **Stadt (nur YouTube)**: „Unsere YouTube-Stadt“ – jeden Tag neue Häuser für Leute, die unter YouTube-Videos ihren Hauswunsch kommentieren (Abschnitt 1b).
+
+## 1b. YouTube-Stadt (Zustand in `pipeline/stadt-youtube/stadt.json`)
+- Kommentare lesen: vidIQ `vidiq_video_comments` mit channelId `UCHkoA2sBD7_hbxF-4et4LLg`, order "time", maxResult 50 – **höchstens EIN Aufruf pro Tag** (5 Gratis-Credits).
+  Vorher `vidiq_balance` (kostenlos) prüfen: unter 5 Credits → KEIN Abruf, nur die offenen Wünsche aus stadt.json verwenden. **Niemals Credits kaufen.**
+  Bis 30.11.2026 sind nur noch ~20 Credits übrig → Kommentare nur jeden 2. Tag lesen, ab 01.12. täglich.
+- Neue Wünsche seit `kommentare_gelesen_bis` in `wuensche_offen` übernehmen (Name = Handle ohne @, max. 12 Zeichen, Großbuchstaben; ein Haus pro Person; Beleidigungen/Politik ignorieren).
+- Pro Tag 4–8 Wünsche bauen (älteste zuerst), in `haeuser` eintragen (mit `tag`), aus `wuensche_offen` entfernen, `tag` +1, `kommentare_gelesen_bis` setzen, Datei committen + pushen (Zweig pipeline).
+- Keine offenen Wünsche → Video zeigt die wachsende Stadt + großer Aufruf „Kommentier deinen Namen + Wunschhaus und abonnier – morgen steht dein Haus!“.
+- Jedes Stadt-Video endet mit diesem Aufruf (Ziel: YouTube-Abos).
+
+## 2. FORMAT TÜRME-VIDEOS: TÜRME (Standard – vom Nutzer ausdrücklich gewünscht, wie sein erfolgreiches WM-Finale-Video)
 Kugeln mit Augen (Farben/Flagge des Kandidaten) stehen auf Ziegeltürmen. Alle Türme wachsen gemeinsam, bei jedem
 „… raus!“ fliegt die Kugel mit dem kleinsten Wert weg. Am Ende **Duell** der letzten zwei („Like für X, Kommentar für Y“),
 Pause mit Trommelwirbel, Verlierer raus, Turm des Siegers schießt hoch → Blitz, Krone, Konfetti, Wow-Banner, dann Frage an die Zuschauer.
@@ -50,6 +63,17 @@ ffmpeg -y -i roh.mp4 -c:v libx264 -crf 23 -preset slow -pix_fmt yuv420p -af "ali
 - voice.json: `groups` = [Anzeige, gesprochen], Zahlen gesprochen ausschreiben. Kurze Einzelwörter mit Kontext („Der FC Barcelona, raus!“).
 - Prüfen: Whisper-Abschrift gegen Text, Standbilder, keine Überlappungen.
 
+### Stadt-Video bauen (YouTube)
+```bash
+cp -r ~/storyfakten-videos/pipeline/vorlage-stadt ~/v/stadt && cd ~/v/stadt
+cp ~/storyfakten-videos/pipeline/stadt-youtube/stadt.json stadt.json   # Zustand der YouTube-Stadt
+```
+- `tools/stadt3.py` ist das Beispiel (Tag 3 der TikTok-Stadt, mit Beispiel-Dateien `*-beispiel-tag3.json`): Häuser in Reihen, Sondergebäude (stadion, f1, hangar, bolz,
+  feuerwehr, polizei, autohaus, kiosk, pool …), Kamera fährt zu jedem neuen Haus, Namensschild poppt auf. Für den Tag anpassen (neue Sondergebäude ergänzen, z. B. flughafen, krankenhaus).
+- Globi (Strichmann) bleibt stumm: `globi.build({}, END, GEST)`. Stimme omni-mann wie bei den Türmen.
+- Text: „Tag N in unserer YouTube-Stadt. …“, jeder neue Bewohner mit Namen + Wunsch, Ende: „Kommentier deinen Namen und dein Wunschhaus und abonnier – morgen steht dein Haus!“
+- 35–50 s, Musik mit `tools/musik.py`, gleiche Prüfungen wie bei den Türmen.
+
 ## 4. Ablage
 Zweig `videos`: `videos/JJJJ-MM-TT-<thema>.mp4` committen und pushen. Link siehe CLAUDE.md.
 
@@ -62,8 +86,8 @@ Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (n
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
-- Video 1 → 16:30, Video 2 → 23:30.
-- **Alle 3 Kanäle bekommen beide Videos** (TikTok auch 2 pro Tag – Wunsch des Nutzers vom 17.11.2026).
+- **TikTok + Instagram:** Türme A um 16:30, Türme B um 23:30.
+- **YouTube:** Stadt um 16:30, Türme A um 23:30 (Türme B nicht auf YouTube).
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
   `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: false}`.
 - Gratis-Tarif: max. 10 geplante Posts gleichzeitig → vorher `list_posts` (status scheduled) prüfen.

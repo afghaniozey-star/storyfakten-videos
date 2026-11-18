@@ -1,0 +1,35 @@
+{
+ "name": "Unsere YouTube-Stadt",
+ "kanal": "YouTube @storyfakten.statistiken (Kanal-ID UCHkoA2sBD7_hbxF-4et4LLg)",
+ "regel": "Wer unter einem YouTube-Video seinen Hauswunsch kommentiert, bekommt am nächsten Tag ein Haus (Name = YouTube-Handle ohne @, gekürzt auf max. 12 Zeichen). Pro Person nur EIN Haus. Beleidigende/politische Wünsche ignorieren.",
+ "tag": 0,
+ "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
+ "haeuser": [],
+ "wuensche_offen": [
+  {
+   "name": "FINNY",
+   "wunsch": "Flughafen",
+   "quelle": "YouTube-Kommentar 06.11."
+  },
+  {
+   "name": "FABERTRANS",
+   "wunsch": "Flughafen",
+   "quelle": "YouTube-Kommentar 06.11."
+  },
+  {
+   "name": "LÅKI",
+   "wunsch": "Bundeshaus",
+   "quelle": "YouTube-Kommentar 06.11."
+  },
+  {
+   "name": "LIAM",
+   "wunsch": "Militärstützpunkt",
+   "quelle": "YouTube-Kommentar 07.11."
+  },
+  {
+   "name": "LAITH",
+   "wunsch": "Krankenhaus",
+   "quelle": "YouTube-Kommentar 07.11."
+  }
+ ]
+}
