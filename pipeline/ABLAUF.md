@@ -1,4 +1,4 @@
-# Täglicher Ablauf (gestartet um 13:32 Berlin)
+# Täglicher Ablauf (gestartet um 09:34 Berlin – Stadt muss bis 13:00 fertig sein)
 
 ## 0. Einrichtung in einer frischen Sitzung (ZUERST, dauert ~10–20 min)
 Das Setup-Skript der Umgebung installiert absichtlich nur Kleinkram (sonst bricht es wegen Zeitlimit ab).
@@ -86,8 +86,8 @@ Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (n
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
-- **TikTok + Instagram:** Türme A um 16:30, Türme B um 23:30.
-- **YouTube:** Stadt um 16:30, Türme A um 23:30 (Türme B nicht auf YouTube).
+- **TikTok + Instagram (2 pro Tag):** Türme A um 16:30, Türme B um 23:30.
+- **YouTube (3 pro Tag):** Stadt um 13:00, Türme A um 16:30, Türme B um 23:30.
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
   `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: false}`.
 - Gratis-Tarif: max. 10 geplante Posts gleichzeitig → vorher `list_posts` (status scheduled) prüfen.
