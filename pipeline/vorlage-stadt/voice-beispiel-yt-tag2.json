@@ -1,0 +1,85 @@
+{
+ "engine": "omni",
+ "model": "omni-mann",
+ "length_scale": 1.0,
+ "sentence_silence": 0.15,
+ "tail": 0.55,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "lead": 0.0,
+   "groups": [
+    [
+     "Diese Stadt baut ihr! Tag 2 in unserer YouTube-Stadt.",
+     "Diese Stadt baut ihr! Tag zwei in unserer YouTube-Stadt."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "5 Bewohner sind schon da. Finny und Fabertrans haben eigene Flughäfen.",
+     "Fünf Bewohner sind schon da. Finny und Fabertrans haben eigene Flughäfen."
+    ]
+   ]
+  },
+  {
+   "id": "s2b",
+   "groups": [
+    [
+     "Doppelt hält besser!",
+     "Doppelt hält besser!"
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Låki sitzt im Bundeshaus. Und Liam hat einen Militärstützpunkt – mit Panzer!",
+     "Loki sitzt im Bundeshaus. Und Liam hat einen Militärstützpunkt, mit Panzer!"
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Laith rettet Leben in seinem Krankenhaus.",
+     "Leis rettet Leben in seinem Krankenhaus."
+    ]
+   ]
+  },
+  {
+   "id": "s4b",
+   "groups": [
+    [
+     "5 Häuser an einem Tag – und die Stadt fängt gerade erst an.",
+     "Fünf Häuser an einem Tag, und die Stadt fängt gerade erst an."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "tail": 1.8,
+   "groups": [
+    [
+     "Und hier? Ein riesiger Bauplatz – noch frei! Für wen?",
+     "Und hier? Ein riesiger Bauplatz, noch frei! Für wen?"
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "tail": 2.3,
+   "groups": [
+    [
+     "Kommentier deinen Namen und dein Wunschhaus und abonnier – morgen steht dein Haus!",
+     "Kommentier deinen Namen und dein Wunschhaus und abonnier, morgen steht dein Haus!"
+    ]
+   ]
+  }
+ ]
+}
