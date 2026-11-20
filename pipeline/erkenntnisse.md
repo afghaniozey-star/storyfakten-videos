@@ -46,3 +46,10 @@ Regeln für die nächsten Videos:
 Beibehalten: Türme-Grundformat (stabile ~3.000 Aufrufe/Video), 3 Plattformen parallel, Länge ~44 s.
 
 ## Trend-Scout
+
+### Stand 20.11.2026 (Standbilder Videospiele + Stadt Tag 1 geprüft)
+- Erstes Bild ist zu ruhig: Türme stehen bei 0, ~55 % des Bildes sind leerer Himmel, Kugeln/Namen winzig, Hook-Banner blendet erst bei ~1 s ein. Shorts werden in 1–2 s weggewischt → Banner ab 0,0 s ohne Einblenden, Türme ab Bild 1 schon in Bewegung.
+- Bildwechsel alle 2–3 s halten die Zuschauer besser als 6+ s (Creator-Tool-Auswertung, nur als Richtwert). Erstes „raus!“ spätestens bei ~4 s, danach alle 3–4 s ein Ereignis (raus / Fakt / Zwischenfrage).
+- Gut so lassen: Duell-Banner „Like = X / Kommentar = Y“, Krone + Konfetti, Wow-Vergleich, Schlussfrage. Kommentar-Köder bringt Interaktion (wie die Hauswünsche in der Stadt).
+- Stadt: unterer dunkler Streifen mit Globi nimmt ~45 % des Bildes ein → auf ~25 % verkleinern, Stadt größer, Namensschilder größer. Kamerafahrt zum neuen Haus ist stark.
+- Countryball-/Kugel-Ausscheide-Formate und Datenrennen sind international weiter beliebt (OMR, Virlo) → Türme-Format passt, braucht nur mehr Tempo am Anfang.
