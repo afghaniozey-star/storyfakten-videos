@@ -105,3 +105,4 @@ Kurze Zusammenfassung an den Nutzer. Nach 3 Wochen (ab 06.12.2026) bessere Uhrze
 - Werkzeuge mit `/usr/bin/python3` starten (`python3` im Pfad = /usr/local/bin ohne numpy/faster-whisper).
 - Mehrere Videos parallel: OmniVoice mit höchstens 2 Threads je Prozess, sonst bremsen sie sich gegenseitig aus; nie zwei Renders gleichzeitig.
 - `tools/piper_flow.py` schreibt Zwischendateien nach `/tmp/s1.wav` usw. → bei Parallelbetrieb in einen Projektordner umleiten.
+- **Buffer/YouTube-Limit:** Buffer lässt für YouTube nur **2 geplante Posts pro Tag** zu („maximum number of posts YouTube allows in a day (2)“). Drei YouTube-Videos am Tag gehen so nicht – Nutzer entscheidet, welches Video auf YouTube entfällt.
