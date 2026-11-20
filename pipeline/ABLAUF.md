@@ -100,3 +100,8 @@ Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, 
 ## 7. Sonntags-Auswertung
 `get_aggregated_post_metrics` / `list_posts` (sent) der letzten 7 Tage: Aufrufe, Likes, Kommentare pro Uhrzeit (16:30 vs. 23:30) und Thema.
 Kurze Zusammenfassung an den Nutzer. Nach 3 Wochen (ab 06.12.2026) bessere Uhrzeiten vorschlagen – nur nach „ok“ ändern.
+
+## 8. Technik-Hinweise (20.11.2026)
+- Werkzeuge mit `/usr/bin/python3` starten (`python3` im Pfad = /usr/local/bin ohne numpy/faster-whisper).
+- Mehrere Videos parallel: OmniVoice mit höchstens 2 Threads je Prozess, sonst bremsen sie sich gegenseitig aus; nie zwei Renders gleichzeitig.
+- `tools/piper_flow.py` schreibt Zwischendateien nach `/tmp/s1.wav` usw. → bei Parallelbetrieb in einen Projektordner umleiten.
