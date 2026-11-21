@@ -59,3 +59,11 @@ Beibehalten: Türme-Grundformat (stabile ~3.000 Aufrufe), Schlussfrage im Text, 
 - Gut so lassen: Duell-Banner „Like = X / Kommentar = Y“, Krone + Konfetti, Wow-Vergleich, Schlussfrage. Kommentar-Köder bringt Interaktion (wie die Hauswünsche in der Stadt).
 - Stadt: unterer dunkler Streifen mit Globi nimmt ~45 % des Bildes ein → auf ~25 % verkleinern, Stadt größer, Namensschilder größer. Kamerafahrt zum neuen Haus ist stark.
 - Countryball-/Kugel-Ausscheide-Formate und Datenrennen sind international weiter beliebt (OMR, Virlo) → Türme-Format passt, braucht nur mehr Tempo am Anfang.
+
+### Stand 21.11.2026 (Standbilder „Tödlichste Tiere“ + „Stadt Tag 2“ geprüft)
+- Behoben: Hook-Banner steht ab 0,0 s, erstes „raus!“ bei ~4 s, Quellenzeile sichtbar.
+- Türme zu flach, wenn der Sieger viel größer ist (Tiere: Skala bis 800.000, Türme bis kurz vor Schluss fast flach, ~50 % leerer Himmel) → Themen wählen, bei denen der Sieger höchstens ~10x so groß wie Platz 3 ist; ab ~10 s sollen die Türme ≥ 40 % der Bildhöhe füllen.
+- Stadt: die ersten 4 s waren ein Standbild → in Sekunde 0–1 schon Kamerafahrt zu einem Haus mit Namen + Plopp, „Tag N“ erst danach; Ende mit Rückfahrt auf die ganze Stadt (Endlos-Schleife).
+- Schlussfrage als Text einblenden UND sprechen; Plopp/Whoosh bei jedem Ereignis.
+- Trends: Serien-Formate („Tag N“, „Teil 2“) und kurze Wissensdosen gefragt; wachsende KI-Skepsis → echte Zahlen + Quellenzeile sichtbar lassen.
+- Format-Idee für später: „Wer ist größer?“-Duell-Reihe (2 Kugeln, Tipp per Kommentar, Auflösung mit Turm).
