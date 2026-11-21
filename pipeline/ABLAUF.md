@@ -18,10 +18,14 @@ Es gibt vier Helfer (Ordner `.claude/agents/` im Zweig `main`, als Subagent übe
 Der Haupt-Ablauf (du) verteilt die Aufgaben, gibt die Ergebnisse weiter, lädt hoch, plant in Buffer ein und informiert den Nutzer.
 Alles kostenlos: keine bezahlten Tools; vidIQ-Credits NUR für die YouTube-Kommentare der Stadt.
 
-Pro Tag:
-- **Türme A** und **Türme B**: zwei Trend-Themen aus ALLEN Bereichen (Geld, Länder, Tiere, Rekorde, Technik, Essen, Promis, Sport, Geschichte, Natur …) – nicht nur Fußball, nie zweimal derselbe Bereich an einem Tag.
-  Themen müssen überraschen („Platz 1 hätte keiner gedacht“). Trends kostenlos über WebSearch (Google Trends DE, aktuelle News, was gerade viral ist).
-- **Stadt (nur YouTube)**: „Unsere YouTube-Stadt“ – jeden Tag neue Häuser für Leute, die unter YouTube-Videos ihren Hauswunsch kommentieren (Abschnitt 1b).
+Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In dieser Welt …“, jedes über 1 Minute):
+- **Story A – Fortsetzung:** der nächste Teil der Serie, deren letzter Teil mit Cliffhanger endete (z. B. „Die Zahl über dem Kopf“ Teil 2). Löst den Cliffhanger auf und endet mit einem neuen.
+- **Story B – neue Welt:** Teil 1 einer neuen Serie mit neuer Welt-Regel (Ideen-Speicher in `pipeline/story-serien.md`).
+- **Länge 65–80 s** (TikTok zahlt im Creator-Programm nur für Videos über 1 Minute → NIE unter 62 s).
+- Format: Vorlage `pipeline/vorlage-story` (Comic-Figuren mit Mimik, Zahlen/Schilder über Köpfen, Kamerafahrten, Untertitel, selbst erzeugte Musik, Ende „TEIL N+1? ➕ FOLGEN“).
+  Bausteine aus `tools/story.py` wiederverwenden (person, badge, street_bg, room_bg, cam, expr, pop) und für jede Geschichte neue Szenen-Sets schreiben.
+- Geschichten müssen EIGENE Ideen sein – keine fremden Geschichten nacherzählen oder übersetzen.
+- Die Türme- und YouTube-Stadt-Videos ruhen vorerst (Vorlagen bleiben).
 
 ## 1b. YouTube-Stadt (Zustand in `pipeline/stadt-youtube/stadt.json`)
 - Kommentare lesen: vidIQ `vidiq_video_comments` mit channelId `UCHkoA2sBD7_hbxF-4et4LLg`, order "time", maxResult 50 – **höchstens EIN Aufruf pro Tag** (5 Gratis-Credits).
@@ -87,10 +91,9 @@ Danach Push-Nachricht an den Nutzer: was wann wo eingeplant ist, Thema, Hook-Sat
 Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (nie in der Vergangenheit).
 
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
+- **Alle 3 Kanäle:** Story A um 16:30, Story B um 23:30 (YouTube höchstens 2 Posts je 24 h – passt).
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
-- **TikTok + Instagram (2 pro Tag):** Türme A um 16:30, Türme B um 23:30.
-- **YouTube (2 pro Tag – YouTube hat am 19.11. das 3. Video wegen Tageslimit abgelehnt):** Stadt um 13:00, Türme B um 23:30. Erst wieder auf 3 erhöhen, wenn der Nutzer meldet, dass der Kanal per Telefon verifiziert ist.
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
   `metadata.instagram {type: "reel", shouldShareToFeed: true, isAiGenerated: false}`.
 - Gratis-Tarif: max. 10 geplante Posts gleichzeitig → vorher `list_posts` (status scheduled) prüfen.
