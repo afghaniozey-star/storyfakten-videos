@@ -25,12 +25,14 @@ Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In
 - Format: Vorlage `pipeline/vorlage-story` (Comic-Figuren mit Mimik, Zahlen/Schilder über Köpfen, Kamerafahrten, Untertitel, selbst erzeugte Musik, Ende „TEIL N+1? ➕ FOLGEN“).
   Bausteine aus `tools/story.py` wiederverwenden (person, badge, street_bg, room_bg, cam, expr, pop) und für jede Geschichte neue Szenen-Sets schreiben.
 - Geschichten müssen EIGENE Ideen sein – keine fremden Geschichten nacherzählen oder übersetzen.
-- Die Türme- und YouTube-Stadt-Videos ruhen vorerst (Vorlagen bleiben).
+- **YouTube-Stadt läuft weiter** (bringt Abos – Nutzer: ~8 neue Abonnenten direkt durch ein Stadt-Video). Türme-Videos ruhen.
+- **Stadt-Text & Aufruf:** Ein Haus gibt es nur für Leute, die **abonnieren UND kommentieren**. Das in Video (gesprochen + eingeblendet, schon am Anfang) und Beschreibung immer so sagen: „Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!“ (Ob jemand wirklich abonniert hat, können wir technisch nicht prüfen – die Regel wird angesagt, nicht kontrolliert.)
+- **Story A beginnt immer mit 1 Satz „Was bisher geschah …“**, damit sie auch ohne Teil davor verständlich ist (auf YouTube läuft nur Story A).
 
 ## 1b. YouTube-Stadt (Zustand in `pipeline/stadt-youtube/stadt.json`)
 - Kommentare lesen: vidIQ `vidiq_video_comments` mit channelId `UCHkoA2sBD7_hbxF-4et4LLg`, order "time", maxResult 50 – **höchstens EIN Aufruf pro Tag** (5 Gratis-Credits).
   Vorher `vidiq_balance` (kostenlos) prüfen: unter 5 Credits → KEIN Abruf, nur die offenen Wünsche aus stadt.json verwenden. **Niemals Credits kaufen.**
-  Bis 30.11.2026 sind nur noch ~20 Credits übrig → Kommentare nur jeden 2. Tag lesen, ab 01.12. täglich.
+  Bis 30.11.2026 sind nur noch ~10 Credits übrig → Kommentare nur jeden 2. Tag lesen, ab 01.12. täglich.
 - Neue Wünsche seit `kommentare_gelesen_bis` in `wuensche_offen` übernehmen (Name = Handle ohne @, max. 12 Zeichen, Großbuchstaben; ein Haus pro Person; Beleidigungen/Politik ignorieren).
 - Pro Tag 4–8 Wünsche bauen (älteste zuerst), in `haeuser` eintragen (mit `tag`), aus `wuensche_offen` entfernen, `tag` +1, `kommentare_gelesen_bis` setzen, Datei committen + pushen (Zweig pipeline).
 - Keine offenen Wünsche → Video zeigt die wachsende Stadt + großer Aufruf „Kommentier deinen Namen + Wunschhaus und abonnier – morgen steht dein Haus!“.
@@ -91,7 +93,8 @@ Danach Push-Nachricht an den Nutzer: was wann wo eingeplant ist, Thema, Hook-Sat
 Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (nie in der Vergangenheit).
 
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
-- **Alle 3 Kanäle:** Story A um 16:30, Story B um 23:30 (YouTube höchstens 2 Posts je 24 h – passt).
+- **TikTok + Instagram:** Story A um 16:30, Story B um 23:30.
+- **YouTube (höchstens 2 Posts je 24 h):** Stadt um 12:30, Story A um 23:30. Erst wenn der Nutzer meldet, dass der Kanal per Telefon verifiziert ist, zusätzlich Story B.
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,

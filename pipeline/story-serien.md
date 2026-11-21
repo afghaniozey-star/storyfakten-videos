@@ -2,7 +2,7 @@
 
 ## Sonderfall 22.11.2026
 Der 16:30-Platz am 22.11. ist schon mit „Die Zahl über dem Kopf – Teil 1“ belegt (von Hand eingeplant, alle 3 Kanäle).
-→ Am 22.11. NUR Story A = Teil 2 bauen und um 23:30 einplanen. Ab 23.11. normal (Story A 16:30, Story B 23:30).
+→ Am 22.11. Story A = Teil 2 bauen: TikTok/Instagram 23:30, YouTube 23:30 (YouTube um 12:30 = Stadt). Teil 1 läuft auf YouTube am 22.11. NICHT (Limit) – Teil 2 beginnt deshalb mit „Was bisher geschah …“. Ab 23.11. normal.
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.
