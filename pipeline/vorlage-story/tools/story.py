@@ -99,7 +99,8 @@ def card(uid, emo, x):
             f'<path d="M-120 -120 L120 120 M120 -120 L-120 120" stroke="#e63946" stroke-width="26" stroke-linecap="round"/></g></g>')
 S["C"] = (room_bg() + '<g id="cards">' + card("c1", "🚲", 220) + card("c2", "🚗", 540) + card("c3", "🏊", 860) + '</g>'
           f'<g id="sofa" opacity="0"><rect x="120" y="1100" width="840" height="220" rx="60" fill="#8338ec" stroke="#111" stroke-width="6"/><rect x="80" y="1020" width="120" height="300" rx="50" fill="#7027d1" stroke="#111" stroke-width="6"/><rect x="880" y="1020" width="120" height="300" rx="50" fill="#7027d1" stroke="#111" stroke-width="6"/>'
-          f'<g transform="translate(380 1250) scale(.95)">{mia("m2", "determined")}</g><g transform="translate(700 1250) scale(.95)">{lena("l2", "neutral")}</g></g>'
+          f'<g transform="translate(380 1250) scale(.95)">{mia("m2", "determined")}</g><g transform="translate(700 1250) scale(.95)">{lena("l2", "neutral")}{badge("bL2", "1", col="#e63946", fg="#fff", size=90)}</g></g>'
+          '<g id="pz" opacity="0" transform="translate(460 430)"><g id="pz-in"><rect x="-210" y="-150" width="420" height="300" rx="30" fill="#fff" stroke="#111" stroke-width="8"/><text x="0" y="70" text-anchor="middle" style="font:220px Noto Color Emoji">🍕</text></g></g>'
           f'<g id="bub" opacity="0"><path d="M300 330 H1020 Q1050 330 1050 360 V560 Q1050 590 1020 590 H760 L700 680 L700 590 H330 Q300 590 300 560 V360 Q300 330 330 330 Z" fill="#fff" stroke="#111" stroke-width="7"/>'
           f'<text x="675" y="440" text-anchor="middle" style="font:900 54px Inter,sans-serif;fill:#111">„Was ist denn heute</text><text x="675" y="515" text-anchor="middle" style="font:900 54px Inter,sans-serif;fill:#111">mit dir los?“ 😂</text></g>')
 # --- Set D: Schlafzimmer nachts (s8–s9)
@@ -108,6 +109,7 @@ S["D"] = (room_bg(True) + '<rect x="80" y="1080" width="920" height="200" rx="30
           f'<g transform="translate(720 1260) scale(.95)">{lena("l3", "neutral")}{badge("bL3", "1", col="#e63946", fg="#fff", size=80, chars=6)}</g>'
           '<g id="clk"><rect x="240" y="170" width="600" height="230" rx="30" fill="#000" stroke="#444" stroke-width="8"/>'
           '<text id="clkt" x="540" y="330" text-anchor="middle" style="font:900 150px Inter,monospace;fill:#ff3b30;letter-spacing:6px">23:59</text></g>'
+          '<text id="cd" x="540" y="520" text-anchor="middle" opacity="0" style="font:900 110px Inter,sans-serif;fill:#fff">60</text>'
           '<rect id="nightdim" width="1080" height="1920" fill="#000" opacity=".25"/>')
 # --- Set E: Spiegel (s10–s11)
 S["E"] = (room_bg(True) + '<rect x="250" y="250" width="580" height="1000" rx="290" fill="#a8b8c8" stroke="#6b4226" stroke-width="30"/>'
@@ -145,13 +147,22 @@ for uid, word in (("c1", "Fahrrad."), ("c2", "Straße."), ("c3", "Schwimmbad."))
 tw = w("s6", "weicht") - .4
 J.append(f'tl.to("#cards", {{ opacity: 0, duration: .3 }}, {F(tw)});')
 J.append(f'tl.fromTo("#sofa", {{ opacity: 0 }}, {{ opacity: 1, duration: .4 }}, {F(tw)});')
+J.append(f'tl.fromTo("#pz", {{ opacity: 0 }}, {{ opacity: 1, duration: .05 }}, {F(w("s6b", "Pizza,") - .2)}); tl.fromTo("#pz-in", {{ scale: 2, rotation: 20, transformOrigin: "50% 50%" }}, {{ scale: 1, rotation: 0, duration: .35, ease: "back.out(2)" }}, {F(w("s6b", "Pizza,") - .2)}); tl.to("#pz", {{ opacity: 0, duration: .25 }}, {F(st("s7") - .1)});')
 expr("l2", "neutral", "laugh", st("s7")); pop("#bub", w("s7", "Was") - .1)
-cam(st("s7"), 620, 900, 1.2, .8)
+J.append(f'tl.to("#bub", {{ opacity: 0, duration: .2 }}, {F(st("s7b"))});')
+pop("#bL2", w("s7b", "Eins") - .2, .35); expr("m2", "determined", "shock", w("s7b", "starrt"))
+J.append(f'tl.to("#bL2-in", {{ scale: 1.15, duration: .25, yoyo: true, repeat: 5, ease: "sine.inOut", transformOrigin: "50% 50%" }}, {F(w("s7b", "Eins") + .2)});')
+cam(st("s7"), 620, 900, 1.2, .8); cam(st("s7b") + .3, 700, 760, 1.45, 1.2)
 # Set D: Nacht, Uhr, Mitternacht
 J.append(f'tl.set("#cam", {{ x: 0, y: 0, scale: 1 }}, {F(tD0)});')
 pop("#bM3", tD0 + .3); pop("#bL3", tD0 + .5)
 J.append(f'tl.to("#clkt", {{ opacity: .35, duration: .5, yoyo: true, repeat: 7, ease: "steps(1)" }}, {F(w("s8", "Dreiundzwanzig"))});')
 cam(w("s8", "Dreiundzwanzig") - .2, 540, 600, 1.25, 1.6)
+t60 = st("s8b")
+J.append(f'tl.set("#cd", {{ opacity: 1 }}, {F(t60)});')
+J.append(f'(() => {{ const o = {{ v: 60 }}; tl.fromTo(o, {{ v: 60 }}, {{ v: 0, duration: {F(w("s9", "Mitternacht.") - t60)}, ease: "none", immediateRender: false, onUpdate: () => {{ document.getElementById("cd").textContent = Math.ceil(o.v); }} }}, {F(t60)}); }})();')
+J.append(f'tl.set("#cd", {{ opacity: 0 }}, {F(w("s9", "Mitternacht."))});')
+cam(t60 + .2, 540, 900, 1.15, 1.0)
 tm = w("s9", "Mitternacht.")
 J.append(f'tl.call(() => {{ document.getElementById("clkt").textContent = "00:00"; }}, null, {F(tm)}); tl.call(() => {{ document.getElementById("clkt").textContent = "23:59"; }}, null, {F(tm - .05)});')
 J.append(f'tl.set("#clkt", {{ opacity: 1 }}, {F(tm)}); tl.fromTo("#nightdim", {{ opacity: .9 }}, {{ opacity: .25, duration: .6, immediateRender: false }}, {F(tm)});')
@@ -230,7 +241,7 @@ subprocess.run([sys.executable, "tools/story_musik.py", F(END), F(t1), F(tm), F(
 FX = [("pop", w("s2", "Bäcker:") + .2, .45, .15), ("pop", w("s2", "Oma") + .2, .45, .15), ("pop", w("s2", "Baby:") + .2, .45, .15),
       ("hit", t1, .7, 1.5), ("whoosh", tC0, .35, .8)]
 FX += [("pop", w("s6", x) - .1, .55, .15) for x in ("Fahrrad.", "Straße.", "Schwimmbad.")]
-FX += [("pop", w("s7", "Was") - .1, .4, .15), ("tick", w("s8", "Dreiundzwanzig"), .5, 2.0), ("chime", tz + 1.0, .5, 1.4), ("hit", ts, .9, 1.6), ("whoosh", tEND, .4, .8)]
+FX += [("pop", w("s6b", "Pizza,") - .2, .5, .15), ("pop", w("s7b", "Eins") - .2, .5, .15), ("pop", w("s7", "Was") - .1, .4, .15), ("tick", w("s8", "Dreiundzwanzig"), .5, 2.0), ("chime", tz + 1.0, .5, 1.4), ("hit", ts, .9, 1.6), ("whoosh", tEND, .4, .8)]
 Hh = lambda id_, ti: f'      <div id="{id_}" data-composition-id="{id_}" data-composition-src="compositions/{id_}.html" data-start="0" data-duration="{F(END)}" data-track-index="{ti}" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:{ti}"></div>'
 lines = [Hh("welt", 2), Hh("caps", 3), f'      <audio id="musik" class="clip" data-start="0" data-duration="{F(END)}" data-track-index="5" data-volume="0.22" src="assets/musik.wav"></audio>']
 for k in T:

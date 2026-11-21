@@ -68,6 +68,16 @@
    "tail": 0.4
   },
   {
+   "id": "s6b",
+   "groups": [
+    [
+     "Sie bestellt sogar Pizza, damit Lena nicht vor die Tür muss.",
+     "Sie bestellt sogar Pizza, damit Lena nicht vor die Tür muss."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
    "id": "s7",
    "groups": [
     [
@@ -78,6 +88,16 @@
    "tail": 0.5
   },
   {
+   "id": "s7b",
+   "groups": [
+    [
+     "Und jedes Mal, wenn Lena lacht, starrt Mia auf die Eins über ihrem Kopf.",
+     "Und jedes Mal, wenn Lena lacht, starrt Mia auf die Eins über ihrem Kopf."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
    "id": "s8",
    "groups": [
     [
@@ -86,6 +106,16 @@
     ]
    ],
    "tail": 1.3
+  },
+  {
+   "id": "s8b",
+   "groups": [
+    [
+     "Noch sechzig Sekunden. Mia hält Lenas Hand ganz fest.",
+     "Noch sechzig Sekunden. Mia hält Lenas Hand ganz fest."
+    ]
+   ],
+   "tail": 1.0
   },
   {
    "id": "s9",
