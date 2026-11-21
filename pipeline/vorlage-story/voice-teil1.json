@@ -1,0 +1,131 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.95,
+ "sentence_silence": 0.15,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Welt sieht jeder über deinem Kopf, wie viele Tage du noch lebst.",
+     "In dieser Welt sieht jeder über deinem Kopf, wie viele Tage du noch lebst."
+    ]
+   ],
+   "tail": 0.6,
+   "lead": 0.15
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Der Bäcker: 12.400 Tage. Oma Hilde: 900. Ein Baby: 31.000.",
+     "Der Bäcker: zwölftausendvierhundert Tage. Oma Hilde: neunhundert. Ein Baby: einunddreißigtausend."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Keiner hat Angst. Man gewöhnt sich dran. Bis Mia ihre beste Freundin Lena sieht.",
+     "Keiner hat Angst. Man gewöhnt sich dran. Bis Mia ihre beste Freundin Lena sieht."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Über Lenas Kopf steht eine Eins.",
+     "Über Lenas Kopf steht eine Eins."
+    ]
+   ],
+   "tail": 1.2
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Mia sagt nichts. Sie will nur eins: Lena heute beschützen.",
+     "Mia sagt nichts. Sie will nur eins: Lena heute beschützen."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Kein Fahrrad. Keine Straße. Kein Schwimmbad. Mia weicht ihr den ganzen Tag nicht von der Seite.",
+     "Kein Fahrrad. Keine Straße. Kein Schwimmbad. Mia weicht ihr den ganzen Tag nicht von der Seite."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Lena lacht: Was ist denn heute mit dir los?",
+     "Lena lacht: Was ist denn heute mit dir los?"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Abends sitzen beide auf Lenas Bett. Dreiundzwanzig Uhr neunundfünfzig.",
+     "Abends sitzen beide auf Lenas Bett. Dreiundzwanzig Uhr neunundfünfzig."
+    ]
+   ],
+   "tail": 1.3
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Mitternacht. Lenas Zahl springt auf 22.000.",
+     "Mitternacht. Lenas Zahl springt auf zweiundzwanzigtausend."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Mia atmet auf. Dann schaut sie in den Spiegel.",
+     "Mia atmet auf. Dann schaut sie in den Spiegel."
+    ]
+   ],
+   "tail": 1.2
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Über ihrem eigenen Kopf steht jetzt eine Eins.",
+     "Über ihrem eigenen Kopf steht jetzt eine Eins."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Teil 2? Folg, damit du ihn nicht verpasst!",
+     "Teil zwei? Folg, damit du ihn nicht verpasst!"
+    ]
+   ],
+   "tail": 1.6
+  }
+ ]
+}
