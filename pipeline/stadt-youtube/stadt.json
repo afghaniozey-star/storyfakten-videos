@@ -1,66 +1,66 @@
 {
- "name": "Unsere YouTube-Stadt",
- "kanal": "YouTube @storyfakten.statistiken (Kanal-ID UCHkoA2sBD7_hbxF-4et4LLg)",
- "regel": "Wer unter einem YouTube-Video seinen Hauswunsch kommentiert, bekommt am nächsten Tag ein Haus (Name = YouTube-Handle ohne @, gekürzt auf max. 12 Zeichen). Pro Person nur EIN Haus. Beleidigende/politische Wünsche ignorieren.",
- "tag": 2,
- "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
- "haeuser": [
-  {
-   "name": "FINNY",
-   "wunsch": "Flughafen",
-   "art": "flughafen",
-   "schild": "FLUGHAFEN 1",
-   "farbe": "#1d4ed8",
-   "turm": "links",
-   "reihe": 2,
-   "platz": 1,
-   "viertel": 0,
-   "tag": 1,
-   "quelle": "YouTube-Kommentar 06.11."
-  },
-  {
-   "name": "FABERTRANS",
-   "wunsch": "Flughafen",
-   "art": "flughafen",
-   "schild": "FLUGHAFEN 2",
-   "farbe": "#f77f00",
-   "turm": "rechts",
-   "reihe": 2,
-   "platz": 5,
-   "viertel": 0,
-   "tag": 1,
-   "quelle": "YouTube-Kommentar 06.11."
-  },
-  {
-   "name": "LÅKI",
-   "wunsch": "Bundeshaus",
-   "art": "bundeshaus",
-   "reihe": 0,
-   "platz": 1,
-   "viertel": 0,
-   "tag": 1,
-   "quelle": "YouTube-Kommentar 06.11."
-  },
-  {
-   "name": "LIAM",
-   "wunsch": "Militärstützpunkt",
-   "art": "militaer",
-   "reihe": 1,
-   "platz": 3,
-   "viertel": 0,
-   "tag": 1,
-   "quelle": "YouTube-Kommentar 07.11."
-  },
-  {
-   "name": "LAITH",
-   "wunsch": "Krankenhaus",
-   "art": "krankenhaus",
-   "reihe": 0,
-   "platz": 5,
-   "viertel": 0,
-   "tag": 1,
-   "quelle": "YouTube-Kommentar 07.11."
-  }
- ],
- "wuensche_offen": []
+  "name": "Unsere YouTube-Stadt",
+  "kanal": "YouTube @storyfakten.statistiken (Kanal-ID UCHkoA2sBD7_hbxF-4et4LLg)",
+  "regel": "Wer unter einem YouTube-Video seinen Hauswunsch kommentiert, bekommt am nächsten Tag ein Haus (Name = YouTube-Handle ohne @, gekürzt auf max. 12 Zeichen). Pro Person nur EIN Haus. Beleidigende/politische Wünsche ignorieren.",
+  "tag": 3,
+  "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
+  "haeuser": [
+    {
+      "name": "FINNY",
+      "wunsch": "Flughafen",
+      "art": "flughafen",
+      "schild": "FLUGHAFEN 1",
+      "farbe": "#1d4ed8",
+      "turm": "links",
+      "reihe": 2,
+      "platz": 1,
+      "viertel": 0,
+      "tag": 1,
+      "quelle": "YouTube-Kommentar 06.11."
+    },
+    {
+      "name": "FABERTRANS",
+      "wunsch": "Flughafen",
+      "art": "flughafen",
+      "schild": "FLUGHAFEN 2",
+      "farbe": "#f77f00",
+      "turm": "rechts",
+      "reihe": 2,
+      "platz": 5,
+      "viertel": 0,
+      "tag": 1,
+      "quelle": "YouTube-Kommentar 06.11."
+    },
+    {
+      "name": "LÅKI",
+      "wunsch": "Bundeshaus",
+      "art": "bundeshaus",
+      "reihe": 0,
+      "platz": 1,
+      "viertel": 0,
+      "tag": 1,
+      "quelle": "YouTube-Kommentar 06.11."
+    },
+    {
+      "name": "LIAM",
+      "wunsch": "Militärstützpunkt",
+      "art": "militaer",
+      "reihe": 1,
+      "platz": 3,
+      "viertel": 0,
+      "tag": 1,
+      "quelle": "YouTube-Kommentar 07.11."
+    },
+    {
+      "name": "LAITH",
+      "wunsch": "Krankenhaus",
+      "art": "krankenhaus",
+      "reihe": 0,
+      "platz": 5,
+      "viertel": 0,
+      "tag": 1,
+      "quelle": "YouTube-Kommentar 07.11."
+    }
+  ],
+  "wuensche_offen": []
 }

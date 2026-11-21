@@ -1,0 +1,95 @@
+{
+ "engine": "omni",
+ "model": "omni-mann",
+ "length_scale": 1.0,
+ "sentence_silence": 0.15,
+ "tail": 0.7,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "lead": 0.0,
+   "tail": 0.35,
+   "groups": [
+    [
+     "Laith hat sein eigenes Krankenhaus!",
+     "Leis hat sein eigenes Krankenhaus!"
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Tag 3 in unserer YouTube-Stadt. Die Regel: Wer kommentiert, bekommt ein Haus!",
+     "Tag drei in unserer YouTube-Stadt. Die Regel: Wer kommentiert, bekommt ein Haus!"
+    ]
+   ]
+  },
+  {
+   "id": "s2b",
+   "groups": [
+    [
+     "5 Leute haben schon kommentiert – und das sind ihre Häuser.",
+     "Fünf Leute haben schon kommentiert, und das sind ihre Häuser."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Finny und Fabertrans haben sogar eigene Flughäfen.",
+     "Finny und Fabertrans haben sogar eigene Flughäfen."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Låki sitzt im Bundeshaus. Und Liam hat einen Militärstützpunkt – mit Panzer!",
+     "Loki sitzt im Bundeshaus. Und Liam hat einen Militärstützpunkt, mit Panzer!"
+    ]
+   ]
+  },
+  {
+   "id": "s4b",
+   "groups": [
+    [
+     "Und Laith? Der rettet Leben im Krankenhaus.",
+     "Und Leis? Der rettet Leben im Krankenhaus."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Und hier? Ein Bauplatz – noch frei! Und da drüben? Noch 2!",
+     "Und hier? Ein Bauplatz, noch frei! Und da drüben? Noch zwei!"
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "tail": 1.8,
+   "groups": [
+    [
+     "Wessen Haus steht hier morgen?",
+     "Wessen Haus steht hier morgen?"
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "tail": 1.8,
+   "groups": [
+    [
+     "Kommentier deinen Namen und dein Wunschhaus und abonnier – morgen steht dein Haus!",
+     "Kommentier deinen Namen und dein Wunschhaus und abonnier, morgen steht dein Haus!"
+    ]
+   ]
+  }
+ ]
+}
