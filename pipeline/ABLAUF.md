@@ -25,6 +25,12 @@ Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In
 - Format: Vorlage `pipeline/vorlage-story` (Comic-Figuren mit Mimik, Zahlen/Schilder über Köpfen, Kamerafahrten, Untertitel, selbst erzeugte Musik, Ende „TEIL N+1? ➕ FOLGEN“).
   Bausteine aus `tools/story.py` wiederverwenden (person, badge, street_bg, room_bg, cam, expr, pop) und für jede Geschichte neue Szenen-Sets schreiben.
 - Geschichten müssen EIGENE Ideen sein – keine fremden Geschichten nacherzählen oder übersetzen.
+- **STIL (Referenz des Nutzers vom 21.11., 72-s-Video „In dieser Stadt darf man 6-7 nicht dreimal sagen“):** lustig & absurd statt traurig.
+  „In dieser Stadt / Welt …“ + absurde Regel als Hook, Ich-Erzähler, viele Figuren mit kurzen Gags (Kumpel, Oma, Bürgermeister …), Steigerung bis zum großen Chaos,
+  Loop-Ende (letzter Satz führt zurück zum Anfang / „noch größer“), Schnitt alle 2–3 s, Kamerawinkel wechseln (Nahaufnahme, von unten, Totale mit Menge),
+  Einzelwort-Untertitel in der Bildmitte, kurze Einblendungen oben („2x“, „10/10“, „67 JAHRE“, „XXL“, Uhrzeit). Aktuelle Jugend-Memes erlaubt, aber die Geschichte selbst ist IMMER eigen (nichts nacherzählen).
+  Figuren im Klötzchen-Look (eckiger Kopf, eckiger Körper, kräftige Farben, einfache Gesichter mit Mimik) – in 2D mit Schatten zeichnen (kein echtes 3D möglich). Keine Roblox-Logos/-Namen.
+  Stimme omni-mann, energischer/schneller (length_scale ~0.9). Musik: eigene lockere, hüpfende Erkennungsmelodie (gleich in jedem Video), bis der Nutzer einen nachweislich freien Titel nennt.
 - **YouTube-Stadt läuft weiter** (bringt Abos – Nutzer: ~8 neue Abonnenten direkt durch ein Stadt-Video). Türme-Videos ruhen.
 - **Stadt-Text & Aufruf:** Ein Haus gibt es nur für Leute, die **abonnieren UND kommentieren**. Das in Video (gesprochen + eingeblendet, schon am Anfang) und Beschreibung immer so sagen: „Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!“ (Ob jemand wirklich abonniert hat, können wir technisch nicht prüfen – die Regel wird angesagt, nicht kontrolliert.)
 - **Story A beginnt immer mit 1 Satz „Was bisher geschah …“**, damit sie auch ohne Teil davor verständlich ist (auf YouTube läuft nur Story A).
