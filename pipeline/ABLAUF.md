@@ -19,8 +19,9 @@ Der Haupt-Ablauf (du) verteilt die Aufgaben, gibt die Ergebnisse weiter, lädt h
 Alles kostenlos: keine bezahlten Tools; vidIQ-Credits NUR für die YouTube-Kommentare der Stadt.
 
 Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In dieser Welt …“, jedes über 1 Minute):
-- **Story A – Fortsetzung:** der nächste Teil der Serie, deren letzter Teil mit Cliffhanger endete (z. B. „Die Zahl über dem Kopf“ Teil 2). Löst den Cliffhanger auf und endet mit einem neuen.
-- **Story B – neue Welt:** Teil 1 einer neuen Serie mit neuer Welt-Regel (Ideen-Speicher in `pipeline/story-serien.md`).
+- **Story A – Fortsetzung:** der nächste Teil der Serie, die zuletzt neu gestartet bzw. fortgesetzt wurde (z. B. 23.11.: „Die Zahl über dem Kopf“ Teil 2 → 24.11.: Teil 3 …). Löst den Cliffhanger auf, endet mit neuem Cliffhanger. Läuft eine Serie aus (nach ca. 3–5 Teilen oder wenn sie schwächer wird), mit Finale abschließen.
+- **Story B – neues Thema:** JEDEN Tag Teil 1 einer neuen Serie mit neuem Thema, Ende: „Folg, damit du Teil 2 nicht verpasst!“. Diese neuen Serien werden an den Folgetagen als Story A weitergeführt (Ideen-Speicher `pipeline/story-serien.md`, dort jede Serie mit Stand eintragen).
+- **So spannend wie möglich:** jede Sekunde passiert etwas, starke Twists, Cliffhanger am Ende.
 - **Länge 65–80 s** (TikTok zahlt im Creator-Programm nur für Videos über 1 Minute → NIE unter 62 s).
 - Format: Vorlage `pipeline/vorlage-story` (Comic-Figuren mit Mimik, Zahlen/Schilder über Köpfen, Kamerafahrten, Untertitel, selbst erzeugte Musik, Ende „TEIL N+1? ➕ FOLGEN“).
   Bausteine aus `tools/story.py` wiederverwenden (person, badge, street_bg, room_bg, cam, expr, pop) und für jede Geschichte neue Szenen-Sets schreiben.
@@ -32,6 +33,7 @@ Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In
   Figuren im Klötzchen-Look (eckiger Kopf, eckiger Körper, kräftige Farben, einfache Gesichter mit Mimik) – in 2D mit Schatten zeichnen (kein echtes 3D möglich). Keine Roblox-Logos/-Namen.
   Stimme omni-mann, energischer/schneller (length_scale ~0.9). Musik: IMMER der feste Hintergrund-Sound „In this town – Dreamcore“ (Entscheidung des Nutzers vom 22.11.; Datei `pipeline/sound/bgm-in-this-town.mp3`, liegt in jeder Vorlage als `assets/bgm.mp3`). Die Musik-Skripte (musik.py / story_musik.py) loopen ihn automatisch auf Videolänge – nichts ändern, Datei nicht löschen. Soundeffekte dürfen zusätzlich bleiben.
 - **YouTube-Stadt läuft weiter** (bringt Abos – Nutzer: ~8 neue Abonnenten direkt durch ein Stadt-Video). Türme-Videos ruhen.
+- **Stadt-Sound:** auch die Stadt benutzt den festen Hintergrund-Sound (assets/bgm.mp3, über tools/musik.py).
 - **Stadt-Text & Aufruf:** Ein Haus gibt es nur für Leute, die **abonnieren UND kommentieren**. Das in Video (gesprochen + eingeblendet, schon am Anfang) und Beschreibung immer so sagen: „Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!“ (Ob jemand wirklich abonniert hat, können wir technisch nicht prüfen – die Regel wird angesagt, nicht kontrolliert.)
 - **Story A beginnt immer mit 1 Satz „Was bisher geschah …“**, damit sie auch ohne Teil davor verständlich ist (auf YouTube läuft nur Story A).
 
@@ -100,7 +102,10 @@ Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (n
 
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
 - **TikTok + Instagram:** Story A um 16:30, Story B um 23:30.
-- **YouTube (höchstens 2 Posts je 24 h):** Stadt um 12:30, Story A um 23:30. Erst wenn der Nutzer meldet, dass der Kanal per Telefon verifiziert ist, zusätzlich Story B.
+- **YouTube:** Wunsch des Nutzers = 3 pro Tag (Stadt + Story A + Story B). YouTube lässt über Buffer aber nur **2 Posts je 24 h (gleitend)** zu (mehrfach Fehler „daily posting limit“).
+  Solange der Nutzer nicht meldet, dass der Kanal per Telefon verifiziert ist: **Stadt 12:30 + Story A 23:45** (fester ~11-h-Abstand, nie 3 in 24 h).
+  Nach Verifizierung: Stadt 10:00, Story A 16:30, Story B 23:30 versuchen; scheitert ein Post am Limit, zurück auf 2 und dem Nutzer melden.
+- **Uhrzeiten anpassen:** Die Uhrzeiten richten sich nach den Ergebnissen des `analyse`-Agenten (pipeline/erkenntnisse.md). Empfiehlt er mit genug Daten (mind. 6 Videos je Uhrzeit) eine bessere Uhrzeit, diese direkt übernehmen (Wunsch des Nutzers) und in der Info-Nachricht nennen. YouTube-Limit dabei immer einhalten.
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).
 - **KEIN KI-Häkchen** (Anweisung des Nutzers vom 17.11.2026): `metadata.tiktok {isAiGenerated: false, title}`, `metadata.youtube {title, categoryId, isAiGenerated: false, madeForKids: false, privacy: "public"}`,
