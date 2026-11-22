@@ -9,7 +9,7 @@ t, caps, timing = 0.0, [], {}
 for sc in cfg["scenes"]:
     sid = sc["id"]; LEAD = sc.get("lead", cfg.get("lead", 0.1))
     text = " ".join(g[1] for g in sc["groups"])
-    raw = f"/tmp/{sid}-raw.wav"; wav = f"/tmp/{sid}.wav"
+    os.makedirs(f"{root}/tmpwav", exist_ok=True); raw = f"{root}/tmpwav/{sid}-raw.wav"; wav = f"{root}/tmpwav/{sid}.wav"
     import hashlib, shutil
     hk = hashlib.sha1(json.dumps([text, cfg["model"], cfg.get("length_scale"), cfg.get("sentence_silence")]).encode()).hexdigest()[:12]
     cp = f"{root}/assets/vo/pf/{sid}-{hk}.wav"; os.makedirs(f"{root}/assets/vo/pf", exist_ok=True)

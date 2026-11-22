@@ -6,7 +6,8 @@ Der 16:30-Platz am 22.11. ist schon mit „Die Zahl über dem Kopf – Teil 1“
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.
-  Nächster Teil: Teil 2 – warum hat Mia jetzt die 1? (Idee: Wer jemanden rettet, übernimmt dessen Zahl. Mia sucht einen Ausweg …)
+  Teil 2 fertig (22.11., 72 s, tools/story2.py, voice-teil2.json): Wer eine 1 einen Tag beschützt, übernimmt sie; Ausweg = 100 Leute an einem Tag zum Lachen bringen. Mia schafft 100 (der 100. ist ein Fremder im Kapuzenpulli). Mitternacht: über Mia steht NICHTS – über dem Fremden auch nicht („Willkommen im Club.“). Cliffhanger: unsterblich (A) oder Fehler im System (B)?
+  Nächster Teil: Teil 3 – wer ist der Fremde, was bedeutet „keine Zahl“? (Kommentare A/B auswerten.)
 
 ## Ideen für neue Serien (eigene Ideen, lustiger Stil „In dieser Stadt …“ bevorzugt)
 0. In dieser Stadt muss jeder bei jedem Niesen tanzen – der Bürgermeister hat Heuschnupfen.

@@ -1,0 +1,162 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.5,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Was bisher geschah: Mia hat ihre Freundin Lena einen Tag lang beschützt. Jetzt steht die 1 über Mias Kopf.",
+     "Was bisher geschah: Mia hat ihre Freundin Lena einen Tag lang beschützt. Jetzt steht die Eins über Mias Kopf."
+    ]
+   ],
+   "tail": 0.5,
+   "lead": 0.05
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Mia zieht eine Mütze auf. Die 1 schwebt drüber.",
+     "Mia zieht eine Mütze auf. Die Eins schwebt drüber."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Sie stapelt einen Kochtopf drauf. Jetzt trägt die 1 auch eine Mütze.",
+     "Sie stapelt einen Kochtopf drauf. Jetzt trägt die Eins auch eine Mütze."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "In der Klasse ist es plötzlich totenstill. Der Lehrer flüstert: Mia, du musst heute keinen Test schreiben.",
+     "In der Klasse ist es plötzlich totenstill. Der Lehrer flüstert: Mia, du musst heute keinen Test schreiben."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Kumpel Ben schenkt ihr seine Glückssocke. Ungewaschen.",
+     "Kumpel Ben schenkt ihr seine Glückssocke. Ungewaschen."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Nur Oma Hilde, Zahl 900, bleibt entspannt. Sie kennt die Regel.",
+     "Nur Oma Hilde, Zahl neunhundert, bleibt entspannt. Sie kennt die Regel."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Wer eine 1 einen ganzen Tag beschützt, übernimmt sie. Loswerden kannst du sie nur so: Bring an einem Tag 100 Leute zum Lachen.",
+     "Wer eine Eins einen ganzen Tag beschützt, übernimmt sie. Loswerden kannst du sie nur so: Bring an einem Tag hundert Leute zum Lachen."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Lena springt auf: Ich helfe dir! Mia: Okay, aber bloß nicht beschützen!",
+     "Lena springt auf: Ich helfe dir! Mia: Okay, aber bloß nicht beschützen!"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Mia erzählt Witze im Bus. 12 Lacher. Sie tanzt im Hühnerkostüm vor der Bäckerei. 50.",
+     "Mia erzählt Witze im Bus. Zwölf Lacher. Sie tanzt im Hühnerkostüm vor der Bäckerei. Fünfzig."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Oma Hilde lacht so laut, dass ihr Gebiss in die Torte fliegt. 98.",
+     "Oma Hilde lacht so laut, dass ihr Gebiss in die Torte fliegt. Achtundneunzig."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "23 Uhr 59. 99 Lacher. Einer fehlt.",
+     "Dreiundzwanzig Uhr neunundfünfzig. Neunundneunzig Lacher. Einer fehlt."
+    ]
+   ],
+   "tail": 1.2
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Da kichert ein Fremder im Kapuzenpulli. 100!",
+     "Da kichert ein Fremder im Kapuzenpulli. Hundert!"
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Mitternacht. Mia schaut nach oben. Über ihrem Kopf steht gar nichts mehr.",
+     "Mitternacht. Mia schaut nach oben. Über ihrem Kopf steht gar nichts mehr."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Über dem Fremden auch nicht. Er grinst: Willkommen im Club.",
+     "Über dem Fremden auch nicht. Er grinst: Willkommen im Club."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Keine Zahl: unsterblich oder Fehler im System? Schreib A oder B! Denn in dieser Welt sieht jeder, wie viele Tage er noch lebt. Fast jeder. Teil 3?",
+     "Keine Zahl: unsterblich oder Fehler im System? Schreib A oder B! Denn in dieser Welt sieht jeder, wie viele Tage er noch lebt. Fast jeder. Teil drei?"
+    ]
+   ],
+   "tail": 1.5
+  }
+ ]
+}
