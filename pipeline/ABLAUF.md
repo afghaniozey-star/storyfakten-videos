@@ -43,7 +43,9 @@ Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In
   Bis 30.11.2026 sind nur noch ~10 Credits übrig → Kommentare nur jeden 2. Tag lesen, ab 01.12. täglich.
 - Neue Wünsche seit `kommentare_gelesen_bis` in `wuensche_offen` übernehmen (Name = Handle ohne @, max. 12 Zeichen, Großbuchstaben; EIN Land pro Person; Wunschland vergeben → freies Nachbarland; ohne Landwunsch → passendes freies Land wählen; Beleidigungen/Politik ignorieren; bestehende Hauswünsche aus stadt.json dürfen in Länder umgewandelt werden).
 - Pro Tag 3–6 Länder vergeben (älteste Wünsche zuerst), in `besitzer` eintragen (land = 2-Buchstaben-Code aus weltkarte.json, land_de, farbe, tag, szene, fakt, ggf. sprechname/fokus), aus `wuensche_offen` entfernen, `tag` +1, `kommentare_gelesen_bis` setzen, committen + pushen.
-- Keine offenen Wünsche → Video zeigt die bisher vergebenen Länder (Rundflug) + Ereignis (z. B. „Wer bekommt Japan?“) + großer Abo-Aufruf.
+- Keine echten neuen Wünsche (keine Credits / keine Kommentare) → trotzdem ein Video, aber mit einem EREIGNIS statt neuer Namen. NIEMALS erfundene Namen als Abonnenten ausgeben.
+  Ereignis-Ideen (abwechseln): „Wer bekommt Japan?“ (ein Top-Land wird ausgeschrieben – wer zuerst abonniert + kommentiert, bekommt es); Globi (unser Maskottchen, klar erkennbar keine echte Person) schnappt sich ein Land – „Holt es zurück!“;
+  Länder-Duell zwischen zwei bestehenden Besitzern um ein Nachbarland (Abstimmung per Kommentar); Rundflug über alle Besitzer mit Zähler + „Noch X frei!“. Immer mit großem Abo-Aufruf.
 - Jedes Abo-Welt-Video endet mit dem Abo-Aufruf (Ziel: YouTube-Abos, aktuell ~129).
 
 ## 2. FORMAT TÜRME-VIDEOS: TÜRME (Standard – vom Nutzer ausdrücklich gewünscht, wie sein erfolgreiches WM-Finale-Video)
