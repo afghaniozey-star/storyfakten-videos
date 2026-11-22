@@ -1,0 +1,21 @@
+{
+ "engine": "omni",
+ "model": "omni-mann",
+ "length_scale": 1.0,
+ "sentence_silence": 0.15,
+ "tail": 0.7,
+ "lead": 0.1,
+ "scenes": [
+  {"id": "s1", "lead": 0.0, "tail": 0.2, "groups": [["Tag 4 in unserer YouTube-Stadt!", "Tag vier in unserer YouTube-Stadt!"]]},
+  {"id": "s2", "tail": 0.5, "groups": [["Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!", "Abonnier und kommentier dein Wunschhaus, nur Abonnenten bekommen ein Haus!"]]},
+  {"id": "s3", "groups": [["Finny hat Flughafen 1 – Abflug!", "Finny hat Flughafen eins, Abflug!"]]},
+  {"id": "s4", "groups": [["Fabertrans hat Flughafen 2.", "Fabertrans hat Flughafen zwei."]]},
+  {"id": "s5", "groups": [["Låki sitzt im Bundeshaus.", "Loki sitzt im Bundeshaus."]]},
+  {"id": "s6", "groups": [["Liam hat einen Militärstützpunkt mit Hubschrauber!", "Liam hat einen Militärstützpunkt mit Hubschrauber!"]]},
+  {"id": "s7", "groups": [["Und Laith rettet Leben im Krankenhaus.", "Und Leis rettet Leben im Krankenhaus."]]},
+  {"id": "s8", "groups": [["Und hier? Platz 6 ist frei! Platz 7 auch!", "Und hier? Platz sechs ist frei! Platz sieben auch!"]]},
+  {"id": "s9", "tail": 1.6, "groups": [["Wer zieht hier als Nächstes ein?", "Wer zieht hier als Nächstes ein?"]]},
+  {"id": "s10", "tail": 0.3, "groups": [["Du willst eine Burg, ein Stadion oder eine Pizzeria?", "Du willst eine Burg, ein Stadion oder eine Pizzeria?"]]},
+  {"id": "s11", "tail": 1.6, "groups": [["Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!", "Abonnier und kommentier dein Wunschhaus, nur Abonnenten bekommen ein Haus!"]]}
+ ]
+}
