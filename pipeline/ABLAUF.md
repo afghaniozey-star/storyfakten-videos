@@ -32,19 +32,19 @@ Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In
   Einzelwort-Untertitel in der Bildmitte, kurze Einblendungen oben („2x“, „10/10“, „67 JAHRE“, „XXL“, Uhrzeit). Aktuelle Jugend-Memes erlaubt, aber die Geschichte selbst ist IMMER eigen (nichts nacherzählen).
   Figuren im Klötzchen-Look (eckiger Kopf, eckiger Körper, kräftige Farben, einfache Gesichter mit Mimik) – in 2D mit Schatten zeichnen (kein echtes 3D möglich). Keine Roblox-Logos/-Namen.
   Stimme omni-mann, energischer/schneller (length_scale ~0.9). Musik: IMMER der feste Hintergrund-Sound „In this town – Dreamcore“ (Entscheidung des Nutzers vom 22.11.; Datei `pipeline/sound/bgm-in-this-town.mp3`, liegt in jeder Vorlage als `assets/bgm.mp3`). Die Musik-Skripte (musik.py / story_musik.py) loopen ihn automatisch auf Videolänge – nichts ändern, Datei nicht löschen. Soundeffekte dürfen zusätzlich bleiben.
-- **YouTube-Stadt läuft weiter** (bringt Abos – Nutzer: ~8 neue Abonnenten direkt durch ein Stadt-Video). Türme-Videos ruhen.
-- **Stadt-Sound:** auch die Stadt benutzt den festen Hintergrund-Sound (assets/bgm.mp3, über tools/musik.py).
-- **Stadt-Text & Aufruf:** Ein Haus gibt es nur für Leute, die **abonnieren UND kommentieren**. Das in Video (gesprochen + eingeblendet, schon am Anfang) und Beschreibung immer so sagen: „Abonnier und kommentier dein Wunschhaus – nur Abonnenten bekommen ein Haus!“ (Ob jemand wirklich abonniert hat, können wir technisch nicht prüfen – die Regel wird angesagt, nicht kontrolliert.)
+- **YouTube-Abo-Video = „ABO-WELT“ (ab 23.11., ersetzt die Stadt):** „Jeder Abonnent bekommt ein Land“ – Weltkarte, Kamera fliegt zu jedem neuen Land, Land färbt sich in der Farbe des Besitzers, Namens-Fahne, Zähler „X / 195 Länder vergeben“, lustiger Fakt pro Land, Ende mit Abo-Aufruf. Vorlage `pipeline/vorlage-abowelt` (tools/abowelt.py), Zustand `pipeline/abo-welt/welt.json`. Kreativ: Ereignisse einbauen (zwei wollen dasselbe Land → Duell per Likes; Nachbarn schließen Bündnis; größtes Reich bekommt Krone). Karte: svg-maps (CC BY 4.0) in der Beschreibung nennen. Türme- und Stadt-Videos ruhen.
+- **Abo-Welt-Sound:** auch die Abo-Welt benutzt den festen Hintergrund-Sound (assets/bgm.mp3, über tools/story_musik.py).
+- **Abo-Text & Aufruf:** Ein Land gibt es nur für Leute, die **abonnieren UND ihr Wunschland kommentieren**. Das in Video (gesprochen + eingeblendet, schon am Anfang) und Beschreibung immer so sagen: „Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!“ (Ob jemand wirklich abonniert hat, können wir technisch nicht prüfen – die Regel wird angesagt, nicht kontrolliert.)
 - **Story A beginnt immer mit 1 Satz „Was bisher geschah …“**, damit sie auch ohne Teil davor verständlich ist (auf YouTube läuft nur Story A).
 
-## 1b. YouTube-Stadt (Zustand in `pipeline/stadt-youtube/stadt.json`)
+## 1b. YouTube-Abo-Welt (Zustand in `pipeline/abo-welt/welt.json`; früher Stadt: `pipeline/stadt-youtube/stadt.json`)
 - Kommentare lesen: vidIQ `vidiq_video_comments` mit channelId `UCHkoA2sBD7_hbxF-4et4LLg`, order "time", maxResult 50 – **höchstens EIN Aufruf pro Tag** (5 Gratis-Credits).
   Vorher `vidiq_balance` (kostenlos) prüfen: unter 5 Credits → KEIN Abruf, nur die offenen Wünsche aus stadt.json verwenden. **Niemals Credits kaufen.**
   Bis 30.11.2026 sind nur noch ~10 Credits übrig → Kommentare nur jeden 2. Tag lesen, ab 01.12. täglich.
-- Neue Wünsche seit `kommentare_gelesen_bis` in `wuensche_offen` übernehmen (Name = Handle ohne @, max. 12 Zeichen, Großbuchstaben; ein Haus pro Person; Beleidigungen/Politik ignorieren).
-- Pro Tag 4–8 Wünsche bauen (älteste zuerst), in `haeuser` eintragen (mit `tag`), aus `wuensche_offen` entfernen, `tag` +1, `kommentare_gelesen_bis` setzen, Datei committen + pushen (Zweig pipeline).
-- Keine offenen Wünsche → Video zeigt die wachsende Stadt + großer Aufruf „Kommentier deinen Namen + Wunschhaus und abonnier – morgen steht dein Haus!“.
-- Jedes Stadt-Video endet mit diesem Aufruf (Ziel: YouTube-Abos).
+- Neue Wünsche seit `kommentare_gelesen_bis` in `wuensche_offen` übernehmen (Name = Handle ohne @, max. 12 Zeichen, Großbuchstaben; EIN Land pro Person; Wunschland vergeben → freies Nachbarland; ohne Landwunsch → passendes freies Land wählen; Beleidigungen/Politik ignorieren; bestehende Hauswünsche aus stadt.json dürfen in Länder umgewandelt werden).
+- Pro Tag 3–6 Länder vergeben (älteste Wünsche zuerst), in `besitzer` eintragen (land = 2-Buchstaben-Code aus weltkarte.json, land_de, farbe, tag, szene, fakt, ggf. sprechname/fokus), aus `wuensche_offen` entfernen, `tag` +1, `kommentare_gelesen_bis` setzen, committen + pushen.
+- Keine offenen Wünsche → Video zeigt die bisher vergebenen Länder (Rundflug) + Ereignis (z. B. „Wer bekommt Japan?“) + großer Abo-Aufruf.
+- Jedes Abo-Welt-Video endet mit dem Abo-Aufruf (Ziel: YouTube-Abos, aktuell ~129).
 
 ## 2. FORMAT TÜRME-VIDEOS: TÜRME (Standard – vom Nutzer ausdrücklich gewünscht, wie sein erfolgreiches WM-Finale-Video)
 Kugeln mit Augen (Farben/Flagge des Kandidaten) stehen auf Ziegeltürmen. Alle Türme wachsen gemeinsam, bei jedem
@@ -103,8 +103,8 @@ Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (n
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
 - **TikTok + Instagram:** Story A um 16:30, Story B um 23:30.
 - **YouTube:** Wunsch des Nutzers = 3 pro Tag (Stadt + Story A + Story B). YouTube lässt über Buffer aber nur **2 Posts je 24 h (gleitend)** zu (mehrfach Fehler „daily posting limit“).
-  Solange der Nutzer nicht meldet, dass der Kanal per Telefon verifiziert ist: **Stadt 12:30 + Story A 23:45** (fester ~11-h-Abstand, nie 3 in 24 h).
-  Nach Verifizierung: Stadt 10:00, Story A 16:30, Story B 23:30 versuchen; scheitert ein Post am Limit, zurück auf 2 und dem Nutzer melden.
+  Solange der Nutzer nicht meldet, dass der Kanal per Telefon verifiziert ist: **Abo-Welt 12:30 + Story A 23:45** (fester ~11-h-Abstand, nie 3 in 24 h).
+  Nach Verifizierung: Abo-Welt 10:00, Story A 16:30, Story B 23:30 versuchen; scheitert ein Post am Limit, zurück auf 2 und dem Nutzer melden.
 - **Uhrzeiten anpassen:** Die Uhrzeiten richten sich nach den Ergebnissen des `analyse`-Agenten (pipeline/erkenntnisse.md). Empfiehlt er mit genug Daten (mind. 6 Videos je Uhrzeit) eine bessere Uhrzeit, diese direkt übernehmen (Wunsch des Nutzers) und in der Info-Nachricht nennen. YouTube-Limit dabei immer einhalten.
 Kanäle: TikTok `6af8aaa962b70b94b030f0a2`, YouTube `6af8a70562b70b94b030ab82`, Instagram `6af8ae8162b70b94b0314c10`.
 `create_post` mit `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt` (+01:00 Winterzeit / +02:00 Sommerzeit).

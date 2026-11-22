@@ -1,0 +1,62 @@
+{
+ "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
+ "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
+ "tag": 2,
+ "laender_gesamt": 195,
+ "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
+ "besitzer": [
+  {
+   "name": "FINNY",
+   "land": "ca",
+   "land_de": "KANADA",
+   "farbe": "#ef476f",
+   "tag": 1,
+   "szene": "s3",
+   "fakt": "Platz für seinen Flughafen ✈️"
+  },
+  {
+   "name": "FABERTRANS",
+   "land": "br",
+   "land_de": "BRASILIEN",
+   "farbe": "#06d6a0",
+   "tag": 1,
+   "szene": "s4",
+   "fakt": "Inklusive Amazonas 🌳"
+  },
+  {
+   "name": "LÅKI",
+   "land": "de",
+   "land_de": "DEUTSCHLAND",
+   "farbe": "#ffd166",
+   "tag": 1,
+   "szene": "s5",
+   "fakt": "Bundeshaus steht schon 🏛️",
+   "sprechname": "Loki"
+  },
+  {
+   "name": "LIAM",
+   "land": "us",
+   "land_de": "USA",
+   "farbe": "#118ab2",
+   "tag": 1,
+   "szene": "s6",
+   "fakt": "Militär-Stützpunkt 🪖",
+   "fokus": [
+    140,
+    280,
+    300,
+    410
+   ]
+  },
+  {
+   "name": "LAITH",
+   "land": "au",
+   "land_de": "AUSTRALIEN",
+   "farbe": "#f78c6b",
+   "tag": 1,
+   "szene": "s7",
+   "fakt": "Krankenhaus für Kängurus 🦘"
+  }
+ ],
+ "wuensche_offen": []
+}

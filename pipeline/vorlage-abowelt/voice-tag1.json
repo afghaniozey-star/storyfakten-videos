@@ -1,0 +1,101 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Ich verschenke die ganze Welt. Jeder Abonnent bekommt ein eigenes Land!",
+     "Ich verschenke die ganze Welt. Jeder Abonnent bekommt ein eigenes Land!"
+    ]
+   ],
+   "tail": 0.4,
+   "lead": 0.12
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Aber nur, wenn du abonnierst und kommentierst, welches Land du willst.",
+     "Aber nur, wenn du abonnierst und kommentierst, welches Land du willst."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Finny bekommt Kanada. Das zweitgrößte Land der Welt – Platz genug für seinen Flughafen!",
+     "Finny bekommt Kanada. Das zweitgrößte Land der Welt, Platz genug für seinen Flughafen!"
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Fabertrans übernimmt Brasilien. Inklusive Amazonas!",
+     "Fabertrans übernimmt Brasilien. Inklusive Amazonas!"
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Låki wird Chef von Deutschland. Sein Bundeshaus steht schon.",
+     "Loki wird Chef von Deutschland. Sein Bundeshaus steht schon."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Liam bekommt die USA – mit dem größten Militär-Budget der Welt für seinen Stützpunkt.",
+     "Liam bekommt die USA, mit dem größten Militär Budget der Welt für seinen Stützpunkt."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Und Laith regiert Australien – mit dem ersten Krankenhaus für Kängurus!",
+     "Und Laith regiert Australien, mit dem ersten Krankenhaus für Kängurus!"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Noch 190 Länder sind frei. Wer bekommt Japan? Wer bekommt Frankreich?",
+     "Noch hundertneunzig Länder sind frei. Wer bekommt Japan? Wer bekommt Frankreich?"
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Abonnier und schreib dein Wunschland in die Kommentare – morgen gehört es vielleicht dir!",
+     "Abonnier und schreib dein Wunschland in die Kommentare, morgen gehört es vielleicht dir!"
+    ]
+   ],
+   "tail": 1.6
+  }
+ ]
+}
