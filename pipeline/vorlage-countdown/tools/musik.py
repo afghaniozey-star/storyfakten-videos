@@ -3,6 +3,15 @@ Aufruf: python3 tools/musik.py <dauer> <pause_start> <finale> [bpm]  -> assets/m
   0 .. pause_start      : treibender Spannungs-Loop (a-Moll), wird lauter/dichter
   pause_start .. finale : Musik bricht weg, Trommelwirbel steigert sich
   finale .. dauer       : Einschlag + Dur-Akkord (Auflösung), Ausblenden"""
+# --- Fester Hintergrund-Sound (Entscheidung des Nutzers): liegt assets/bgm.mp3 vor, wird NUR dieser benutzt ---
+import os as _os, sys as _sys, subprocess as _sp
+if _os.path.exists("assets/bgm.mp3"):
+    _D = float(_sys.argv[1])
+    _sp.run(["ffmpeg", "-y", "-v", "error", "-stream_loop", "-1", "-i", "assets/bgm.mp3", "-t", f"{_D:.2f}",
+             "-af", f"loudnorm=I=-16:TP=-2,afade=t=in:d=0.3,afade=t=out:st={max(0, _D - 1.5):.2f}:d=1.5", "-ac", "1", "-ar", "44100", "assets/musik.wav"], check=True)
+    print("Hintergrund-Sound: assets/bgm.mp3 (geloopt)", _D); _sys.exit(0)
+# --- sonst: selbst erzeugte Musik ---
+
 import sys, subprocess, numpy as np
 from scipy.signal import butter, sosfilt
 SR = 44100
