@@ -60,12 +60,15 @@ J.append('tl.set("#cam", { x: 0, y: 0, scale: 1, svgOrigin: "0 0" }, 0);')
 # Hook: zufällige Länder blinken (Glücksrad-Effekt)
 random.seed(TAG)
 free = [c for c in K if c not in owned and K[c]["bbox"][2] - K[c]["bbox"][0] > 12]
+used = set()
 cols = ["#ef476f", "#ffd166", "#06d6a0", "#118ab2", "#f78c6b", "#c77dff"]
 t = 0.15
 while t < st("s2") - .3:
     cid = random.choice(free)
-    J.append(f'tl.to("#c-{cid}", {{ fill: "{random.choice(cols)}", duration: .08, yoyo: true, repeat: 1 }}, {F(t)});')
+    J.append(f'tl.fromTo("#c-{cid}", {{ fill: "#3a4a70" }}, {{ fill: "{random.choice(cols)}", duration: .08, yoyo: true, repeat: 1, immediateRender: false }}, {F(t)});')
+    used.add(cid)
     t += .12
+for cid in used: J.append(f'tl.set("#c-{cid}", {{ fill: "#3a4a70" }}, {F(st("s2"))});')
 cnt = len(OLD)
 for o in NEW:
     s = o["szene"]; t0 = st(s)

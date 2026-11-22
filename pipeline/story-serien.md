@@ -1,7 +1,7 @@
 # Story-Serien „In dieser Welt …“
 
 ## Plan
-- 23.11.: Abo-Welt Tag 1 ist schon fertig und für 12:30 auf YouTube eingeplant (von Hand) → am 23.11. KEIN Abo-Video bauen. Ab 24.11. Abo-Welt Tag 2, 3 … (pipeline/abo-welt/welt.json, tag = 2).
+- 23.11.: Abo-Welt Tag 1 ist schon fertig und für 13:20 auf YouTube eingeplant (von Hand) → am 23.11. KEIN Abo-Video bauen. Ab 24.11. Abo-Welt Tag 2, 3 … (pipeline/abo-welt/welt.json, tag = 2).
 - 23.11.: Story A = „Die Zahl über dem Kopf“ Teil 3 (Teil 2 lief am 22.11. 23:30), Story B = Teil 1 einer NEUEN Serie (lustiger „In dieser Stadt …“-Stil).
 - Ab dann jeden Tag: Story A = nächster Teil einer laufenden Serie, Story B = neue Serie Teil 1.
 
