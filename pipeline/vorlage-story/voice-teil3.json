@@ -1,0 +1,233 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Über Mia: NICHTS. Über ihm: auch nichts. Er sagt: Das ist schlecht.",
+     "Über Mia steht keine Zahl mehr. Über dem Fremden auch nicht. Und er sagt: Das ist schlecht."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Was bisher geschah: Mia hat ihre 1 mit 100 Lachern losgekriegt.",
+     "Was bisher geschah: Mia hat ihre Eins mit hundert Lachern losgekriegt."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Unsterblich? Nein. Er zieht die Kapuze runter: B. Fehler im System.",
+     "Unsterblich? Nein. Er zieht die Kapuze runter: Antwort B. Fehler im System."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Ich bin Theo. Seit 3 Jahren ein Fehler.",
+     "Ich bin Theo. Seit drei Jahren ein Fehler."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Sonntag um 12 kommt das Update. Dann gibt's eine neue Zahl.",
+     "Sonntag um zwölf kommt das Update. Dann gibt's eine neue Zahl."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Geklaut vom Nächsten in deiner Nähe.",
+     "Geklaut vom Nächsten in deiner Nähe."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Mias Nachbarin: Oma Hilde. 900.",
+     "Mias Nachbarin: Oma Hilde. Neunhundert."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Ihr Plan: Sonntag ganz allein sein.",
+     "Ihr Plan: Sonntag ganz allein sein."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Montag. Ben piekst Mia mit einem Baguette: Bist du ein Geist?",
+     "Montag. Ben piekst Mia mit einem Baguette: Bist du ein Geist?"
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Dann isst er es auf. Test bestanden.",
+     "Dann isst er es auf. Test bestanden."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Herr Krause findet Mia nicht im Computer.",
+     "Herr Krause findet Mia nicht im Computer."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Im Klassenbuch heißt sie jetzt: Fragezeichen.",
+     "Im Klassenbuch heißt sie jetzt: Fragezeichen."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Sonntag, 11:30. Mia flieht auf den höchsten Berg.",
+     "Sonntag, elf Uhr dreißig. Mia flieht auf den höchsten Berg."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Oben sitzt Ben: Ich lass dich nicht allein!",
+     "Oben sitzt Ben: Ich lass dich nicht allein!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Im Wald: Oma Hilde beim Pilzesammeln.",
+     "Im Wald: Oma Hilde beim Pilzesammeln."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Schulklo. Nebenan ruft Herr Krause: Besetzt!",
+     "Schulklo. Nebenan ruft Herr Krause: Besetzt!"
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "11:59. Theo reißt die Tür auf: Zu mir!",
+     "Elf Uhr neunundfünfzig. Theo reißt die Tür auf: Zu mir!"
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Ich hab keine Zahl. Von mir klaut es nichts.",
+     "Ich hab keine Zahl. Von mir klaut es nichts."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "12:00. Über Mia rattert eine Zahl.",
+     "Zwölf Uhr. Über Mia rattert eine Zahl."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "30.000 Tage! Mia springt vor Freude.",
+     "Dreißigtausend Tage! Mia springt vor Freude."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Dann schaut sie zu Theo. Über ihm: eine 1.",
+     "Dann schaut sie zu Theo. Über ihm: eine Eins."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Theo grinst breit: Du kennst ja die Regel.",
+     "Theo grinst breit: Du kennst ja die Regel."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Rettet Mia ihn und nimmt die 1 zurück? Antwort A: Ja! Antwort B: Nein, Theo plant was! Schreib A oder B!",
+     "Rettet Mia ihn und nimmt die Eins zurück? Antwort A: Ja! Antwort B: Nein, Theo plant was! Schreib A oder B!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s24",
+   "groups": [
+    [
+     "Folge mir für Teil 4! Denn in dieser Welt sieht jeder, wie viele Tage er noch lebt. Fast jeder.",
+     "Folge mir für Teil vier! Denn in dieser Welt sieht jeder, wie viele Tage er noch lebt. Fast jeder."
+    ]
+   ],
+   "tail": 1.2
+  }
+ ]
+}

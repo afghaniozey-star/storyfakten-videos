@@ -1,0 +1,221 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt wirst du bei jedem „Digga“ 1 cm kleiner.",
+     "In dieser Stadt wirst du bei jedem Digga einen Zentimeter kleiner."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Mein Kumpel Jonas ist schon so groß wie ein Hamster.",
+     "Mein Kumpel Jonas ist schon so groß wie ein Hamster."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Er wohnt jetzt in seinem eigenen Turnschuh.",
+     "Er wohnt jetzt in seinem eigenen Turnschuh."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Jonas: Digga, nicht lustig! Plopp. 8 cm.",
+     "Jonas: Digga, nicht lustig! Plopp. Acht Zentimeter."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Ich sag das Wort nie. Ich sag nur noch: werter Freund.",
+     "Ich sag das Wort nie. Ich sag nur noch: werter Freund."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "In der Schule gibt's jetzt Messlatten am Eingang.",
+     "In der Schule gibt's jetzt Messlatten am Eingang."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Herr Krause lässt die Kreide fallen und murmelt: Digga …",
+     "Herr Krause lässt die Kreide fallen und murmelt: Digga."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Dann nochmal. Und nochmal. Jetzt guckt er knapp übers Pult.",
+     "Dann nochmal. Und nochmal. Jetzt guckt er knapp übers Pult."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Meine Oma strickt Jonas einen Mini-Pulli. Aus einer einzigen Socke.",
+     "Meine Oma strickt Jonas einen Mini-Pulli. Aus einer einzigen Socke."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Dann sieht sie den Wollpreis: Digga! Jetzt passt sie selbst rein.",
+     "Dann sieht sie den Wollpreis: Digga! Jetzt passt sie selbst rein."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Am Samstag gibt's ein Rap-Battle im Park.",
+     "Am Samstag gibt's ein Rap-Battle im Park."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Nach der ersten Strophe sind beide so groß wie Ameisen.",
+     "Nach der ersten Strophe sind beide so groß wie Ameisen."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Eine Taube hält sie für Krümel.",
+     "Eine Taube hält sie für Krümel."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Der Bürgermeister ruft eine Pressekonferenz ein.",
+     "Der Bürgermeister ruft eine Pressekonferenz ein."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Ein Reporter: Wie stoppen wir das? Er: Digga, keine Ahnung.",
+     "Ein Reporter: Wie stoppen wir das? Er: Digga, keine Ahnung."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Er redet weiter. Am Ende von einer Streichholzschachtel aus.",
+     "Er redet weiter. Am Ende von einer Streichholzschachtel aus."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Die halbe Stadt ist mini. Jonas fährt jetzt Bus. Mit zwei Hamstern als Beifahrer.",
+     "Die halbe Stadt ist mini. Jonas fährt jetzt Bus. Mit zwei Hamstern als Beifahrer."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Dann niest Jonas und sagt: Alter. Und er wächst 1 cm!",
+     "Dann niest Jonas und sagt: Alter. Und er wächst einen Zentimeter!"
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Die ganze Stadt brüllt: ALTER! ALTER! ALTER!",
+     "Die ganze Stadt brüllt: Alter! Alter! Alter!"
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Nur Jonas hört nicht auf. Jetzt ist er größer als das Rathaus.",
+     "Nur Jonas hört nicht auf. Jetzt ist er größer als das Rathaus."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Zurück auf normal? Dafür braucht er 3.850 „Digga“.",
+     "Zurück auf normal? Dafür braucht er dreitausendachthundertfünfzig Digga."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Welches Wort sollte in deiner Stadt verboten sein? Schreib's in die Kommentare!",
+     "Welches Wort sollte in deiner Stadt verboten sein? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Folg, damit du Teil 2 nicht verpasst! Denn Jonas fängt gerade an: Digga.",
+     "Folg, damit du Teil zwei nicht verpasst! Denn Jonas fängt gerade an: Digga."
+    ]
+   ],
+   "tail": 1.2
+  }
+ ]
+}
