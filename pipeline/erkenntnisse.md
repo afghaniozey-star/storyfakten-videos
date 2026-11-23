@@ -8,6 +8,51 @@
 
 ## Analyse
 
+### Stand 23.11.2026, 09:40 (Buffer, gesendete Posts 09.–22.11., 47 Posts = 17 Videos; Zeiten Berliner Zeit)
+Datenlage: Kennzahlen zuletzt aktualisiert TikTok 22.11. 10:46, YouTube 22.11. 17:45, Instagram 22.11. 19:00. Alles danach fehlt.
+- Story Teil 1 „Die Zahl über dem Kopf“ (22.11. 16:30, nur TT+IG, KEIN YouTube-Post): Instagram nach nur ~2,5 h gemessen; TikTok noch NIE abgerufen (0, Stand 21.11. 22:55) -> TikTok-Zahl fehlt komplett, nicht als Flop werten.
+- Story Teil 2 (22.11. 23:30 TT/IG, 23:50 YT): noch KEINE Zahlen auf allen 3 Plattformen (IG ohne Kennzahlen, TT/YT 0) -> nächster Lauf.
+- TikTok-Werte der älteren Videos sind seit dem 21.11. unverändert (z. B. Animationsfilme 1.623) – entweder gesättigt oder Buffer ruft TikTok nur selten ab.
+- Weiterhin nur Kommentar-ANZAHLEN, keine Kommentartexte; YouTube ohne Shares/Watchtime. YouTube-Zahlen schwanken leicht (Tiere 1.397 -> 1.379).
+- YouTube-Limit (2 in 24 h gleitend): gesendet 22.11. 13:05 Stadt Tag 4 (sent), 22.11. 23:50 Story Teil 2 (sent). Geplant 23.11. 13:20 Abo-Welt Tag 1 -> zulässig (13:05 liegt dann 24 h 15 min zurück). Danach ist der nächste YT-Post erst NACH 23.11. 23:50 möglich (Story-Slot 23:50 passt knapp; nicht früher planen).
+- Geplant in Buffer: 1 Post (YT Abo-Welt Tag 1, 23.11. 13:20) + 3 alte Entwürfe ohne Termin (CL-Titel vom 14.11.).
+
+| Video (Datum, Zeit) | Format | Länge | Aufrufe YT/IG/TT = Summe | Likes | Komm. | Likes/1k | Komm./1k | Ø gesehen TT / IG | gemessen nach |
+|---|---|---|---|---|---|---|---|---|---|
+| **Story Teil 1 „Die Zahl“ (22.11., 16:30)** | Story | 62 s | –/**1418**/n. a. = 1418 (nur IG) | 34 | 0 (4 Saves) | **24,0** | 0,0 | n. a. / **29,0 s (47 %)** | IG ~2,5 h |
+| Story Teil 2 (22.11., 23:30/23:50) | Story | 72 s | 0/–/0 (noch nicht gemessen) | – | – | – | – | – | – |
+| **Stadt Tag 4 (22.11., 13:05, nur YT)** | Stadt | 34 s | 684/–/– = 684 | 11 | **7** | 16,1 | **10,2** | – | ~4,7 h |
+| **Kane/Länderspiel-Legenden (21.11., 23:30/23:45)** | Türme | 41 s | 1360/1311/759 = **3430** | 24 | 0 | 7,0 | 0,0 | 11,1 / **30,5 s** | TT ~11 h, IG ~20 h, YT ~18 h |
+| **Twitch-Follower (21.11., 16:30, ohne YT)** | Türme | 39 s | –/1220/712 = 1932 | 19 | 2 | 9,8 | 1,0 | **8,0** / 15,2 s | TT ~19 h, IG ~27 h |
+| **Stadt Tag 3 (21.11., 13:00, nur YT)** | Stadt | 36 s | 901/–/– = 901 | 8 | 7 | 8,9 | 7,8 | – | ~29 h |
+| Tödlichste Tiere (20.11., 23:30) | Türme | 40 s | 1379/1007/742 = 3128 | 25 | 2 | 8,0 | 0,6 | 11,0 / 13,7 s | > 40 h |
+| Animationsfilme (19.11., 23:30) | Türme | 43 s | 1020/1144/1623 = 3787 | 43 | 1 | 11,4 | 0,3 | 10,2 / 16,1 s | > 2 Tage |
+| Videospiele/GTA 6 (19.11., 16:30) | Türme | 42 s | 1466/264/1680 = 3410 | 82 | 3 | 24,0 | 0,9 | 11,2 / 13,7 s | > 2 Tage |
+| WM-Finale (10.11., 00:37) | Türme | 41 s | 11497/1196/971 = 13664 | 242 | 29 | 17,7 | 2,1 | 14,7 / 23,9 s | > 1 Woche |
+(Übrige Türme-Videos praktisch unverändert gegenüber 22.11.: Länder 3.346, Bundesliga 3.222, Gebäude 3.114, Führerschein 2.364, CL 1.582, Raketen 1.042.)
+
+Top 3 (Aufrufe, 14 Tage): WM-Finale 13.664, Animationsfilme 3.787, Kane 3.430 (nach < 1 Tag, wächst noch).
+Flop 3: Raketen 1.042, CL-Titel 1.582, Twitch 1.932 (Raketen und Twitch ohne YouTube-Post).
+Stärkstes Einzelsignal: Story Teil 1 auf Instagram – 1.418 Aufrufe nach ~2,5 h (bisheriger IG-Höchstwert irgendeines Videos: 1.311 nach ~20 h), 24 Likes/1k (IG-Türme sonst 1–9/1k), 4 Saves (alle Türme-Videos zusammen auf IG: 0 Saves seit 14.11.), Ø 29 s gesehen = 47 % von 62 s. ABER: 0 Kommentare und nur 1 Video, 1 Plattform, Frühwert.
+
+Muster (mit Anzahl stützender Videos):
+- Story-Format holt Likes und Watchtime, aber (noch) keine Kommentare: Story 1 IG 24 Likes/1k bei 0 Kommentaren (1 Video). Text von Teil 1 endete nur mit „Was steht in Teil 2?“ – keine echte Mitmach-Frage. Teil 2 hat jetzt „A oder B?“ -> morgen prüfen, ob das Kommentare bringt.
+- Mitmach-Aufruf bleibt der einzige Kommentar-Treiber: Stadt Tag 3 und Tag 4 je 7 Kommentare (7,8 bzw. 10,2/1k) – 2 von 2 Stadt-Videos. Alle 4 Türme-Videos vom 20./21.11. zusammen: 4 Kommentare (0,0–1,0/1k), obwohl alle eine Schlussfrage im Text hatten („Wer fehlt?“, „Knackt Kane noch Matthäus?“).
+- Hook „Nicht X!“ bringt keine Kommentare: 4 Videos (Animationsfilme 1, CL 1, Twitch 2, Kane 0). Thema schlägt Hook-Art.
+- Türme-Reichweite gedeckelt: 8 von 8 Türme-Videos mit YT-Post seit 17.11. bei 3.100–3.800. Ohne YT (Raketen, Twitch) 1.000–1.900. Kane bestätigt: Fußball-Aktualität hebt die Reichweite nicht über die Decke und bringt 0 Kommentare.
+- TikTok-Watchtime bei Türmen weiter schwach: 8,0 s (Twitch) bis 11,1 s (Kane) – 20–27 % (2 neue Videos; 15 von 15 gesamt unter 36 %). Instagram-Ausreißer: Kane 30,5 s (74 %) und Story 29,0 s – Grund aus Buffer-Daten nicht erkennbar.
+- Popkultur-These (GTA/Twitch) hält nicht stabil: Twitch nur 9,8 Likes/1k nach voller Messung (Frühwert 13,6). 1 von 2 Gaming-Videos stark -> kein Muster.
+- Uhrzeit (nur TT+IG vergleichbar, da 16:30-Videos teils ohne YT): 16:30 = 4 Türme-Videos (Bundesliga, GTA, Raketen, Twitch), Ø TT+IG 1.714; 23:30 = 6 Türme-Videos (CL, Gebäude, Länder, Animationsfilme, Tiere, Kane), Ø 1.824 (ohne CL 2.078). Instagram allein: 23:30 bei 5 von 6 Videos > 1.000, 16:30 nur bei 2 von 4 (GTA 264, Raketen 370). Leichter Vorteil 23:30 für IG, aber 16:30 hat erst 4 bewertbare Videos -> unter der Schwelle von 6, KEINE Änderung. 13:00 nur 2 Stadt-Videos (nur YT, anderes Format) -> kein Vergleich möglich.
+
+Regeln für die nächsten Videos:
+1. Story-Format weiterführen (Teil 3 heute) – das beste Frühsignal seit dem WM-Finale. Aber jede Story MUSS mit einer konkreten 2-Optionen-Frage enden, gesprochen + eingeblendet + im Text (wie Teil 2 „A oder B?“), sonst bleiben Kommentare bei 0 (Teil 1: 0 Kommentare bei 1.418 Aufrufen).
+2. Story auch auf YouTube posten (Teil 1 lief dort gar nicht) – YouTube trägt bei Türmen ~40 % der Reichweite. Limit beachten: YT-Story frühestens nach 23.11. 23:50, also 23:51 oder später.
+3. Türme nicht mehr mit „Nicht X!“ als Haupt-Kommentar-Köder rechnen; wenn Türme, dann mit Mitmach-Mechanik („Schreib deinen Tipp für Platz 1 – Auflösung in Teil 2“) oder Duell-Banner Like/Kommentar. Kane (aktueller Fußball-Anlass) brachte 0 Kommentare.
+4. Erste 3 s bei Türmen beschleunigen bleibt Pflicht: TikTok sieht im Schnitt nur 8–11 s.
+5. Story-Länge: Teil 1 (62 s) hielt auf IG 47 % – Ziel 65–80 s ist vertretbar; Teil 2 (72 s) Zahlen abwarten, bevor länger wird.
+Beibehalten: Stadt/Abo-Welt-Mitmach-Serie auf YouTube (beste Kommentar-Rate, 2 von 2), Uhrzeiten 16:30/23:30 für TT/IG, YT 13:xx + 23:50, Quellenzeile, Serienlogik „Teil N“.
+Zu früh für Schlüsse: Story auf TikTok und YouTube (keine Zahlen), Story-Kommentare mit A/B-Frage (Teil 2 ungemessen), Uhrzeit-Unterschiede.
+
 ### Stand 22.11.2026, 09:40 (Buffer, gesendete Posts 09.–21.11., 35 Posts = 13 Videos)
 Datenlage: Kennzahlen zuletzt aktualisiert YouTube 21.11. 17:27, Instagram 21.11. 19:00, TikTok 21.11. 19:46 (Berliner Zeit). Alles danach fehlt noch.
 - Kane/Länderspiel-Legenden (21.11., 23:30 TT/IG, 23:45 YT): noch KEINE Zahlen (alle 0 bzw. auf IG gar keine Kennzahlen) -> nächster Lauf.
