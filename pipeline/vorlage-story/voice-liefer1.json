@@ -1,0 +1,192 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt wird alles, was du laut sagst, sofort per Drohne geliefert.",
+     "In dieser Stadt wird alles, was du laut sagst, sofort per Drohne geliefert."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Mein Kumpel Malte sagt müde: Ich hab Bock auf 'nen Elefanten.",
+     "Mein Kumpel Malte sagt müde: Ich hab Bock auf nen Elefanten."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "10 Sekunden später steht ein Elefant im Zimmer.",
+     "Zehn Sekunden später steht ein Elefant im Zimmer."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Er heißt jetzt Kevin. Und er frisst die Hausaufgaben von Malte.",
+     "Er heißt jetzt Kevin. Und er frisst die Hausaufgaben von Malte."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Ich sag nichts mehr laut. Ich flüstere nur noch.",
+     "Ich sag nichts mehr laut. Ich flüstere nur noch."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "In Mathe fragt Herr Krause: Wer bringt mir die Lösung?",
+     "In Mathe fragt Herr Krause: Wer bringt mir die Lösung?"
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Sofort fliegen 30 Drohnen rein. 30 Lösungen. Alle falsch.",
+     "Sofort fliegen dreißig Drohnen rein. Dreißig Lösungen. Alle falsch."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Meine Oma murmelt beim Kaffee: Ach, wär ich nochmal jung.",
+     "Meine Oma murmelt beim Kaffee: Ach, wär ich nochmal jung."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Die Drohne bringt ein Skateboard. Oma macht sofort einen Kickflip. Besser als ich.",
+     "Die Drohne bringt ein Skateboard. Oma macht sofort einen Kickflip. Besser als ich."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Malte: Hatschi! Prompt kommt ein Hatschi. Keiner weiß, was das ist. Er ist flauschig.",
+     "Malte: Hatschi! Prompt kommt ein Hatschi. Keiner weiß, was das ist. Er ist flauschig."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Der Bürgermeister fordert: Mehr Ruhe in dieser Stadt!",
+     "Der Bürgermeister fordert: Mehr Ruhe in dieser Stadt!"
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Die Drohnen liefern Ruhe. Einen Lastwagen Kissen. Direkt auf ihn drauf.",
+     "Die Drohnen liefern Ruhe. Einen Lastwagen Kissen. Direkt auf ihn drauf."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Er brüllt: Das ist ja zum Mäusemelken! 10.000 Mäuse. Mit kleinen Eimern.",
+     "Er brüllt: Das ist ja zum Mäusemelken! Zehntausend Mäuse. Mit kleinen Eimern."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Der Himmel ist schwarz vor Drohnen. Kevin flüchtet vor den Mäusen aufs Dach.",
+     "Der Himmel ist schwarz vor Drohnen. Kevin flüchtet vor den Mäusen aufs Dach."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Ich muss das stoppen. Ich schreie: Alle Drohnen sollen verschwinden!",
+     "Ich muss das stoppen. Ich schreie: Alle Drohnen sollen verschwinden!"
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Und puff! Stille. Alle Drohnen sind weg.",
+     "Und puff! Stille. Alle Drohnen sind weg."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Dann brummt es. Aus meinem Rücken wachsen Propeller. Irgendwer muss ja liefern.",
+     "Dann brummt es. Aus meinem Rücken wachsen Propeller. Irgendwer muss ja liefern."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Unten ruft Malte: Ich hab Bock auf Pizza! Und ich fliege los.",
+     "Unten ruft Malte: Ich hab Bock auf Pizza! Und ich fliege los."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Was würdest du hier laut sagen? Schreib's in die Kommentare – die Bestellung mit den meisten Likes kommt in Teil 2!",
+     "Was würdest du hier laut sagen? Schreib's in die Kommentare, die Bestellung mit den meisten Likes kommt in Teil zwei!"
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Folg, damit du Teil 2 nicht verpasst! Denn in dieser Stadt wird alles geliefert, was du laut sagst.",
+     "Folg, damit du Teil zwei nicht verpasst! Denn in dieser Stadt wird alles geliefert, was du laut sagst."
+    ]
+   ]
+  }
+ ]
+}

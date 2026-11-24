@@ -1,0 +1,120 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Japan ist frei! Wer bekommt es?",
+     "Japan ist frei! Wer bekommt es?"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.3
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Fun Fact: Japan hat 14.125 Inseln. Doppelt so viele wie früher gezählt!",
+     "Fun Fact: Japan hat vierzehntausendeinhundertfünfundzwanzig Inseln. Doppelt so viele wie früher gezählt!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Wer zuerst abonniert und Japan kommentiert, bekommt alle Inseln.",
+     "Wer zuerst abonniert und Japan kommentiert, bekommt alle Inseln."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Låki, die USA Liam, Australien Laith.",
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Loki, die USA Liam, Australien Laith."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.25
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Was ist das? Globi schnappt sich Russland!",
+     "Was ist das? Globi schnappt sich Russland!"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.3
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Das größte Land der Welt – mit 11 Zeitzonen! Frühstückt Globi in Moskau, ist es ganz im Osten 9 Stunden später.",
+     "Das größte Land der Welt, mit elf Zeitzonen! Frühstückt Globi in Moskau, ist es ganz im Osten neun Stunden später."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Holt es zurück! Kommentier Russland – oder dein eigenes Wunschland.",
+     "Holt es zurück! Kommentier Russland, oder dein eigenes Wunschland."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "5 von 195 Ländern vergeben. Noch 190 frei!",
+     "Fünf von hundertfünfundneunzig Ländern vergeben. Noch hundertneunzig frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Wer bekommt Japan? Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Wer bekommt Japan? Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.9
+  }
+ ]
+}

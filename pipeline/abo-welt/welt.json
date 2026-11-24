@@ -1,7 +1,7 @@
 {
  "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
  "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
- "tag": 2,
+ "tag": 3,
  "laender_gesamt": 195,
  "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
  "besitzer": [
@@ -58,5 +58,17 @@
    "fakt": "Krankenhaus für Kängurus 🦘"
   }
  ],
- "wuensche_offen": []
+ "wuensche_offen": [],
+ "ereignisse": [
+  {
+   "tag": 2,
+   "datum": "2026-11-24",
+   "art": "Wer bekommt Japan? + Globi schnappt sich Russland",
+   "offen": [
+    "jp",
+    "ru"
+   ],
+   "hinweis": "Japan geht an den ersten echten Abonnenten, der Japan kommentiert; Russland an den, der es Globi zurückholt (echter Kommentar). Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar)."
+  }
+ ]
 }

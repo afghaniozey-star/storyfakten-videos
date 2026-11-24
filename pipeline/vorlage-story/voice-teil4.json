@@ -1,0 +1,208 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Was bisher geschah: In dieser Welt siehst du über jedem Kopf, wie viele Tage er noch hat – und über Theo steht jetzt eine 1.",
+     "Was bisher geschah: In dieser Welt siehst du über jedem Kopf, wie viele Tage er noch hat. Und über Theo steht jetzt eine Eins."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Er hat Mia gerettet. Und grinst.",
+     "Er hat Mia gerettet. Und grinst."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Mia: Ich rette dich! Ich nehm die 1 zurück!",
+     "Mia: Ich rette dich! Ich nehm die Eins zurück!"
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Theo sagt: Nein. Ich hab beim 100. Lacher absichtlich gelacht.",
+     "Theo sagt: Nein. Ich hab beim hundertsten Lacher absichtlich gelacht."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Mia: Du hast WAS?!",
+     "Mia: Du hast was?!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Ich hab jemanden gebraucht, der lustig genug ist. Das warst du.",
+     "Ich hab jemanden gebraucht, der lustig genug ist. Das warst du."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Wer eine 1 hat, sieht um Mitternacht, wer die Zahlen macht. Darauf warte ich seit 3 Jahren.",
+     "Wer eine Eins hat, sieht um Mitternacht, wer die Zahlen macht. Darauf warte ich seit drei Jahren."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Mia hat einen Plan: Theo bringt 100 Leute zum Lachen. Dann ist die 1 weg.",
+     "Mia hat einen Plan: Theo bringt hundert Leute zum Lachen. Dann ist die Eins weg."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Theo: Ich bin nicht lustig.",
+     "Theo: Ich bin nicht lustig."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Versuch eins: Ben. Theo erzählt einen Witz. Ben kaut nur Baguette.",
+     "Versuch eins: Ben. Theo erzählt einen Witz. Ben kaut nur Baguette."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Versuch zwei: Herr Krause lacht! Über seinen eigenen Witz. Zählt nicht.",
+     "Versuch zwei: Herr Krause lacht! Über seinen eigenen Witz. Zählt nicht."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Mia steckt Theo in ein Hühnerkostüm. Die ganze Straße lacht!",
+     "Mia steckt Theo in ein Hühnerkostüm. Die ganze Straße lacht!"
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "23:59 Uhr. 99. Einer fehlt.",
+     "Dreiundzwanzig Uhr neunundfünfzig. Neunundneunzig. Einer fehlt."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Da kommt Oma Hilde mit einem Korb voller Pilze. Mia fleht: Bitte lach!",
+     "Da kommt Oma Hilde mit einem Korb voller Pilze. Mia fleht: Bitte lach!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Oma Hilde guckt Theo lange an. Dann: Nein.",
+     "Oma Hilde guckt Theo lange an. Dann: Nein."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Mitternacht. Theos 1 bleibt. Und jetzt sieht er, was sonst keiner sieht.",
+     "Mitternacht. Theos Eins bleibt. Und jetzt sieht er, was sonst keiner sieht."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Über Ben: 12.000. Über Krause: 9.000.",
+     "Über Ben: zwölftausend. Über Krause: neuntausend."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Doch über Oma Hilde blinkt ein Wort: ADMIN.",
+     "Doch über Oma Hilde blinkt ein Wort: Ädmin."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Oma Hilde zwinkert: Hättest du mal nicht gelacht.",
+     "Oma Hilde zwinkert: Hättest du mal nicht gelacht."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Was ist Oma Hilde? Antwort A: Sie hat das System gebaut. Antwort B: Sie wurde gehackt. Schreib A oder B!",
+     "Was ist Oma Hilde? Antwort A: Sie hat das System gebaut. Antwort B: Sie wurde gehackt. Schreib A oder B!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Finale morgen – folg, damit du es nicht verpasst! Denn in dieser Welt hat jeder eine Zahl. Fast jeder.",
+     "Finale morgen. Folg, damit du es nicht verpasst! Denn in dieser Welt hat jeder eine Zahl. Fast jeder."
+    ]
+   ],
+   "tail": 1.2
+  }
+ ]
+}
