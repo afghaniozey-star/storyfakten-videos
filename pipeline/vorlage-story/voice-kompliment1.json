@@ -1,0 +1,251 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.28,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt bezahlt man mit Komplimenten. Deshalb ist Herr Krause pleite.",
+     "In dieser Stadt bezahlt man mit Komplimenten. Deshalb ist Herr Krause pleite."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Seit 30 Jahren lobt er keinen Schüler.",
+     "Seit dreißig Jahren lobt er keinen Schüler."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Beim Bäcker: Ihr Brot ist … nicht verbrannt.",
+     "Beim Bäcker: Ihr Brot ist. Nicht verbrannt."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Die Bäckerin gibt ihm einen Krümel. Einen einzigen.",
+     "Die Bäckerin gibt ihm einen Krümel. Einen einzigen."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Ich bin vorbereitet: Spickzettel mit 100 Komplimenten.",
+     "Ich bin vorbereitet: Spickzettel mit hundert Komplimenten."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Mein Kumpel Paul will ein Handy.",
+     "Mein Kumpel Paul will ein Handy."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Er sagt: Deine Augenbrauen sind perfekt symmetrisch.",
+     "Er sagt: Deine Augenbrauen sind perfekt symmetrisch."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Der Verkäufer wird rot. Handy gratis.",
+     "Der Verkäufer wird rot. Handy gratis."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Die reichste Person der Stadt? Meine Oma.",
+     "Die reichste Person der Stadt? Meine Oma."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Seit 70 Jahren sagt sie zu jedem: Bist du aber groß geworden!",
+     "Seit siebzig Jahren sagt sie zu jedem: Bist du aber groß geworden!"
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Sie kauft sich eine Yacht. Für die Badewanne.",
+     "Sie kauft sich eine Yacht. Für die Badewanne."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Der Bürgermeister will ein goldenes Rathaus. Preis: 10.000 Komplimente.",
+     "Der Bürgermeister will ein goldenes Rathaus. Preis: zehntausend Komplimente."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Er lobt sich im Spiegel. Die Bank: Zählt nicht.",
+     "Er lobt sich im Spiegel. Die Bank: Zählt nicht."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Also baut er: den Kompliment-Drucker.",
+     "Also baut er: den Kompliment-Drucker."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Rrrrt! Schöne Schuhe. Schöne Schuhe.",
+     "Rrrt! Schöne Schuhe. Schöne Schuhe."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Die Stadt versinkt in schönen Schuhen.",
+     "Die Stadt versinkt in schönen Schuhen."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Komplimente sind nichts mehr wert. Ein Brötchen: 300 Stück.",
+     "Komplimente sind nichts mehr wert. Ein Brötchen: dreihundert Stück."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Paul zahlt Kaugummi mit einem Gedicht. Mit Reim.",
+     "Paul zahlt Kaugummi mit einem Gedicht. Mit Reim."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Omas Million? Reicht für einen Zahnstocher.",
+     "Omas Million? Reicht für einen Zahnstocher."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Dann die Bank: Ab sofort zählt nur Ehrlichkeit.",
+     "Dann die Bank: Ab sofort zählt nur Ehrlichkeit."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Herr Krause zum Bürgermeister: Ihre Rede war langweilig.",
+     "Herr Krause zum Bürgermeister: Ihre Rede war langweilig."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Kaching! Krause ist Millionär. Er kauft das goldene Rathaus.",
+     "Kaching! Krause ist Millionär. Er kauft das goldene Rathaus."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Dann zeigt er auf mich: Sag was Ehrliches über meine Krawatte.",
+     "Dann zeigt er auf mich: Sag was Ehrliches über meine Krawatte."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "groups": [
+    [
+     "Sie ist grün. Mit Enten drauf. Ich mach den Mund auf …",
+     "Sie ist grün. Mit Enten drauf. Ich mach den Mund auf."
+    ]
+   ],
+   "tail": 0.9
+  },
+  {
+   "id": "s25",
+   "groups": [
+    [
+     "Schreib dein bestes Kompliment in die Kommentare – vielleicht rettet es mich!",
+     "Schreib dein bestes Kompliment in die Kommentare. Vielleicht rettet es mich!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s26",
+   "groups": [
+    [
+     "Folg für Teil 2! In dieser Stadt bezahlt man mit Komplimenten. Meistens.",
+     "Folg für Teil zwei! In dieser Stadt bezahlt man mit Komplimenten. Meistens."
+    ]
+   ],
+   "tail": 1.2
+  }
+ ]
+}

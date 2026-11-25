@@ -1,0 +1,251 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.28,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Was bisher geschah: Über jedem Kopf steht, wie viele Tage er noch hat – und Oma Hilde hat das System gebaut.",
+     "Was bisher geschah: Über jedem Kopf steht, wie viele Tage er noch hat. Und Oma Hilde hat das System gebaut."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Antwort A! Ihr Pilz ist eine Fernbedienung.",
+     "Antwort A! Ihr Pilz ist eine Fernbedienung."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Im Keller: ihr Riesencomputer. Mit Häkeldeckchen.",
+     "Im Keller: ihr Riesencomputer. Mit Häkeldeckchen."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Mia: Warum hatte Ben erst 20.100, dann 12.000?",
+     "Mia: Warum hatte Ben erst zwanzigtausendeinhundert, dann zwölftausend?"
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Oma: Er hat meine Pilze gegessen. Da hab ich gedreht.",
+     "Oma: Er hat meine Pilze gegessen. Da hab ich gedreht."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Und Herr Krause? Parkplatz geklaut. Minus 6.200.",
+     "Und Herr Krause? Parkplatz geklaut. Minus sechstausendzweihundert."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Mia: Die Zahlen waren nie echt?!",
+     "Mia: Die Zahlen waren nie echt?!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Oma: Nie! Ihr solltet nur mehr lachen.",
+     "Oma: Nie! Ihr solltet nur mehr lachen."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Theo fragt: Und warum hatte ich keine Zahl?",
+     "Theo fragt: Und warum hatte ich keine Zahl?"
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Oma: Du hast nie gelacht. Programm abgestürzt.",
+     "Oma: Du hast nie gelacht. Programm abgestürzt."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Ben drückt den roten Knopf. Mit dem Baguette.",
+     "Ben drückt den roten Knopf. Mit dem Baguette."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "ZACK! Über jedem Kopf: nur noch Emojis.",
+     "Zack! Über jedem Kopf: nur noch Emojis."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Über Ben: ein Baguette. Über Theo: ein Huhn.",
+     "Über Ben: ein Baguette. Über Theo: ein Huhn."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Über dem Schulklo: Klopapier. Herr Krause: Besetzt!",
+     "Über dem Schulklo: Klopapier. Herr Krause: Besetzt!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Über Oma Hilde: ein tanzender Pilz.",
+     "Über Oma Hilde: ein tanzender Pilz."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Und Mia kriegt: ein Herz.",
+     "Und Mia kriegt ein Herz."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Ein Riesenhebel: AN oder AUS? Mia entscheidet.",
+     "Ein Riesenhebel: An oder aus? Mia entscheidet."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "AN: wieder Zahlen. AUS: gar nichts mehr.",
+     "An: wieder Zahlen. Aus: gar nichts mehr."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Ben: Darf das Baguette bleiben?",
+     "Ben: Darf das Baguette bleiben?"
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Mia denkt an die Eins. Die 100 Lacher. Das Hühnerkostüm.",
+     "Mia denkt an die Eins. Die hundert Lacher. Das Hühnerkostüm."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Dann zieht sie. Klack. AUS.",
+     "Dann zieht sie. Klack. Aus."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Über allen Köpfen: nichts.",
+     "Über allen Köpfen: nichts."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Mia grinst: Lacher zählen wir ab jetzt selbst.",
+     "Mia grinst: Lacher zählen wir ab jetzt selbst."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "groups": [
+    [
+     "Oma verkauft den Computer auf dem Flohmarkt. Für 3 Pilze.",
+     "Oma verkauft den Computer auf dem Flohmarkt. Für drei Pilze."
+    ]
+   ]
+  },
+  {
+   "id": "s25",
+   "groups": [
+    [
+     "Welches Emoji stünde über deinem Kopf? Schreib es in die Kommentare!",
+     "Welches Emoji stünde über deinem Kopf? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s26",
+   "groups": [
+    [
+     "Morgen startet eine neue Welt – folg! In dieser Welt hatte jeder eine Zahl. Jetzt nicht mehr.",
+     "Morgen startet eine neue Welt. Folg! In dieser Welt hatte jeder eine Zahl. Jetzt nicht mehr."
+    ]
+   ],
+   "tail": 1.2
+  }
+ ]
+}
