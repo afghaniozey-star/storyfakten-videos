@@ -1,0 +1,164 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Wer hat das größte Reich? Heute gibt's die Krone!",
+     "Wer hat das größte Reich? Heute gibt's die Krone!"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.2
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.2
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Platz 5: Låki, Deutschland. Rund 360.000 km².",
+     "Platz fünf: Loki, Deutschland. Rund dreihundertsechzigtausend Quadratkilometer."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.25
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Platz 4: Laith, Australien. Über 7,5 Millionen!",
+     "Platz vier: Laith, Australien. Über siebeneinhalb Millionen!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.25
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Platz 3: Fabertrans, Brasilien. Über 8,5 Millionen!",
+     "Platz drei: Fabertrans, Brasilien. Über achteinhalb Millionen!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.25
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Jetzt wird's eng: Liam gegen Finny!",
+     "Jetzt wird's eng: Liam gegen Finny!"
+    ]
+   ],
+   "tail": 1.0,
+   "lead": 0.1
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "USA: rund 9,8 Millionen. Kanada: knapp 10 Millionen!",
+     "USA: rund neun Komma acht Millionen. Kanada: knapp zehn Millionen!"
+    ]
+   ],
+   "tail": 0.5,
+   "lead": 0.1
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Krone für Finny! Kanada gewinnt – wegen seiner Seen. Ohne Wasser hätte Liam gewonnen!",
+     "Krone für Finny! Kanada gewinnt, wegen seiner Seen. Ohne Wasser hätte Liam gewonnen!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.35
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Aber Moment … Globi sitzt immer noch auf Russland.",
+     "Aber Moment. Globi sitzt immer noch auf Russland."
+    ]
+   ],
+   "lead": 0.15,
+   "tail": 0.25
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "17 Millionen km². Fast ein ganzes Australien mehr als Kanada!",
+     "Siebzehn Millionen Quadratkilometer. Fast ein ganzes Australien mehr als Kanada!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Holt euch die Krone! Kommentier Russland!",
+     "Holt euch die Krone! Kommentier Russland!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Und Japan ist immer noch frei!",
+     "Und Japan ist immer noch frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Noch 190 Länder frei!",
+     "Noch hundertneunzig Länder frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "tail": 0.6,
+   "lead": 0.1
+  }
+ ]
+}

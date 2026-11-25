@@ -1,0 +1,31 @@
+{
+ "ereignis": "Krone fürs größte Reich",
+ "tag": 3,
+ "datum": "2026-11-25",
+ "quelle": {
+  "name": "CIA World Factbook, Feld 'Area – total' (Land + Wasser), letzte Ausgabe vor der Einstellung am 04.02.2026",
+  "url": "https://www.cia.gov/the-world-factbook/field/area/country-comparison",
+  "hinweis": "cia.gov ist seit Februar 2026 offline (Factbook eingestellt). Werte sind die letzten Factbook-Werte, per Suche bestätigt (Archiv-Seiten / IndexMundi-Spiegel). Quellenzeile im Video: 'Fläche: CIA World Factbook (Gesamtfläche)'."
+ },
+ "reihenfolge": [
+  {"platz": 5, "name": "LÅKI", "sprechname": "Loki", "land": "de", "land_de": "DEUTSCHLAND", "flaeche_km2": 357022, "gesprochen": "rund dreihundertsechzigtausend Quadratkilometer", "anzeige": "357.022 km²", "fakt": "Passt 28-mal in Kanada 📏", "szene": "s3"},
+  {"platz": 4, "name": "LAITH", "land": "au", "land_de": "AUSTRALIEN", "flaeche_km2": 7741220, "gesprochen": "über siebeneinhalb Millionen", "anzeige": "7.741.220 km²", "fakt": "Über 21-mal Deutschland 🦘", "szene": "s4"},
+  {"platz": 3, "name": "FABERTRANS", "land": "br", "land_de": "BRASILIEN", "flaeche_km2": 8515770, "gesprochen": "über achteinhalb Millionen", "anzeige": "8.515.770 km²", "fakt": "Fast 24-mal Deutschland 🌳", "szene": "s5"},
+  {"platz": 2, "name": "LIAM", "land": "us", "land_de": "USA", "flaeche_km2": 9833517, "gesprochen": "rund neun Komma acht Millionen", "anzeige": "9.833.517 km²", "fakt": "Nur an Land wäre es Platz 1! 🏜️", "szene": "s7"},
+  {"platz": 1, "name": "FINNY", "land": "ca", "land_de": "KANADA", "flaeche_km2": 9984670, "gesprochen": "knapp zehn Millionen", "anzeige": "9.984.670 km²", "fakt": "Fast 900.000 km² Wasser 💧", "krone": true, "szene": "s7-s8"}
+ ],
+ "twist": {"name": "GLOBI", "hinweis": "Maskottchen, kein Abonnent", "land": "ru", "land_de": "RUSSLAND", "flaeche_km2": 17098242, "gesprochen": "siebzehn Millionen Quadratkilometer", "anzeige": "17.098.242 km²", "fakt": "7 Mio. km² mehr als Kanada 👑", "szene": "s9-s11"},
+ "frei_bleibt": ["jp", "ru (bei Globi, zurückholbar per echtem Kommentar)"],
+ "zaehler": "5 / 195 vergeben – noch 190 frei",
+ "rechnungen": {
+  "kanada_minus_usa_km2": 151153,
+  "russland_minus_kanada_km2": 7113572,
+  "russland_minus_kanada_in_australien": 0.92,
+  "kanada_durch_deutschland": 27.97,
+  "australien_durch_deutschland": 21.68,
+  "brasilien_durch_deutschland": 23.85,
+  "landflaeche_usa_km2": 9147593,
+  "landflaeche_kanada_km2": 9093507,
+  "wasser_kanada_km2": 891163
+ }
+}

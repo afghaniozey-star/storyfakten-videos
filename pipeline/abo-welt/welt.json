@@ -1,7 +1,7 @@
 {
  "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
  "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
- "tag": 3,
+ "tag": 4,
  "laender_gesamt": 195,
  "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
  "besitzer": [
@@ -69,6 +69,18 @@
     "ru"
    ],
    "hinweis": "Japan geht an den ersten echten Abonnenten, der Japan kommentiert; Russland an den, der es Globi zurückholt (echter Kommentar). Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar)."
+  },
+  {
+   "tag": 3,
+   "datum": "2026-11-25",
+   "art": "Krone fürs größte Reich (Flächen-Ranking der Besitzer) + Globi-Russland-Twist",
+   "ergebnis": "Krone für FINNY (Kanada, 9.984.670 km²) knapp vor LIAM (USA, 9.833.517 km²); Platz 3 FABERTRANS (Brasilien), 4 LAITH (Australien), 5 LÅKI (Deutschland). Globi (Maskottchen) sitzt auf Russland (17.098.242 km²) – „Holt euch die Krone! Kommentier Russland!“",
+   "quelle": "Fläche: CIA World Factbook (Gesamtfläche, Land + Wasser)",
+   "offen": [
+    "jp",
+    "ru"
+   ],
+   "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Japan bleibt FREI, Russland bei Globi (zurückholbar per echtem Kommentar)."
   }
  ]
 }
