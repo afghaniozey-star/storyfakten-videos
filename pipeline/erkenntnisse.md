@@ -8,6 +8,53 @@
 
 ## Analyse
 
+### Stand 25.11.2026, 09:40 (Buffer, gesendete Posts 14.–25.11., Zeiten Berliner Zeit)
+Datenlage: Kennzahlen zuletzt aktualisiert TikTok 25.11. 08:49, Instagram 25.11. 08:56, YouTube nur 24.11. 19:39 (alles danach fehlt auf YT).
+- Story „Die Zahl“ Teil 3, Digga-Stadt Teil 1: jetzt voll gemessen (TT/IG ~33–41 h, YT ~20 h).
+- Abo-Welt Tag 2 (YT): nur ~6,2 h gemessen. Die Zahl Teil 4: TT/IG ~17 h, YouTube (25.11. 00:05) noch NIE abgerufen (0) -> kein Urteil zu YT. Liefer-Stadt Teil 1: TT/IG erst ~9,3 h (Frühwert).
+- Alle Posts 21.–25.11. Status „sent“, KEIN Fehler. TT/IG senden 1,5–3 min nach Termin, YT 3–9 s.
+- Weiterhin nur Kommentar-ANZAHLEN, keine Kommentartexte.
+- Geplant in Buffer: 0 Posts mit Termin (+3 alte CL-Entwürfe vom 14.11. ohne Termin) -> Gratis-Limit 10: mindestens 7, wahrscheinlich 10 frei. Heute ist noch nichts eingeplant.
+
+YouTube-Limit (2 in 24 h gleitend nach sentAt), YT-Posts der letzten ~34 h:
+- 23.11. 23:59:04 (Die Zahl 3), 24.11. 13:25:04 (Abo-Welt 2), 25.11. 00:05:08 (Die Zahl 4). (Davor 23.11. 13:20:09.)
+- Abo-Welt Tag 3: frühestens 25.11. 13:25:05 -> 13:20 scheitert sicher, 13:25 ist wegen der 3–9 s Sendeverzug ein Glücksspiel. Empfehlung: **13:30**.
+- Story A: im Fenster liegen dann 00:05:08 und ~13:30 -> frühestens 26.11. 00:05:09. 23:59 heute scheitert sicher. Empfehlung: **26.11. 00:10** (TT/IG können 23:30 bleiben).
+- Folge: morgen Abo-Welt frühestens ~13:35, Story ~00:15 – jeden Tag +5 min weiterschieben.
+
+| Video (Datum, Zeit) | Format | Länge | Aufrufe YT/IG/TT = Summe | Likes | Komm. | Likes/1k | Komm./1k | Ø gesehen TT / IG | gemessen nach |
+|---|---|---|---|---|---|---|---|---|---|
+| **Abo-Welt Tag 2 Japan (24.11., 13:25, nur YT)** | Abo-Welt | 45 s | 944/–/– = 944 | 25 | **28** | 26,5 | **29,7** | – | ~6,2 h |
+| Liefer-Stadt Teil 1 (24.11., 23:30, TT/IG) | Stadt-Story | 74 s | –/**1155**/669 = 1824 | 55 | 1 (4 Shares, 2 Saves) | **30,2** | 0,5 | 18,0 s (24 %) / 27,0 s (36 %) | ~9,3 h (Frühwert) |
+| Die Zahl Teil 4 (24.11., 16:30, YT 00:05) | Story | 77 s | n. a./232/684 = 916 (ohne YT) | 25 | 2 | 27,3 | 2,2 | 18,9 s (25 %) / 23,9 s (31 %) | ~17 h, YT 0 |
+| **Digga-Stadt Teil 1 (23.11., 23:30, TT/IG)** | Stadt-Story | 74 s | –/**1403**/530 = 1933 | 63 | 1 (4 Shares, 3 Saves) | **32,6** | 0,5 | **23,3 s (32 %)** / **39,5 s (54 %)** | ~33 h |
+| Die Zahl Teil 3 (23.11., 16:30, YT 23:59) | Story | 73 s | 958/162/648 = 1768 | 34 | 1 | 19,2 | 0,6 | 12,7 s (17 %) / 16,6 s (23 %) | TT/IG ~41 h, YT ~20 h |
+| **Abo-Welt Tag 1 (23.11., 13:20, nur YT)** | Abo-Welt | 41 s | 1984/–/– = 1984 | 76 | **84** | **38,3** | **42,3** | – | ~30 h |
+| Die Zahl Teil 2 (22.11., 23:30 / YT 23:50) | Story | 72 s | 1082/1381/1742 = **4205** | 78 | 4 | 18,5 | 1,0 | 20,1 s / 51,4 s | > 1,5 Tage |
+| Die Zahl Teil 1 (22.11., 16:30, ohne YT) | Story | 62 s | –/1481/1690 = 3171 | 93 | 0 | 29,3 | 0,0 | 16,8 s / 29,1 s | > 2 Tage |
+| Stadt Tag 4 (22.11., 13:05, nur YT) | Stadt | 34 s | 996 | 13 | 12 | 13,1 | 12,0 | – | ~2 Tage |
+| Kane (21.11., 23:30/23:45) | Türme | 41 s | 1391/1321/788 = 3500 | 24 | 0 | 6,9 | 0,0 | 11,1 / 30,4 s | > 2 Tage |
+(Übrige Türme-Videos TT/IG kaum verändert; YT-Werte älterer Türme nicht neu abgefragt.)
+
+Top 3 (Aufrufe, 11.–25.11.; WM-Finale fällt aus dem 14-Tage-Fenster): **Die Zahl Teil 2 4.205**, Animationsfilme ~3.790 (YT-Wert vom 23.11.), Kane 3.500.
+Flop 3 (voll gemessen): Raketen 1.052 (ohne YT), CL-Titel ~1.590, **Die Zahl Teil 3 1.768 – schwächstes Video MIT YouTube-Post seit dem 17.11.**
+Kommentar-König: Abo-Welt Tag 1 84 Kommentare (42,3/1k) – Rekord; Tag 2 nach 6 h schon besser als Tag 1 zum selben Zeitpunkt (28 vs. 22 Komm.).
+
+Muster (mit Anzahl stützender Videos):
+- **Fortsetzungs-Absturz auf TT/IG (4 Videos):** Die Zahl TT+IG: Teil 1 3.171 -> Teil 2 3.123 -> Teil 3 810 -> Teil 4 916 (17 h). Instagram allein 1.481 -> 1.381 -> 162 -> 232. TikTok-Watchtime Teil 3 nur 12,7 s (17 %). Ab Teil 3 sehen Neue nur noch „Was bisher geschah“/Mittendrin und wischen weg. YouTube hält dagegen stabil (Teil 2 1.082, Teil 3 958).
+- **„In dieser Stadt + absurde Alltagsregel“ ist das neue Erfolgsrezept auf TT/IG (2 Videos, 1 davon Frühwert):** Digga-Stadt IG 1.403 + 39,5 s (54 %), TikTok 23,3 s = höchste TT-Sekunden aller Videos; Liefer-Stadt IG 1.155 schon nach 9 h. Likes 30–33/1k (Türme 6–11/1k), Shares 4+4 (alle Türme zusammen auf TT/IG seit 14.11.: 0). Schwachpunkt: Digga-Stadt TikTok nur 530.
+- **Kommentare auf TT/IG bleiben klein, egal welche Frage (6 Story-Videos):** offene Frage „Welches Wort verbieten?“ 1 Kommentar, „Meistgelikte Bestellung kommt in Teil 2“ 1 Kommentar (9 h), A/B-Frage 0–4 Kommentare (Teile 2–4). Nur YouTube-Abo-Welt/Stadt mit persönlichem Gewinn + Namen im Video holt 12–42/1k (4 von 4 Videos). Eine Belohnung „deine Idee kommt vor“ reicht nicht – es fehlt der sichtbare Beweis, dass echte Namen vorkommen.
+- **Uhrzeit TT+IG (Schwelle erreicht: 16:30 = 6 voll gemessene, 23:30 = 8):** 23:30 Ø 2.008 (Median 1.935; CL, Gebäude, Länder, Animation, Tiere, Kane, Zahl 2, Digga); 16:30 Ø 1.813 (Median 1.944; Bundesliga, GTA, Raketen, Twitch, Zahl 1, Zahl 3). Median gleich, Ø-Unterschied kommt von den Flops Raketen/Zahl 3 (Inhalt, nicht Uhrzeit). Getrennt: Instagram 23:30 bei 7 von 8 Videos > 1.000, 16:30 nur 3 von 6; TikTok umgekehrt leicht besser um 16:30 (Ø 1.032 vs. 904). -> **Keine Umstellung**; aber das IG-stärkere Video (Stadt-Story) auf 23:30 legen.
+
+Regeln für die nächsten Videos:
+1. „Die Zahl“ heute mit dem Finale abschließen und KEINE Serie mehr über Teil 2 hinaus auf TT/IG ziehen. Jede Story muss ohne Vorwissen funktionieren (Welt-Regel in Satz 1, nie „Was bisher geschah“ als Einstieg) – 4 von 4 Teilen zeigen den Absturz ab Teil 3.
+2. Neue Story-Ideen nach dem Muster „In dieser Stadt passiert X bei jeder alltäglichen Handlung“ (Digga, Liefer): beste IG-Watchtime, Likes 30–33/1k, Shares. Ein neues Stadt-Thema pro Tag ist besser als Teil 3 einer alten Welt.
+3. Liefer-Stadt Teil 2 / jede „Deine Idee kommt vor“-Folge: echte Kommentar-Namen sichtbar einblenden (wie Abo-Welt: „Finny hat Kanada“). Ohne sichtbaren Beweis bleiben Kommentare auf TT/IG bei ~1 pro Video.
+4. Abo-Welt täglich weiter (2 von 2 Tagen Rekord-Kommentare); YT heute 13:30 und Story A erst 26.11. 00:10.
+5. TikTok-Einstieg weiter verbessern: Stadt-Story 18–23 s vs. Instagram 27–40 s – die ersten 2 s brauchen ein Bild-Ereignis (Schrumpfen/Drohne), nicht Erzählung.
+Beibehalten: Uhrzeiten 16:30/23:30 für TT/IG, Abo-Welt auf YT, Story-Länge ~74 s (IG hält 36–54 %), Quellenzeile.
+Zu früh für Schlüsse: Liefer-Stadt (9 h), Die Zahl 4 auf YouTube (0 gemessen), Abo-Welt 2 Endstand.
+
 ### Stand 24.11.2026, 09:40 (Buffer, gesendete Posts 09.–23.11., 47 gesendete Posts = 19 Videos + 2 alte Fehler-Posts; Zeiten Berliner Zeit)
 Datenlage: Kennzahlen zuletzt aktualisiert TikTok 23.11. 10:47, YouTube 23.11. 19:06, Instagram 23.11. 20:01. Alles danach fehlt.
 - Story Teil 3 (23.11. 16:30 TT/IG, 23:59 YT): TikTok noch NIE abgerufen (0), YouTube nur 1 min nach Post abgerufen (0), Instagram nur ~3,5 h (129 Aufrufe) -> nur ein Frühwert auf IG, nicht als Flop werten.
