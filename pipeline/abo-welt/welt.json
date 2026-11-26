@@ -1,86 +1,97 @@
 {
- "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
- "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
- "tag": 4,
- "laender_gesamt": 195,
- "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
- "besitzer": [
-  {
-   "name": "FINNY",
-   "land": "ca",
-   "land_de": "KANADA",
-   "farbe": "#ef476f",
-   "tag": 1,
-   "szene": "s3",
-   "fakt": "Platz für seinen Flughafen ✈️"
-  },
-  {
-   "name": "FABERTRANS",
-   "land": "br",
-   "land_de": "BRASILIEN",
-   "farbe": "#06d6a0",
-   "tag": 1,
-   "szene": "s4",
-   "fakt": "Inklusive Amazonas 🌳"
-  },
-  {
-   "name": "LÅKI",
-   "land": "de",
-   "land_de": "DEUTSCHLAND",
-   "farbe": "#ffd166",
-   "tag": 1,
-   "szene": "s5",
-   "fakt": "Bundeshaus steht schon 🏛️",
-   "sprechname": "Loki"
-  },
-  {
-   "name": "LIAM",
-   "land": "us",
-   "land_de": "USA",
-   "farbe": "#118ab2",
-   "tag": 1,
-   "szene": "s6",
-   "fakt": "Militär-Stützpunkt 🪖",
-   "fokus": [
-    140,
-    280,
-    300,
-    410
-   ]
-  },
-  {
-   "name": "LAITH",
-   "land": "au",
-   "land_de": "AUSTRALIEN",
-   "farbe": "#f78c6b",
-   "tag": 1,
-   "szene": "s7",
-   "fakt": "Krankenhaus für Kängurus 🦘"
-  }
- ],
- "wuensche_offen": [],
- "ereignisse": [
-  {
-   "tag": 2,
-   "datum": "2026-11-24",
-   "art": "Wer bekommt Japan? + Globi schnappt sich Russland",
-   "offen": [
-    "jp",
-    "ru"
-   ],
-   "hinweis": "Japan geht an den ersten echten Abonnenten, der Japan kommentiert; Russland an den, der es Globi zurückholt (echter Kommentar). Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar)."
-  },
-  {
-   "tag": 3,
-   "datum": "2026-11-25",
-   "art": "Krone fürs größte Reich (Flächen-Ranking der Besitzer) + Globi-Russland-Twist",
-   "ergebnis": "Krone für FINNY (Kanada, 9.984.670 km²) knapp vor LIAM (USA, 9.833.517 km²); Platz 3 FABERTRANS (Brasilien), 4 LAITH (Australien), 5 LÅKI (Deutschland). Globi (Maskottchen) sitzt auf Russland (17.098.242 km²) – „Holt euch die Krone! Kommentier Russland!“",
-   "quelle": "Fläche: CIA World Factbook (Gesamtfläche, Land + Wasser)",
-   "offen": [
-    "jp",
-    "ru"
-   ],
-   "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Japan bleibt FREI, Russland bei Globi (zurückholbar per echtem Kommentar)."
-  }
- ]
+  "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
+  "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
+  "tag": 5,
+  "laender_gesamt": 195,
+  "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
+  "besitzer": [
+    {
+      "name": "FINNY",
+      "land": "ca",
+      "land_de": "KANADA",
+      "farbe": "#ef476f",
+      "tag": 1,
+      "szene": "s3",
+      "fakt": "Platz für seinen Flughafen ✈️"
+    },
+    {
+      "name": "FABERTRANS",
+      "land": "br",
+      "land_de": "BRASILIEN",
+      "farbe": "#06d6a0",
+      "tag": 1,
+      "szene": "s4",
+      "fakt": "Inklusive Amazonas 🌳"
+    },
+    {
+      "name": "LÅKI",
+      "land": "de",
+      "land_de": "DEUTSCHLAND",
+      "farbe": "#ffd166",
+      "tag": 1,
+      "szene": "s5",
+      "fakt": "Bundeshaus steht schon 🏛️",
+      "sprechname": "Loki"
+    },
+    {
+      "name": "LIAM",
+      "land": "us",
+      "land_de": "USA",
+      "farbe": "#118ab2",
+      "tag": 1,
+      "szene": "s6",
+      "fakt": "Militär-Stützpunkt 🪖",
+      "fokus": [
+        140,
+        280,
+        300,
+        410
+      ]
+    },
+    {
+      "name": "LAITH",
+      "land": "au",
+      "land_de": "AUSTRALIEN",
+      "farbe": "#f78c6b",
+      "tag": 1,
+      "szene": "s7",
+      "fakt": "Krankenhaus für Kängurus 🦘"
+    }
+  ],
+  "wuensche_offen": [],
+  "ereignisse": [
+    {
+      "tag": 2,
+      "datum": "2026-11-24",
+      "art": "Wer bekommt Japan? + Globi schnappt sich Russland",
+      "offen": [
+        "jp",
+        "ru"
+      ],
+      "hinweis": "Japan geht an den ersten echten Abonnenten, der Japan kommentiert; Russland an den, der es Globi zurückholt (echter Kommentar). Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar)."
+    },
+    {
+      "tag": 3,
+      "datum": "2026-11-25",
+      "art": "Krone fürs größte Reich (Flächen-Ranking der Besitzer) + Globi-Russland-Twist",
+      "ergebnis": "Krone für FINNY (Kanada, 9.984.670 km²) knapp vor LIAM (USA, 9.833.517 km²); Platz 3 FABERTRANS (Brasilien), 4 LAITH (Australien), 5 LÅKI (Deutschland). Globi (Maskottchen) sitzt auf Russland (17.098.242 km²) – „Holt euch die Krone! Kommentier Russland!“",
+      "quelle": "Fläche: CIA World Factbook (Gesamtfläche, Land + Wasser)",
+      "offen": [
+        "jp",
+        "ru"
+      ],
+      "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Japan bleibt FREI, Russland bei Globi (zurückholbar per echtem Kommentar)."
+    },
+    {
+      "tag": 4,
+      "datum": "2026-11-26",
+      "art": "Wer bekommt Italien? (freies Land ausgeschrieben, Ladebalken „Land wird vergeben … ?“)",
+      "offen": [
+        "it",
+        "jp",
+        "ru"
+      ],
+      "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Italien und Japan FREI, Russland bei Globi. Noch 190 frei. YT 13:40."
+    }
+  ]
 }

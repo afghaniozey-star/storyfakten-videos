@@ -1,0 +1,120 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Italien ist frei! Wer bekommt es?",
+     "Italien ist frei! Wer bekommt es?"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.2
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.25
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Italien hat 62 Welterbestätten – mehr als jedes andere Land der Welt!",
+     "Italien hat zweiundsechzig Welterbestätten, mehr als jedes andere Land der Welt!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Die ganze italienische Küche ist sogar Kulturerbe. Pizza inklusive!",
+     "Die ganze italienische Küche ist sogar Kulturerbe. Pizza inklusive!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Aber Achtung: Mitten drin liegen San Marino und der Vatikan – das kleinste Land der Welt. Gibt's extra!",
+     "Aber Achtung: Mitten drin liegen San Marino und der Vatikan, das kleinste Land der Welt. Gibt's extra!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Wer zuerst abonniert und Italien kommentiert, bekommt den ganzen Stiefel.",
+     "Wer zuerst abonniert und Italien kommentiert, bekommt den ganzen Stiefel."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.35
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Låki, die USA Liam, Australien Laith.",
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Loki, die USA Liam, Australien Laith."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.3
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Japan ist auch noch frei. Auf Russland sitzt Globi!",
+     "Japan ist auch noch frei. Auf Russland sitzt Globi!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.9
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "5 von 195 vergeben. Noch 190 frei!",
+     "Fünf von hundertfünfundneunzig vergeben. Noch hundertneunzig frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.35
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Wer bekommt Italien? Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Wer bekommt Italien? Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.6
+  }
+ ]
+}

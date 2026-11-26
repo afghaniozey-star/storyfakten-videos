@@ -1,0 +1,20 @@
+{
+ "ereignis": "Wer bekommt Italien? (freies Land ausgeschrieben, keine neuen Besitzer)",
+ "tag": 4,
+ "datum": "2026-11-26",
+ "land": {"code": "it", "land_de": "ITALIEN", "status": "frei – geht an den ersten echten Abonnenten, der Italien kommentiert"},
+ "fakten": [
+  {"szene": "s3", "gesprochen": "zweiundsechzig Welterbestätten, mehr als jedes andere Land der Welt", "anzeige": "62 WELTERBE – PLATZ 1",
+   "quelle": "https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2026/07/patrimonio-mondiale-unesco-con-liscrizione-dei-teatri-condominiali-litalia-consolida-il-primato-mondiale-con-62-siti-iscritti-tajani-italia-super-potenza-culturale/",
+   "zusatz": "https://www.guinnessworldrecords.com/world-records/681677-most-world-heritage-sites-country", "quellenzeile": "Welterbe: ital. Außenministerium, Juli 2026"},
+  {"szene": "s4", "gesprochen": "Die ganze italienische Küche ist sogar Kulturerbe (immateriell, 10.12.2025). Pizza inklusive (Pizzaiuolo seit 2017)", "anzeige": "KULTURERBE 2025",
+   "quelle": "https://www.zdfheute.de/panorama/unesco-weltkulturerbe-italien-kueche-pizza-pasta-meloni-100.html", "zusatz": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+   "quellenzeile": "UNESCO-Kulturerbe (immateriell), Dez. 2025", "achtung": "Kulturerbe, NICHT Welterbe"},
+  {"szene": "s5", "gesprochen": "San Marino und der Vatikan mitten drin, Vatikan kleinstes Land der Welt", "anzeige": "VATIKAN 0,44 km² · SAN MARINO 61 km²",
+   "quelle": "https://de.statista.com/statistik/daten/studie/689707/umfrage/die-20-kleinsten-laender-der-welt-nach-flaeche", "zusatz": "https://www.merian.de/europa/zwergstaaten"}
+ ],
+ "orte_karte": {"rom_kolosseum": [510.5, 334.0], "pisa": [504.1, 326.8], "venedig": [509.4, 319.8], "zeh_kalabrien": [519.0, 348.0],
+                "hinweis": "Karten-Koordinaten (weltkarte.json, Einheiten), aus San Marino/Vatikan-Position und Italien-bbox interpoliert"},
+ "frei_bleibt": ["it", "jp", "ru (bei Globi, zurückholbar per echtem Kommentar)"],
+ "zaehler": "5 / 195 vergeben – noch 190 frei"
+}
