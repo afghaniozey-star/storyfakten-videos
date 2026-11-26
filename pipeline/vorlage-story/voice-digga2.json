@@ -1,0 +1,224 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Was bisher geschah: In dieser Stadt wirst du bei jedem „Digga“ 1 cm kleiner, und mein Kumpel Jonas ist jetzt 40 m groß.",
+     "Was bisher geschah: In dieser Stadt wirst du bei jedem Digga einen Zentimeter kleiner, und mein Kumpel Jonas ist jetzt vierzig Meter groß."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Das liegt am Wort „Alter“. Damit wächst man.",
+     "Das liegt am Wort Alter. Damit wächst man."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Zurück auf normal: 3.850 „Digga“.",
+     "Zurück auf normal: dreitausendachthundertfünfzig Digga."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Herr Krause rechnet: Das dauert über eine Stunde.",
+     "Herr Krause rechnet: Das dauert über eine Stunde."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Jonas legt los: Digga, Digga, Digga.",
+     "Jonas legt los: Digga, Digga, Digga."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Der Bürgermeister macht ein Gesetz: „Alter“ ist ab sofort verboten!",
+     "Der Bürgermeister macht ein Gesetz: Alter ist ab sofort verboten!"
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Meine Oma feuert ihn an: Komm schon, Digga! Plopp. Jetzt wohnt sie in einer Teetasse.",
+     "Meine Oma feuert ihn an: Komm schon, Digga! Plopp. Jetzt wohnt sie in einer Teetasse."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Die Ameisen-Rapper schreiben einen Song. Der ganze Text: nur „Digga“.",
+     "Die Ameisen-Rapper schreiben einen Song. Der ganze Text: nur Digga."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Jonas singt laut mit. 50 Prozent!",
+     "Jonas singt laut mit. Fünfzig Prozent!"
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Aber der Song ist ein Ohrwurm. Die ganze Stadt singt mit.",
+     "Aber der Song ist ein Ohrwurm. Die ganze Stadt singt mit."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Beim Bäcker, im Schwimmbad, im Matheunterricht.",
+     "Beim Bäcker, im Schwimmbad, im Matheunterricht."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Herr Krause singt die zweite Stimme. Plopp. Kreideschachtel.",
+     "Herr Krause singt die zweite Stimme. Plopp. Kreideschachtel."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Sogar ich. Und ich sage sonst immer: werter Freund.",
+     "Sogar ich. Und ich sage sonst immer: werter Freund."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Jonas: 100 Prozent! 1 Meter 50. Normal!",
+     "Jonas: hundert Prozent! Ein Meter fünfzig. Normal!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Nur: Alle anderen sind jetzt so klein wie Gummibärchen.",
+     "Nur: Alle anderen sind jetzt so klein wie Gummibärchen."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Und zurückwachsen? „Alter“ ist ja verboten. Danke, Herr Bürgermeister.",
+     "Und zurückwachsen? Alter ist ja verboten. Danke, Herr Bürgermeister."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Jonas trägt die Stadt im Schuhkarton.",
+     "Jonas trägt die Stadt im Schuhkarton."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Im Rathaus: das uralte Stadtbuch. Seite 1: „Digga“ macht klein, „Alter“ macht groß.",
+     "Im Rathaus: das uralte Stadtbuch. Seite eins: Digga macht klein, Alter macht groß."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Seite 2: Wer „Digga“ und „Alter“ in einem Satz sagt … abgerissen.",
+     "Seite zwei: Wer Digga und Alter in einem Satz sagt ... abgerissen."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Da ruft Oma aus der Teetasse: Digga, Alter, was steht da?",
+     "Da ruft Oma aus der Teetasse: Digga, Alter, was steht da?"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Die Erde bebt.",
+     "Die Erde bebt."
+    ]
+   ],
+   "tail": 1.2
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Was passiert bei „Digga Alter“? Schreib deinen Tipp in die Kommentare!",
+     "Was passiert bei Digga Alter? Schreib deinen Tipp in die Kommentare!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Folg, damit du das Finale nicht verpasst!",
+     "Folg, damit du das Finale nicht verpasst!"
+    ]
+   ],
+   "tail": 1.6
+  }
+ ]
+}

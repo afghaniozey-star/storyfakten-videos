@@ -1,0 +1,224 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt läuft jede Sprachnachricht über 1 Minute über die Lautsprecher der ganzen Stadt.",
+     "In dieser Stadt läuft jede Sprachnachricht über eine Minute über die Lautsprecher der ganzen Stadt."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Ich: immer 59 Sekunden. Meine Oma: 14 Minuten.",
+     "Ich: immer neunundfünfzig Sekunden. Meine Oma: vierzehn Minuten."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Omas Nachricht: Hallo Schatz, ist das an? Dann 3 Minuten Kartoffelsalat-Rezept.",
+     "Omas Nachricht: Hallo Schatz, ist das an? Dann drei Minuten Kartoffelsalat-Rezept."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Die ganze Stadt bleibt stehen. Der Busfahrer schreibt mit.",
+     "Die ganze Stadt bleibt stehen. Der Busfahrer schreibt mit."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Ich bin Profi: Stoppuhr an, bei 59 Sekunden loslassen.",
+     "Ich bin Profi: Stoppuhr an, bei neunundfünfzig Sekunden loslassen."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Mein Kumpel Emil nicht. 1 Minute, 1 Sekunde.",
+     "Mein Kumpel Emil nicht. Eine Minute, eine Sekunde."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Die ganze Stadt hört: Mama, ich hab Angst vor Enten.",
+     "Die ganze Stadt hört: Mama, ich hab Angst vor Enten."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Seitdem wartet jeden Morgen eine Ente vor seiner Tür.",
+     "Seitdem wartet jeden Morgen eine Ente vor seiner Tür."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Herr Krause hat den Trick entdeckt. Er schickt seinen Matheunterricht. 45 Minuten.",
+     "Herr Krause hat den Trick entdeckt. Er schickt seinen Matheunterricht. Fünfundvierzig Minuten."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Jetzt kann die ganze Stadt Bruchrechnen. Sogar die Tauben.",
+     "Jetzt kann die ganze Stadt Bruchrechnen. Sogar die Tauben."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Der Bürgermeister will das Gesetz abschaffen. Per Sprachnachricht.",
+     "Der Bürgermeister will das Gesetz abschaffen. Per Sprachnachricht."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Dabei fährt er in einen Tunnel. 2 Minuten nur: Krrrrr.",
+     "Dabei fährt er in einen Tunnel. Zwei Minuten nur: Krrrrr."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Und Oma? Süchtig. Jeden Tag 2 Stunden. 80.000 Fans.",
+     "Und Oma? Süchtig. Jeden Tag zwei Stunden. Achtzigtausend Fans."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Heute präsentiert von: Herrn Krauses Mathe-Nachhilfe.",
+     "Heute präsentiert von: Herrn Krauses Mathe-Nachhilfe."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Nur mich hat die Stadt noch nie gehört. 59 Sekunden. Immer.",
+     "Nur mich hat die Stadt noch nie gehört. Neunundfünfzig Sekunden. Immer."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Heute Mittag knacken plötzlich alle Lautsprecher.",
+     "Heute Mittag knacken plötzlich alle Lautsprecher."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Absender: ich. Länge: 6 Stunden.",
+     "Absender: ich. Länge: sechs Stunden."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Mein Handy hat seit heute früh in der Hosentasche aufgenommen.",
+     "Mein Handy hat seit heute früh in der Hosentasche aufgenommen."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "groups": [
+    [
+     "Die Stadt hört, wie ich im Bus Beatbox übe. Schlecht.",
+     "Die Stadt hört, wie ich im Bus Beatbox übe. Schlecht."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "groups": [
+    [
+     "Dann meine Stimme: Okay, keiner hört zu. Zeit für mein größtes Geheimnis.",
+     "Dann meine Stimme: Okay, keiner hört zu. Zeit für mein größtes Geheimnis."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s21",
+   "groups": [
+    [
+     "Oma dreht lauter.",
+     "Oma dreht lauter."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s22",
+   "groups": [
+    [
+     "Was ist mein Geheimnis? Schreib deinen Tipp in die Kommentare!",
+     "Was ist mein Geheimnis? Schreib deinen Tipp in die Kommentare!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s23",
+   "groups": [
+    [
+     "Folg, damit du Teil 2 nicht verpasst!",
+     "Folg, damit du Teil zwei nicht verpasst!"
+    ]
+   ],
+   "tail": 1.6
+  }
+ ]
+}
