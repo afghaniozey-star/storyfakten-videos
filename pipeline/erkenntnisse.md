@@ -8,6 +8,56 @@
 
 ## Analyse
 
+### Stand 26.11.2026, 09:35 (Buffer, gesendete Posts 22.–26.11. neu abgefragt, ältere aus Vortagen; Zeiten Berliner Zeit)
+Datenlage: Kennzahlen zuletzt aktualisiert TikTok 26.11. 07:50, Instagram 26.11. 07:56, YouTube nur 25.11. 20:14 (alles danach fehlt auf YT).
+- Voll gemessen jetzt: Liefer-Stadt T1 (TT/IG ~32 h), Digga-Stadt T1 (~56 h), Die Zahl T4 (TT/IG ~39 h, YT ~19 h), Abo-Welt T2 (YT ~31 h).
+- Frühwerte: Abo-Welt T3 (YT nur ~6,7 h), Die Zahl T5 (TT/IG ~15 h; YT 26.11. 00:10 noch NIE abgerufen = 0), Kompliment-Stadt T1 (TT/IG nur ~8 h).
+- Alle Posts 22.–26.11. Status „sent“, KEIN Fehler. TT/IG senden 2–4 min nach Termin, YT 2–11 s.
+- Weiterhin nur Kommentar-ANZAHLEN, keine Kommentartexte.
+- Geplant in Buffer: 0 Posts mit Termin (+3 alte CL-Entwürfe vom 14.11. ohne Termin) -> Gratis-Limit 10: mindestens 7, wahrscheinlich 10 frei. Für heute ist noch nichts eingeplant.
+
+YouTube-Limit (2 in 24 h gleitend nach sentAt), YT-Posts der letzten ~36 h:
+- 25.11. 00:05:08 (Die Zahl 4), 25.11. 13:30:11 (Abo-Welt 3), 26.11. 00:10:05 (Die Zahl 5).
+- Abo-Welt Tag 4: 13:30:11 muss aus dem Fenster -> frühestens 26.11. 13:30:12; +5 min Puffer = 13:35:12. Empfehlung: **13:40** (13:30 scheitert sicher, 13:35 nur 4–5 min Luft).
+- YT-Story A: im Fenster liegen dann 00:10:05 und ~13:40 -> frühestens 27.11. 00:10:06; +5 min = 00:15:06. Empfehlung: **27.11. 00:20**. 23:59 heute scheitert sicher (3. Post). TT/IG können 23:30 bleiben.
+- Folge: morgen Abo-Welt frühestens ~13:45, Story ~00:25 – Kette verschiebt sich täglich um 5–10 min. Ausweg: an einem Tag nur 1 YT-Post, dann zurück auf frühere Slots.
+
+| Video (Datum, Zeit) | Format | Länge | Aufrufe YT/IG/TT = Summe | Likes | Komm. | Likes/1k | Komm./1k | Ø gesehen TT / IG | gemessen nach |
+|---|---|---|---|---|---|---|---|---|---|
+| **Kompliment-Stadt T1 (25.11., 23:30, TT/IG)** | Stadt-Story | 76 s | –/1170/**1563** = **2733** | 84 | 1 (2 Saves) | 30,7 | 0,4 | **26,3 s (35 %)** / 37,5 s (49 %) | ~8 h (Frühwert) |
+| Die Zahl T5 FINALE (25.11., 16:30, YT 00:10) | Story | 72 s | 0/**166**/1647 = 1813 (ohne YT) | 35 | 0 (1 Share) | 19,3 | 0,0 | 15,3 s (21 %) / 14,0 s (19 %) | ~15 h, YT 0 |
+| Abo-Welt T3 Krone (25.11., 13:30, nur YT) | Abo-Welt | 50 s | 1069/–/– = 1069 | 16 | 20 | 15,0 | 18,7 | – | ~6,7 h |
+| Liefer-Stadt T1 (24.11., 23:30, TT/IG) | Stadt-Story | 74 s | –/1196/680 = 1876 | 56 | 1 (2 Shares, 2 Saves) | 29,9 | 0,5 | 17,8 s (24 %) / 27,2 s (37 %) | ~32 h (Endstand) |
+| Die Zahl T4 (24.11., 16:30, YT 00:05) | Story | 77 s | 1007/534/694 = 2235 | 56 | 5 | 25,1 | 2,2 | 18,9 s (25 %) / 30,2 s (39 %) | TT/IG ~39 h, YT ~19 h |
+| **Abo-Welt T2 Japan (24.11., 13:25, nur YT)** | Abo-Welt | 45 s | 2128/–/– = 2128 | 66 | **68** | 31,0 | **32,0** | – | ~31 h |
+| Digga-Stadt T1 (23.11., 23:30, TT/IG) | Stadt-Story | 74 s | –/1423/552 = 1975 | 63 | 1 (4 Shares, 3 Saves) | 31,9 | 0,5 | 22,8 s (31 %) / **39,4 s (54 %)** | ~56 h (Endstand) |
+| Die Zahl T3 (23.11., 16:30, YT 23:59) | Story | 73 s | 983/163/656 = 1802 | 34 | 1 | 18,9 | 0,6 | 12,9 s / 16,7 s | Endstand |
+| **Abo-Welt T1 (23.11., 13:20, nur YT)** | Abo-Welt | 41 s | 2581/–/– = 2581 | 110 | **115** | **42,6** | **44,6** | – | ~55 h |
+| Die Zahl T2 (22.11., 23:30, YT 23:50) | Story | 72 s | 1099/1382/1753 = **4234** | 79 | 4 | 18,7 | 0,9 | 20,1 s / 51,4 s | Endstand |
+| Die Zahl T1 (22.11., 16:30, ohne YT) | Story | 62 s | –/1483/1700 = 3183 | 93 | 0 | 29,2 | 0,0 | 16,9 s / 29,1 s | Endstand |
+| Stadt Tag 4 (22.11., 13:05, nur YT) | Stadt | 34 s | 1003 | 13 | 12 | 13,0 | 12,0 | – | Endstand |
+
+Top 3 (Aufrufe, 12.–26.11.): **Die Zahl T2 4.234**, Animationsfilme ~3.790, Kane ~3.500. Stärkster Frühwert: **Kompliment-Stadt 2.733 nach 8 h** (Liefer-Stadt hatte nach 9 h 1.824).
+Flop 3 (voll gemessen): Raketen ~1.050 (ohne YT), CL-Titel ~1.590, Die Zahl T3 1.802. Die Zahl T5 liegt ohne YT bei 1.813, Instagram nur 166.
+Kommentar-König: Abo-Welt T1 115 Kommentare (44,6/1k), T2 68 (32,0/1k).
+
+Muster (mit Anzahl stützender Videos):
+- **Fortsetzungs-Absturz auf Instagram bestätigt (5 Teile):** IG Die Zahl 1.483 -> 1.382 -> 163 -> 534 -> 166. Teil 2 hielt noch (1 Fall), ab Teil 3 bricht IG ein (3 von 3). TikTok dagegen 1.700 -> 1.753 -> 656 -> 694 -> **1.647** – das Finale hat sich auf TT erholt (Wort „FINALE“ + Emoji-Frage?), aber mit schlechter Watchtime 15,3 s (21 %). YouTube bleibt stabil bei ~1.000 pro Teil (T2–T4: 1.099 / 983 / 1.007).
+- **Neue Stadt-Story Teil 1 schlägt jede Fortsetzung (3 Stadt-T1 vs. 3 Zahl-Teile 3–5):** TT+IG Digga 1.975, Liefer 1.876, Kompliment 2.733 (8 h!) vs. Zahl T3/T4/T5 819 / 1.228 / 1.813. Likes 30–32/1k bei allen 3 Stadt-Storys (Zahl T3–T5 19–25/1k). Instagram-Watchtime 27–39 s (37–54 %) bei 3 von 3.
+- **Kompliment-Stadt = bester TikTok-Einstieg bisher (1 Video, Frühwert):** 26,3 s Ø (35 %) – höchster TT-Wert aller Videos (bisher Digga 22,8 s), TT 1.563 nach 8 h (Digga-Endstand nur 552). Hook: „Oma ist Millionärin, Herr Krause pleite“ = sofort Kontrast mit Personen.
+- **Kommentare auf TT/IG bleiben bei ~0–1, egal welche Frage (9 Story-Videos):** „Schreib dein bestes Kompliment“ 1, „Was würdest du laut sagen?“ 1, Emoji-Frage 0. Nur YT-Abo-Welt/Stadt mit eigenem Gewinn + Namen im Bild holt 12–45/1k (5 von 5).
+- **Abo-Welt verliert Kommentar-Tempo (3 Videos, T3 Frühwert):** gleiche Messzeit ~6 h: T2 944 Aufrufe/28 Komm., T3 1.069/20 Komm. Komm./1k Endstände T1 44,6 -> T2 32,0. Aufrufe stabil, aber „Krone fürs größte Reich“ (Wettbewerb um Fläche) holte weniger Mitmach-Kommentare als „Japan ist noch FREI – wer schnappt es sich?“ (konkretes freies Land zum Beanspruchen).
+- **Uhrzeit TT+IG (Schwelle erreicht: 16:30 = 8 Videos, 23:30 = 9 voll gemessen):** 23:30 Ø 1.996 (Median 1.933); 16:30 Ø 1.738 (Median 1.875). Instagram: 23:30 bei 8 von 9 > 1.000, 16:30 nur 3 von 8. TikTok umgekehrt: 16:30 Ø 1.066 vs. 23:30 Ø 881. Vorsicht: Zahl T3–T5 (Fortsetzungen) liegen alle auf 16:30 und drücken IG. -> **Keine Umstellung**; das IG-stärkere Video (eigenständige Stadt-Story) auf 23:30, das TT-stärkere auf 16:30.
+
+Regeln für die nächsten Videos:
+1. Digga-Stadt Teil 2 heute so bauen, als wäre es ein Teil 1: Welt-Regel in Satz 1 („In dieser Stadt wirst du bei jedem Digga 1 cm kleiner“), neue Figur/neue Situation, kein „Was bisher geschah“, „Teil 2“ nur klein. Teil 2 ging bisher (Zahl T2 IG 1.382), ab Teil 3 Absturz (3 von 3) -> Digga nach Teil 2 beenden.
+2. Hook-Muster Kompliment übernehmen: in den ersten 2 s zwei Personen mit krassem Gegensatz durch die Regel („Oma Millionärin, Herr Krause pleite“) – bester TT-Einstieg bisher (26,3 s).
+3. Weiter jeden Tag ein NEUES Stadt-Thema „In dieser Stadt bezahlt/passiert X bei Alltagshandlung“ (3 von 3 über allen Fortsetzungen, Likes 30–32/1k).
+4. Abo-Welt Tag 4: wieder ein konkretes FREIES Land/Gebiet zum Beanspruchen + Namen der Kommentierer sichtbar (T1/T2 32–45/1k); YT heute 13:40, Story-YT 27.11. 00:20.
+5. TT/IG-Kommentare nicht über offene Fragen erwarten (9 von 9 bei 0–5); Kommentar-Ziel nur auf YT-Mitmach-Format.
+Beibehalten: 16:30/23:30 für TT/IG (Stadt-Story auf 23:30), Story-Länge 72–77 s, Abo-Welt täglich auf YT, Quellenzeile.
+Zu früh für Schlüsse: Kompliment-Stadt (8 h), Abo-Welt T3 (6,7 h), Die Zahl T5 auf YouTube (0 gemessen), ob die TT-Erholung beim Finale am Wort „FINALE“ liegt (1 Video).
+
 ### Stand 25.11.2026, 09:40 (Buffer, gesendete Posts 14.–25.11., Zeiten Berliner Zeit)
 Datenlage: Kennzahlen zuletzt aktualisiert TikTok 25.11. 08:49, Instagram 25.11. 08:56, YouTube nur 24.11. 19:39 (alles danach fehlt auf YT).
 - Story „Die Zahl“ Teil 3, Digga-Stadt Teil 1: jetzt voll gemessen (TT/IG ~33–41 h, YT ~20 h).
