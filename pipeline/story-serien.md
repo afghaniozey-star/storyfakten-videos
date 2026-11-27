@@ -1,6 +1,7 @@
 # Story-Serien „In dieser Welt …“
 
 ## Plan
+- AB 28.11.: Teil-1-Strategie (ABLAUF.md). 28.11.: 2 neue Teil 1. 29.11.: 16:30 = Sprachnachrichten-Stadt Teil 2, 23:30 = neuer Teil 1. Die alten Pläne unten (Kompliment 2, Digga 3 …) gelten NICHT mehr automatisch – nur wenn analyse sie als Gewinner einstuft.
 - 23.11.: Abo-Welt Tag 1 ist schon fertig und für 13:20 auf YouTube eingeplant (von Hand) → am 23.11. KEIN Abo-Video bauen. Ab 24.11. Abo-Welt Tag 2, 3 … (pipeline/abo-welt/welt.json, tag = 2).
 - 23.11.: Story A = „Die Zahl über dem Kopf“ Teil 3 (Teil 2 lief am 22.11. 23:30), Story B = Teil 1 einer NEUEN Serie (lustiger „In dieser Stadt …“-Stil).
 - 24.11. ERLEDIGT: Abo-Welt Tag 2 (Ereignis „Wer bekommt Japan?“ + Globi klaut Russland, 45 s, YT 13:25), Story A = „Die Zahl“ Teil 4, Story B = Liefer-Stadt Teil 1.
@@ -10,6 +11,15 @@
 - 26.11. ERLEDIGT: Abo-Welt Tag 4 „Wer bekommt Italien?“ (44,4 s, YT 13:40), Story A = Digga-Stadt Teil 2 (75,9 s; TT/IG 16:30, YT 27.11. 00:20), Story B = NEUE Serie „Sprachnachrichten-Stadt“ Teil 1 (78,5 s; TT/IG 23:30).
 - 27.11.: Story A = Liefer-Stadt Teil 2, 28.11.: Kompliment-Stadt Teil 2, danach Digga-Stadt Teil 3 = FINALE, danach Sprachnachrichten-Stadt Teil 2 (älteste offene Serie zuerst; Analyse 26.11.: Fortsetzungen brechen ab Teil 3 ein → Serien kurz halten, jeden Teil wie Teil 1 bauen).
 - Ab dann jeden Tag: Story A = nächster Teil einer laufenden Serie, Story B = neue Serie Teil 1.
+
+## Teil-1-Liste TikTok/Instagram (ab 27.11.: Teil 2 nur für Gewinner, frühestens 2 Tage nach Teil 1)
+| Teil 1 | lief am | Aufrufe TT (Stand) | Teil 2? |
+|---|---|---|---|
+| Digga-Stadt | 23.11. 23:30 | ~2.000 (Buffer) | lief schon (26.11.), Finale offen – nur wenn stark |
+| Liefer-Stadt | 24.11. 23:30 | ~1.900 (Buffer) | lief schon (27.11., Finale) |
+| Kompliment-Stadt | 25.11. 23:30 | ~2.800 (Buffer) | offen – analyse entscheidet |
+| **Sprachnachrichten-Stadt** | 26.11. 23:30 | **~6.000 (TikTok-App, 27.11.)** | **JA – Teil 2 am So 29.11. 16:30 (Nutzer)** |
+| Akku-Stadt | 27.11. 23:30 | – | offen |
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** (ABGESCHLOSSEN 25.11.) – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.

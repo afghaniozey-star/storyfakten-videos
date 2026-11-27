@@ -1,0 +1,180 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt hat jeder seinen Handy-Akku über dem Kopf. Bei 0 % schläfst du sofort ein.",
+     "In dieser Stadt hat jeder seinen Handy Akku über dem Kopf. Bei null Prozent schläfst du sofort ein."
+    ]
+   ],
+   "lead": 0.12
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Ich: 2 %. Meine Oma: 100 %.",
+     "Ich: zwei Prozent. Meine Oma: hundert Prozent."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Oma lädt sich jede Nacht an der Steckdose auf. Mit Lockenwicklern.",
+     "Oma lädt sich jede Nacht an der Steckdose auf. Mit Lockenwicklern."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Mein Kumpel Emil hat 1 %. Mitten im Mathetest.",
+     "Mein Kumpel Emil hat ein Prozent. Mitten im Mathetest."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Zack. Eingeschlafen. Mit dem Gesicht auf Aufgabe 3.",
+     "Zack. Eingeschlafen. Mit dem Gesicht auf Aufgabe drei."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Herr Krause hat eine Powerbank. Er verleiht sie nur gegen eine Eins.",
+     "Herr Krause hat eine Powerbank. Er verleiht sie nur gegen eine Eins."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Der Bürgermeister hält eine Rede. 4 Stunden. Die ganze Stadt fällt auf 0.",
+     "Der Bürgermeister hält eine Rede. Vier Stunden. Die ganze Stadt fällt auf null."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Nur Oma nicht. 98 %. Sie strickt.",
+     "Nur Oma nicht. Achtundneunzig Prozent. Sie strickt."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Ich renne nach Hause. Jedes Video, das ich scrolle, kostet 1 %.",
+     "Ich renne nach Hause. Jedes Video, das ich scrolle, kostet ein Prozent."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Ein Video noch. Nur eins. 1 %.",
+     "Ein Video noch. Nur eins. Ein Prozent."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Vor mir steht Oma. Mit einem Ladekabel.",
+     "Vor mir steht Oma. Mit einem Ladekabel."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Sie sagt: Ich lade dich auf. Aber nur, wenn du mich jeden Sonntag anrufst.",
+     "Sie sagt: Ich lade dich auf. Aber nur, wenn du mich jeden Sonntag anrufst."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Ich sag: Deal. Sie steckt das Kabel ein.",
+     "Ich sag: Deal. Sie steckt das Kabel ein."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Mein Akku springt auf 100. Ihrer fällt auf 3.",
+     "Mein Akku springt auf hundert. Ihrer fällt auf drei."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Da merke ich: Oma hat heimlich die ganze Stadt aufgeladen. Jede Nacht.",
+     "Da merke ich: Oma hat heimlich die ganze Stadt aufgeladen. Jede Nacht."
+    ]
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Und jetzt ist niemand mehr da, der Oma auflädt.",
+     "Und jetzt ist niemand mehr da, der Oma auflädt."
+    ]
+   ],
+   "tail": 1.0
+  },
+  {
+   "id": "s17",
+   "groups": [
+    [
+     "Was soll ich tun? Schreib's in die Kommentare!",
+     "Was soll ich tun? Schreib es in die Kommentare!"
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s18",
+   "groups": [
+    [
+     "Folg mir und schreib Teil 2 in die Kommentare, dann kommt die Fortsetzung!",
+     "Folg mir und schreib Teil zwei in die Kommentare, dann kommt die Fortsetzung!"
+    ]
+   ],
+   "tail": 1.6
+  }
+ ]
+}

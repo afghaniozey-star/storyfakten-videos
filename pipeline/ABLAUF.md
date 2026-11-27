@@ -19,9 +19,15 @@ Der Haupt-Ablauf (du) verteilt die Aufgaben, gibt die Ergebnisse weiter, lädt h
 Alles kostenlos: keine bezahlten Tools; vidIQ-Credits NUR für die YouTube-Kommentare der Stadt.
 
 Pro Tag (ab 22.11.2026 – Wunsch des Nutzers: ALLE Videos im Story-Format „In dieser Welt …“, jedes über 1 Minute):
-- **Story A – Fortsetzung:** der nächste Teil der Serie, die zuletzt neu gestartet bzw. fortgesetzt wurde (z. B. 23.11.: „Die Zahl über dem Kopf“ Teil 2 → 24.11.: Teil 3 …). Löst den Cliffhanger auf, endet mit neuem Cliffhanger. Läuft eine Serie aus (nach ca. 3–5 Teilen oder wenn sie schwächer wird), mit Finale abschließen.
-- **Story B – neues Thema:** JEDEN Tag Teil 1 einer neuen Serie mit neuem Thema, Ende: „Folg, damit du Teil 2 nicht verpasst!“. Diese neuen Serien werden an den Folgetagen als Story A weitergeführt (Ideen-Speicher `pipeline/story-serien.md`, dort jede Serie mit Stand eintragen).
-- **So spannend wie möglich:** jede Sekunde passiert etwas, starke Twists, Cliffhanger am Ende.
+- **TEIL-1-STRATEGIE TikTok + Instagram (Nutzer, 27.11.2026 – dauerhaft):**
+  - Jeden Tag 2 Videos (16:30 und 23:30). Normalerweise sind BEIDE ein **neuer Teil 1 mit neuem Thema**.
+  - Jedes Teil-1-Video endet gesprochen + eingeblendet mit: **„Folg mir und schreib ‚Teil 2‘ in die Kommentare, dann kommt die Fortsetzung!“**
+  - **Teil 2 nur für die besten Teil-1-Videos** (meiste Aufrufe/Kommentare nach 2–3 Tagen; analyse entscheidet), frühestens 2 Tage nach Teil 1, höchstens 1 Teil 2 pro Tag – er ersetzt dann einen der beiden Teil-1-Slots (bevorzugt 16:30). Schwache Teil-1-Videos bekommen KEINEN Teil 2.
+  - Liste in `pipeline/story-serien.md` („Teil-1-Liste“) pflegen: welcher Teil 1 wann lief, Aufrufe, ob Teil 2 kommt.
+  - **Stil (nur noch dieser auf TT/IG):** absurde Regel „In dieser Stadt …“ + Alltagsthema, das junge Leute kennen (Handy, Sprachnachrichten, Akku, Schule, Gruppenchat, Familie, Oma …), Regel mit klarer Zahlengrenze in den ersten 2 s, Satz 2 „Ich“ gegen zweite Person (beide mit Zahl, geteiltes Bild ab 0,0 s), Erzähler mit früh angedeuteter Schwäche/Geheimnis, Twist trifft ihn selbst, offenes Ende mit Frage, Loop aufs Anfangsbild. Keine Quiz-/Countdown-/Türme-Videos mehr auf TT/IG. Muster = „Sprachnachrichten-Stadt Teil 1“ (bestes Video, siehe erkenntnisse.md „Sonderanalyse 27.11.“).
+  - `trend-scout` baut aktuelle TikTok-Trends und Alltagsthemen ein.
+- **Wenn ein Video NICHT fertig wird (egal warum: Fehler, Zeit, Nutzungslimit): SOFORT eine Push-Nachricht an den Nutzer mit dem Grund** – und zwar sobald es absehbar ist, nicht erst am Ende. Fertige Videos immer sofort einplanen, nicht auf die anderen warten.
+- **Sparsam arbeiten** (das Nutzungslimit des Kontos ist am 27.11. erreicht worden, dadurch fehlte ein Video): analyse + trend-scout kurz halten (je max. ~10 Werkzeugaufrufe), keine unnötigen Testrenders, Standbilder gezielt.
 - **Länge 65–80 s** (TikTok zahlt im Creator-Programm nur für Videos über 1 Minute → NIE unter 62 s).
 - Format: Vorlage `pipeline/vorlage-story` (Comic-Figuren mit Mimik, Zahlen/Schilder über Köpfen, Kamerafahrten, Untertitel, selbst erzeugte Musik, Ende „TEIL N+1? ➕ FOLGEN“).
   Bausteine aus `tools/story.py` wiederverwenden (person, badge, street_bg, room_bg, cam, expr, pop) und für jede Geschichte neue Szenen-Sets schreiben.
@@ -103,7 +109,7 @@ Danach Push-Nachricht an den Nutzer: was wann wo eingeplant ist, Thema, Hook-Sat
 Wird 16:30 knapp, Video 1 zum nächsten freien Termin am selben Tag einplanen (nie in der Vergangenheit).
 
 ## 6. Einplanen in Buffer (Organisation „My organization“, Zeitzone Europe/Berlin)
-- **TikTok + Instagram:** Story A um 16:30, Story B um 23:30.
+- **TikTok + Instagram:** 16:30 und 23:30 – je ein neuer Teil 1 (oder an einem der Slots ein Teil 2 für einen Gewinner, siehe Teil-1-Strategie).
 - **YouTube:** Wunsch des Nutzers = 3 pro Tag (Stadt + Story A + Story B). YouTube lässt über Buffer aber nur **2 Posts je 24 h (gleitend)** zu (mehrfach Fehler „daily posting limit“).
   Solange der Nutzer nicht meldet, dass der Kanal per Telefon verifiziert ist: **Abo-Welt 13:20 + Story A 23:59** (nie 3 Posts in 24 h – vorher die gesendeten YouTube-Posts der letzten 24 h prüfen und notfalls ein paar Minuten später planen).
   Nach Verifizierung: Abo-Welt 10:00, Story A 16:30, Story B 23:30 versuchen; scheitert ein Post am Limit, zurück auf 2 und dem Nutzer melden.
