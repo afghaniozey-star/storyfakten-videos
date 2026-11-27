@@ -19,7 +19,7 @@
 | Liefer-Stadt | 24.11. 23:30 | ~1.900 (Buffer) | lief schon (27.11., Finale) |
 | Kompliment-Stadt | 25.11. 23:30 | ~2.800 (Buffer) | offen – analyse entscheidet |
 | **Sprachnachrichten-Stadt** | 26.11. 23:30 | **~6.000 (TikTok-App, 27.11.)** | **JA – Teil 2 am So 29.11. 16:30 (Nutzer)** |
-| Akku-Stadt | 27.11. 23:30 | – | offen |
+| Akku-Stadt | 27.11. 23:30 (von Hand nachgebaut, 63,8 s, tools/akku1.py) | – | offen – analyse entscheidet am 29./30.11. |
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** (ABGESCHLOSSEN 25.11.) – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.
