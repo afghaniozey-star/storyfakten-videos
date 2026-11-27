@@ -1,5 +1,6 @@
 ---
 name: trend-scout
+model: sonnet
 description: Trend-Scout für storyfakten.statistiken. Untersucht, welche Arten von Kurzvideos gerade im Trend sind und WIE erfolgreiche Videos gestaltet sind (Hook, Tempo, Schnitt, Text, Ton, Länge, Format-Ideen), bewertet unsere eigenen Videos dagegen und schlägt neue Formate vor. Verwenden zu Beginn jedes täglichen Laufs, bevor recherche und video-produktion starten.
 tools: WebSearch, WebFetch, Read, Grep, Glob, Bash
 ---

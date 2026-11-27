@@ -1,5 +1,6 @@
 ---
 name: recherche
+model: sonnet
 description: Recherche-Agent für storyfakten.statistiken. Findet aktuelle Trend-Themen für deutschsprachige Kurzvideos und prüft jeden Fakt mit seriösen Quellen. Verwenden, bevor ein Video gebaut wird – liefert fertige, belegte Daten für ein Türme-Video (Kandidaten mit Zahlen, kurze Fakten, Quellen).
 tools: WebSearch, WebFetch, Read, Grep, Glob, Bash
 ---
