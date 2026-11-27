@@ -8,6 +8,52 @@
 
 ## Analyse
 
+### Stand 27.11.2026, 09:40 (Buffer, gesendete Posts 25.–27.11. neu abgefragt, ältere aus Vortagen; Zeiten Berliner Zeit)
+Datenlage: Kennzahlen zuletzt aktualisiert TikTok 27.11. 06:51, Instagram 27.11. 06:57, YouTube nur 26.11. 21:55 (alles danach fehlt auf YT).
+- Voll gemessen jetzt: Kompliment-Stadt T1 (TT/IG ~31 h), Die Zahl T5 (TT/IG ~39 h, YT ~22 h), Abo-Welt T3 (YT ~32 h).
+- Frühwerte: Abo-Welt T4 (YT ~8,3 h), Digga-Stadt T2 (TT/IG ~14 h; YT 27.11. 00:20 noch NIE abgerufen = 0), Sprachnachrichten-Stadt T1 (TT/IG nur ~7,3 h).
+- Alle Posts 25.–27.11. Status „sent“, KEIN Fehler. TT/IG senden 1,5–4,5 min nach Termin, YT 3–11 s.
+- Weiterhin nur Kommentar-ANZAHLEN, keine Kommentartexte.
+- Geplant in Buffer: 0 Posts mit Termin (+3 alte CL-Entwürfe vom 14.11. ohne Termin) -> Gratis-Limit 10: mindestens 7, wahrscheinlich 10 frei. Für heute ist noch nichts eingeplant.
+
+YouTube-Limit (2 in 24 h gleitend nach sentAt), YT-Posts der letzten ~36 h:
+- 26.11. 00:10:05 (Die Zahl 5), 26.11. 13:40:03 (Abo-Welt 4), 27.11. 00:20:07 (Digga-Stadt 2). (Davor 25.11. 13:30:11.)
+- Abo-Welt heute: 13:40:03 muss aus dem Fenster -> frühestens 27.11. 13:40:04; +5 min Puffer = 13:45:04. Empfehlung: **13:50** (13:45 nur 4:56 min Luft).
+- YT-Story A: im Fenster liegen dann 00:20:07 und ~13:50 -> frühestens 28.11. 00:20:08; +5 min = 00:25:08. Empfehlung: **28.11. 00:30**. 23:30/23:59 heute scheitern sicher (3. Post). TT/IG können 23:30 bleiben.
+- Kette schiebt sich weiter (morgen ~13:55 / ~00:40). Ausweg bleibt: einen Tag nur 1 YT-Post.
+
+| Video (Datum, Zeit) | Format | Länge | Aufrufe YT/IG/TT = Summe | Likes | Komm. | Likes/1k | Komm./1k | Ø gesehen TT / IG | gemessen nach |
+|---|---|---|---|---|---|---|---|---|---|
+| **Sprachnachrichten-Stadt T1 (26.11., 23:30, TT/IG)** | Stadt-Story | 79 s | –/1224/1191 = **2415** | 84 | 1 (1 Share, 5 Saves) | 34,8 | 0,4 | **34,9 s (44 %)** / 38,9 s (50 %) | ~7,3 h (Frühwert) |
+| Digga-Stadt T2 (26.11., 16:30, YT 27.11. 00:20) | Stadt-Story | 76 s | 0/1182/633 = 1815 (ohne YT) | 96 | 2 (3 Shares, 1 Save) | **52,9** | 1,1 | 25,7 s (34 %) / 34,3 s (45 %) | ~14 h, YT 0 |
+| **Abo-Welt T4 Italien (26.11., 13:40, nur YT)** | Abo-Welt | 44 s | 1238/–/– = 1238 | 23 | **33** | 18,6 | **26,7** | – | ~8,3 h |
+| Kompliment-Stadt T1 (25.11., 23:30, TT/IG) | Stadt-Story | 76 s | –/1192/1585 = **2777** | 85 | 1 (2 Saves) | 30,6 | 0,4 | 26,3 s (35 %) / 37,3 s (49 %) | ~31 h (Endstand) |
+| Die Zahl T5 FINALE (25.11., 16:30, YT 00:10) | Story | 72 s | **30**/217/1658 = 1905 | 38 | 0 (1 Share) | 19,9 | 0,0 | 15,3 s (21 %) / 21,7 s (30 %) | TT/IG ~39 h, YT ~22 h |
+| Abo-Welt T3 Krone (25.11., 13:30, nur YT) | Abo-Welt | 50 s | 1607/–/– = 1607 | 23 | 38 | 14,3 | 23,6 | – | ~32 h (Endstand) |
+| Die Zahl T4 (24.11., 16:30, YT 00:05) | Story | 77 s | 1096/534/694 = 2324 | 56 | 5 | 24,1 | 2,2 | 18,9 s / 30,2 s | YT ~45 h, TT/IG Vortag |
+
+Top 3 (Aufrufe, 13.–27.11.): **Die Zahl T2 4.234**, Animationsfilme ~3.790, Kane ~3.500. Bestes neues Video: **Kompliment-Stadt 2.777 nur TT/IG** (ohne YT!). Stärkster Frühwert: Sprachnachrichten 2.415 nach 7,3 h.
+Flop 3 (voll gemessen): Raketen ~1.050 (ohne YT), CL-Titel ~1.590, Die Zahl T3 1.802. Auffällig: **Die Zahl T5 auf YouTube nur 30 Aufrufe nach 22 h** (T2–T4 auf YT je ~1.000-1.100) – schwächster YT-Wert überhaupt, Ursache aus Buffer nicht erkennbar (1 Video; nicht verallgemeinern).
+Kommentar-König weiter Abo-Welt T1 115 (44,6/1k); Endstand T3 38 (23,6/1k).
+
+Muster (mit Anzahl stützender Videos):
+- **„Land ist noch FREI“ schlägt „Wettbewerb um Krone“ (Abo-Welt, 4 Videos):** Kommentare zum ähnlichen Messzeitpunkt: T2 Japan frei 28 Komm. (6,2 h, 29,7/1k), T4 Italien frei 33 Komm. (8,3 h, 26,7/1k) vs. T3 Krone 20 Komm. (6,7 h, 18,7/1k). Endstand T3 nur 23,6/1k (T1 44,6, T2 32,0). Aufrufe stabil 1.000–1.600 pro Tag.
+- **Teil 2 hält, wenn er wie Teil 1 gebaut ist (2 Serien):** Digga T2 TT+IG 1.815 nach 14 h (T1-Endstand 1.975), TikTok 633 schon über T1-Endstand 552, Likes 52,9/1k = höchster Wert aller Videos (TT allein 94,8/1k). Bestätigt Die Zahl T2 (3.123 TT+IG). Ab Teil 3 Absturz bleibt bestätigt (3 von 3).
+- **Stadt-Story Teil 1 bleibt das stärkste TT/IG-Format (4 Videos):** Digga 1.975, Liefer 1.876, Kompliment 2.777, Sprachnachrichten 2.415 (7 h) – alle ohne YT. Likes 30–35/1k bei 4 von 4, IG-Watchtime 37–54 % bei 4 von 4.
+- **Neuer TikTok-Rekord bei der Watchtime (1 Video, Frühwert):** Sprachnachrichten 34,9 s Ø (44 %), vorher Bestwert Kompliment 26,3 s / Digga T2 25,7 s. Hook: allen bekannte Handy-Alltagssituation + konkrete Zahlen („über 1 Minute“, „Oma schickt 14 Minuten“). 5 Saves auf IG = höchster Wert der Story-Videos.
+- **Wachstum endet nach ~8 h (Kompliment, 1 Video):** 2.733 nach 8 h -> 2.777 nach 31 h. Frühwerte ab ~7 h sind also schon fast Endstände auf TT/IG.
+- **Kommentare TT/IG weiter ~0–2 (11 Story-Videos), egal welche Frage** („Tipp in die Kommentare“ 1, „bestes Kompliment“ 1). Nur YT-Abo-Welt holt 19–45/1k (4 von 4).
+- **Uhrzeit TT+IG (16:30 = 8 voll gemessen, 23:30 = 10):** 23:30 Ø 2.074 (mit Kompliment 2.777); 16:30 Ø 1.746. Instagram: 23:30 bei 9 von 10 > 1.000, 16:30 nur 3 von 8 (Digga T2 1.182 als Frühwert wäre der 4.). TikTok nicht mehr klar 16:30-stärker: Sprachnachrichten 1.191 (7 h) und Kompliment 1.585 laufen nachts gut. Vorsicht: die Fortsetzungen liegen fast alle auf 16:30. -> **Keine Umstellung**; neue Story Teil 1 auf 23:30, Teil 2/Fortsetzung auf 16:30.
+
+Regeln für die nächsten Videos:
+1. Abo-Welt-Ereignis heute: wieder ein konkretes FREIES Land/Gebiet zum Beanspruchen im ersten Satz („X ist noch FREI – wer schnappt es sich?“) + Kommentar-Namen sichtbar; kein reiner Wettbewerb (Krone holte 25–45 % weniger Kommentare). YT **13:50**.
+2. Liefer-Stadt Teil 2 (16:30) wie Digga T2: Welt-Regel in Satz 1, neue Situation, „Teil 2“ nur klein, danach Serie beenden (kein Teil 3). Likes-Ziel > 40/1k.
+3. Neue Story B (23:30) nach Sprachnachrichten-Muster: Alltagssituation, die jeder vom Handy/Alltag kennt, + 2 konkrete Zahlen im Hook + zwei Personen im Gegensatz (Oma vs. ich). Länge 75–79 s ist ok.
+4. TT/IG-Kommentare nicht über Fragen erzwingen (11 von 11 bei 0–2); Fokus auf Saves/Shares und Watchtime.
+5. YT-Story A erst **28.11. 00:30**.
+Beibehalten: 16:30/23:30 für TT/IG, Stadt-Story-Format, Story-Länge 72–79 s, Abo-Welt täglich auf YT, Quellenzeile.
+Zu früh für Schlüsse: Sprachnachrichten-Rekord (7 h, 1 Video), Digga T2 auf YouTube (0 gemessen), warum Die Zahl T5 auf YT nur 30 Aufrufe hat (1 Video), Abo-Welt T4 Endstand.
+
 ### Stand 26.11.2026, 09:35 (Buffer, gesendete Posts 22.–26.11. neu abgefragt, ältere aus Vortagen; Zeiten Berliner Zeit)
 Datenlage: Kennzahlen zuletzt aktualisiert TikTok 26.11. 07:50, Instagram 26.11. 07:56, YouTube nur 25.11. 20:14 (alles danach fehlt auf YT).
 - Voll gemessen jetzt: Liefer-Stadt T1 (TT/IG ~32 h), Digga-Stadt T1 (~56 h), Die Zahl T4 (TT/IG ~39 h, YT ~19 h), Abo-Welt T2 (YT ~31 h).
