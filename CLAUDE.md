@@ -12,5 +12,6 @@ Dieses Repository ist Werkzeugkasten und Ablage für die automatisch erstellten 
 - `analyse`: wertet die Accounts über Buffer aus (Zahlen pro Video, Uhrzeit, Thema) → `pipeline/erkenntnisse.md`.
 - `trend-scout`: untersucht Trend-Formate und Video-Gestaltung, bewertet unsere Videos, schlägt Verbesserungen vor.
 - `recherche`: findet konkrete Themen und prüft jeden Fakt mit Quellen.
-- `video-produktion`: baut, schneidet, vertont, rendert und prüft die Videos (Türme / YouTube-Stadt).
+- `video-produktion`: baut, schneidet, vertont, rendert und prüft die Videos.
+- `qualitaet`: Endkontrolle jedes Videos vor dem Veröffentlichen → FREIGEGEBEN oder GESPERRT mit Grund.
 Der tägliche Ablauf steht in `pipeline/ABLAUF.md` (Zweig `pipeline`).
