@@ -8,6 +8,40 @@
 
 ## Analyse
 
+### Sonderanalyse 27.11.: Warum Sprachnachrichten-Stadt T1 gewinnt
+Datenlage: Buffer-Kennzahlen TikTok zuletzt aktualisiert 27.11. 06:51 (Instagram 06:57) -> Sprachnachrichten war da erst ~7,3 h online. Buffer zeigt 1.191 TT-Aufrufe, die TikTok-App des Nutzers ~6.000 = Buffer hinkt ~1 Tag hinterher. Aufrufe in der Tabelle sind also für die letzten 1–2 Tage zu niedrig; die **Watchtime (Ø gesehen)** ist der verlässlichste Vergleich. Liefer-Stadt T2 (27.11., 16:30) noch 0 = nicht gemessen. Widerlegt: „Wachstum endet nach ~8 h“ gilt auf TikTok NICHT (Sprach 1.191 -> ~6.000).
+
+| TikTok, Story-Video (17.–27.11.) | Zeit | Länge | Aufrufe (Buffer) | Likes (/1k) | Komm. | Ø gesehen (%) |
+|---|---|---|---|---|---|---|
+| **Sprachnachrichten-Stadt T1 (26.11.)** | 23:30 | 78 s | 1.191 (App ~6.000) | 43 (36) | 1 | **34,9 s (45 %)** |
+| Kompliment-Stadt T1 (25.11.) | 23:30 | 76 s | 1.585 | 58 (37) | 1 | 26,3 s (35 %) |
+| Digga-Stadt T2 (26.11.) | 16:30 | 76 s | 633 | 60 (**95**) | 1 | 25,7 s (34 %) |
+| Digga-Stadt T1 (23.11.) | 23:30 | 74 s | 563 | 23 (41) | 1 | 22,7 s (31 %) |
+| Liefer-Stadt T1 (24.11.) | 23:30 | 74 s | 685 | 23 (34) | 1 | 17,8 s (24 %) |
+| Die Zahl T1 (22.11.) | 16:30 | 62 s | 1.702 | 56 (33) | 0 | 16,9 s (27 %) |
+| Die Zahl T2 (22.11.) | 23:30 | 72 s | 1.760 | 27 (15) | 2 | 20,1 s (28 %) |
+| Die Zahl T3 (23.11.) | 16:30 | 73 s | 662 | 9 (14) | 0 | 12,9 s (18 %) |
+| Die Zahl T4 (24.11.) | 16:30 | 77 s | 698 | 20 (29) | 2 | 19,1 s (25 %) |
+| Die Zahl T5 (25.11.) | 16:30 | 72 s | 1.658 | 32 (19) | 0 | 15,3 s (21 %) |
+Instagram zum Vergleich: Sprach 1.224 / 38,9 s (50 %) / 5 Saves (Story-Rekord); Kompliment 1.192 / 37,3 s; Digga T1 1.430 / 39,4 s; Liefer 1.203 / 27,2 s. Auf IG ist der Vorsprung klein, der Unterschied entsteht auf TikTok.
+
+Was Sprach T1 anders macht (Skriptvergleich voice-sprach1 vs. digga1/liefer1/kompliment1 + Standbilder Trend-Scout 27.11.):
+- **Thema = echte Alltags-Peinlichkeit, die jeder vom Handy kennt** (Sprachnachrichten, Oma-Monolog = bekanntes Meme). Liefer (Drohnen) und Kompliment (Geldsystem) sind Fantasie-Ideen ohne eigenes Erlebnis; Digga ist nah dran, aber Strafe statt Peinlichkeit.
+- **Hook mit prüfbarer Grenze + Gegensatz in Satz 2:** „über 1 Minute“ -> „Ich: 59 Sekunden. Oma: 14 Minuten.“ Zwei Zahlen, zwei Personen, „ich“ vs. Oma, ab 0,0 s als Split-Bild. Die anderen starten mit einem Kumpel/Lehrer (Jonas, Malte, Krause) und ohne direkten Vergleich.
+- **Der Erzähler hat selbst etwas zu verlieren:** „Nur mich hat die Stadt noch nie gehört – 59 Sekunden. Immer.“ wird früh gesetzt und am Ende gebrochen (Handy nimmt 6 Stunden in der Hosentasche auf). Setup -> Payoff statt Zufalls-Twist (Liefer: Propeller wachsen; Digga: „Alter“ lässt wachsen).
+- **Ende = offene Frage zur Story selbst:** „Zeit für mein größtes Geheimnis.“ – „Oma dreht lauter.“ – „Was ist mein Geheimnis?“ Neugier-Lücke, die nur Teil 2 schließt. Die anderen fragen allgemein („Welches Wort verbieten?“, „bestes Kompliment“) = keine Lücke. Schlussbild = Split vom Anfang (Loop).
+- **Nicht der Grund:** Uhrzeit (Kompliment, Liefer, Digga T1 auch 23:30), Länge (78 s = längstes Story-Video, trotzdem beste Watchtime), Kommentare (TT weiter 0–2 bei 10 von 10).
+- Stützung: Watchtime-Rekord + App-Aufrufe = 1 Video; Gegensatz-Hook ist mit Kompliment (2. beste Watchtime) durch 2 Videos gestützt. Noch kein Gesetz – mit den nächsten 2–3 Teil-1-Videos prüfen.
+
+Regeln für neue Teil-1-Videos:
+1. **Thema:** eine Handy-/Alltagssituation, die jeder schon peinlich erlebt hat (Sprachnachricht, Akku, Autokorrektur, Bildschirmzeit, Gruppenchat) – keine reine Fantasie-Maschine.
+2. **Satz 1 = Regel mit prüfbarer Zahlengrenze** („über 1 Minute“, „unter 5 % Akku“), max. ~2 s, Bild + Text + Stimme gleichzeitig.
+3. **Satz 2 = Gegensatz zweier Personen mit je einer Zahl**, „ich“ ist eine davon (Ich 59 s vs. Oma 14 min), als Split-Bild ab 0,0 s.
+4. **Der Erzähler hat eine Schwäche/ein Geheimnis**, früh angekündigt („nur mich hat noch nie …“), das am Ende auffliegt – Twist trifft den Erzähler selbst, nicht einen Nebencharakter.
+5. **Nebenfiguren nur als schnelle Gags** (Emil + Ente, Krause + Tauben, Bürgermeister im Tunnel), je 1–2 Sätze, dann zurück zum Haupt-Gegensatz.
+6. **Offenes Ende mit Frage zur Story** („Was ist mein Geheimnis?“) + letzte Reaktion einer Figur („Oma dreht lauter“), Schlussbild = Anfangs-Split mit neuer Zahl. Keine allgemeinen „Was würdest du …?“-Fragen.
+7. Länge 75–80 s ist ok, Story-Teil 1 weiter 23:30. Teil 2 muss das Geheimnis in den ersten 3 s auflösen bzw. anteasern.
+
 ### Stand 27.11.2026, 09:40 (Buffer, gesendete Posts 25.–27.11. neu abgefragt, ältere aus Vortagen; Zeiten Berliner Zeit)
 Datenlage: Kennzahlen zuletzt aktualisiert TikTok 27.11. 06:51, Instagram 27.11. 06:57, YouTube nur 26.11. 21:55 (alles danach fehlt auf YT).
 - Voll gemessen jetzt: Kompliment-Stadt T1 (TT/IG ~31 h), Die Zahl T5 (TT/IG ~39 h, YT ~22 h), Abo-Welt T3 (YT ~32 h).
