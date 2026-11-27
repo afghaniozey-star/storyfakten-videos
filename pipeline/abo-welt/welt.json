@@ -1,7 +1,7 @@
 {
   "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
   "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
-  "tag": 5,
+  "tag": 6,
   "laender_gesamt": 195,
   "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
   "besitzer": [
@@ -92,6 +92,19 @@
         "ru"
       ],
       "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Italien und Japan FREI, Russland bei Globi. Noch 190 frei. YT 13:40."
+    },
+    {
+      "tag": 5,
+      "datum": "2026-11-27",
+      "art": "Wer bekommt die Türkei? (Europa 3 % + Asien 97 %; Twist: Land in Europa UND Asien hat bisher nur Globi/Russland; Ladebalken 99 %, Rundflug über 5 echte Besitzer)",
+      "offen": [
+        "tr",
+        "it",
+        "jp",
+        "ru"
+      ],
+      "quelle": "Fläche: Bundesregierung/bpb · Haselnüsse: FAO 2023",
+      "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Türkei, Italien, Japan FREI, Russland bei Globi. Noch 190 frei. YT 13:50 (43,2 s)."
     }
   ]
 }

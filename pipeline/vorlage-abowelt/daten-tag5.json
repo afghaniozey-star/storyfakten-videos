@@ -1,0 +1,17 @@
+{
+ "ereignis": "Wer bekommt die Türkei? (freies Land ausgeschrieben, keine neuen Besitzer)",
+ "tag": 5,
+ "datum": "2026-11-27",
+ "land": {"code": "tr", "land_de": "TÜRKEI", "status": "frei – geht an den ersten echten Abonnenten, der die Türkei kommentiert"},
+ "fakten": [
+  {"szene": "s3", "gesprochen": "Die Türkei liegt auf zwei Kontinenten: Europa und Asien", "anzeige": "EUROPA 3 % · ASIEN 97 %",
+   "quelle": "https://www.bundesregierung.de/breg-de/themen/tuerkei-455658", "zusatz": "https://www.bpb.de/themen/europa/tuerkei/187972/physische-uebersicht-und-verkehr"},
+  {"szene": "s4", "gesprochen": "mehr als jede zweite Haselnuss der Welt kommt von dort", "anzeige": "58 % ALLER HASELNÜSSE (FAO 2023)",
+   "quelle": "https://de.statista.com/statistik/daten/studie/1102705/umfrage/produktion-der-fuehrenden-erzeugerlaender-von-haselnuessen", "achtung": "70 % ist veraltet – nicht verwenden"},
+  {"szene": "s5", "gesprochen": "Ein Land in Europa und Asien hat bisher nur einer: Globi (Russland)", "anzeige": "RUSSLAND: EUROPA + ASIEN",
+   "quelle": "https://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/506163/russland/"}
+ ],
+ "quellenzeile": "Fläche: Bundesregierung/bpb · Haselnüsse: FAO 2023",
+ "frei_bleibt": ["tr", "it", "jp", "ru (bei Globi, zurückholbar per echtem Kommentar)"],
+ "zaehler": "5 / 195 vergeben – noch 190 frei"
+}

@@ -1,0 +1,131 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Die Türkei ist frei! Wer bekommt sie?",
+     "Die Türkei ist frei! Wer bekommt sie?"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.35
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.4
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Die Türkei liegt auf zwei Kontinenten: Europa und Asien.",
+     "Die Türkei liegt auf zwei Kontinenten: Europa und Asien."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.4
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Und mehr als jede zweite Haselnuss der Welt kommt von dort!",
+     "Und mehr als jede zweite Haselnuss der Welt kommt von dort!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Ein Land in Europa und Asien hat bisher nur einer: Globi!",
+     "Ein Land in Europa und Asien hat bisher nur einer: Globi!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Wer holt sich das zweite Land?",
+     "Wer holt sich das zweite Land?"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Land wird vergeben … 99 % …",
+     "Land wird vergeben … neunundneunzig Prozent …"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 1.0
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Låki, die USA Liam, Australien Laith.",
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Loki, die USA, Liam, Australien Laith."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Japan und Italien sind auch noch frei. Auf Russland sitzt Globi!",
+     "Japan und Italien sind auch noch frei. Auf Russland sitzt Globi!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.7
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "5 von 195 vergeben. Noch 190 frei!",
+     "Fünf von hundertfünfundneunzig vergeben. Noch hundertneunzig frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.6
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Wer bekommt die Türkei? Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Wer bekommt die Türkei? Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 1.5
+  }
+ ]
+}
