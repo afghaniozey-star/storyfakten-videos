@@ -13,5 +13,6 @@ Dieses Repository ist Werkzeugkasten und Ablage für die automatisch erstellten 
 - `trend-scout`: untersucht Trend-Formate und Video-Gestaltung, bewertet unsere Videos, schlägt Verbesserungen vor.
 - `recherche`: findet konkrete Themen und prüft jeden Fakt mit Quellen.
 - `video-produktion`: baut, schneidet, vertont, rendert und prüft die Videos.
+- `account-coach`: betrachtet die ganzen Accounts (Wachstum, Profil, Monetarisierungs-Fortschritt) und gibt wöchentlich Empfehlungen.
 - `qualitaet`: Endkontrolle jedes Videos vor dem Veröffentlichen → FREIGEGEBEN oder GESPERRT mit Grund.
 Der tägliche Ablauf steht in `pipeline/ABLAUF.md` (Zweig `pipeline`).
