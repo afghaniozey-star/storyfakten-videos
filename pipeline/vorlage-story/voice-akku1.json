@@ -24,7 +24,8 @@
      "Ich: 2 %. Meine Oma: 100 %.",
      "Ich: zwei Prozent. Meine Oma: hundert Prozent."
     ]
-   ]
+   ],
+   "tail": 0.7
   },
   {
    "id": "s3",
@@ -52,7 +53,7 @@
      "Zack. Eingeschlafen. Mit dem Gesicht auf Aufgabe drei."
     ]
    ],
-   "tail": 0.5
+   "tail": 0.7
   },
   {
    "id": "s6",
@@ -79,7 +80,8 @@
      "Nur Oma nicht. 98 %. Sie strickt.",
      "Nur Oma nicht. Achtundneunzig Prozent. Sie strickt."
     ]
-   ]
+   ],
+   "tail": 0.7
   },
   {
    "id": "s9",
@@ -97,7 +99,8 @@
      "Ein Video noch. Nur eins. 1 %.",
      "Ein Video noch. Nur eins. Ein Prozent."
     ]
-   ]
+   ],
+   "tail": 0.7
   },
   {
    "id": "s11",
@@ -124,7 +127,8 @@
      "Ich sag: Deal. Sie steckt das Kabel ein.",
      "Ich sag: Deal. Sie steckt das Kabel ein."
     ]
-   ]
+   ],
+   "tail": 0.7
   },
   {
    "id": "s14",
@@ -134,7 +138,7 @@
      "Mein Akku springt auf hundert. Ihrer fällt auf drei."
     ]
    ],
-   "tail": 0.7
+   "tail": 0.9
   },
   {
    "id": "s15",
@@ -154,7 +158,7 @@
      "Und jetzt ist niemand mehr da, der Oma auflädt."
     ]
    ],
-   "tail": 1.0
+   "tail": 1.4
   },
   {
    "id": "s17",
@@ -174,7 +178,7 @@
      "Folg mir und schreib Teil zwei in die Kommentare, dann kommt die Fortsetzung!"
     ]
    ],
-   "tail": 1.6
+   "tail": 2.2
   }
  ]
 }
