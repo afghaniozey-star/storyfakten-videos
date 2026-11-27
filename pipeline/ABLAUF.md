@@ -10,11 +10,12 @@ Fertig, wenn `~/setup.log` "FERTIG" und "bereit" enthält. Danach gibt es `/opt/
 Scheitert es (z. B. gesperrte Adresse), dem Nutzer sofort per Push-Nachricht melden, mit der genauen Fehlermeldung.
 
 ## 1. Drei Videos pro Tag – Aufgaben an die Helfer-Agenten verteilen
-Es gibt vier Helfer (Ordner `.claude/agents/` im Zweig `main`, als Subagent über das Agent-Werkzeug aufrufen), in dieser Reihenfolge:
+Es gibt fünf Helfer (Ordner `.claude/agents/` im Zweig `main`, als Subagent über das Agent-Werkzeug aufrufen), in dieser Reihenfolge:
 1. **`analyse`** – wertet die letzten Videos über Buffer aus (Aufrufe, Likes, Kommentare pro Uhrzeit/Thema/Format) und schreibt Regeln in `pipeline/erkenntnisse.md`.
 2. **`trend-scout`** – schaut, welche Video-Formate gerade Trend sind und wie sie gestaltet sind, bewertet unsere Videos, gibt Gestaltungs-Anweisungen.
 3. **`recherche`** – findet die konkreten Themen (unter Beachtung von 1 + 2) und prüft alle Fakten mit Quellen.
 4. **`video-produktion`** – baut, schneidet, rendert und prüft jedes Video (mit den Anweisungen aus 1 + 2).
+5. **`qualitaet`** – Endkontrolle JEDES fertigen Videos vor dem Einplanen (Länge, Ton, Stimme, Bild, Schluss-Aufruf, Regeln). Nur bei **FREIGEGEBEN** wird eingeplant; bei **GESPERRT** repariert video-produktion (1 Versuch), sonst Push an den Nutzer mit Grund.
 Der Haupt-Ablauf (du) verteilt die Aufgaben, gibt die Ergebnisse weiter, lädt hoch, plant in Buffer ein und informiert den Nutzer.
 Alles kostenlos: keine bezahlten Tools; vidIQ-Credits NUR für die YouTube-Kommentare der Stadt.
 
