@@ -1,6 +1,7 @@
 # Story-Serien „In dieser Welt …“
 
 ## Plan
+- 28.11. ERLEDIGT: Abo-Welt Tag 6 „Nordamerika-Bündnis – wer holt sich Mexiko?“ (44,3 s, YT 13:55), Familiengruppen-Stadt T1 (76,9 s; TT/IG 16:30, YT 29.11. 00:35), Lesebestätigungs-Stadt T1 (74,2 s; TT/IG 23:30). YouTube-24-h-Kette: 29.11. Abo-Welt frühestens 13:56, Story-YT frühestens 00:36 am 30.11.
 - 28.11. (Analyse): Plan bestätigt = 2 NEUE Teil 1 heute. Kompliment-Stadt T2 entfällt (kein Gewinner), der Slot geht an einen neuen Teil 1. Neue Teil 1 nach Regeln aus erkenntnisse.md (Alltags-Handy-Peinlichkeit, Zahlen-Hook, Gegensatz).
 - AB 28.11.: Teil-1-Strategie (ABLAUF.md). 28.11.: 2 neue Teil 1. 29.11.: 16:30 = Sprachnachrichten-Stadt Teil 2, 23:30 = neuer Teil 1. Die alten Pläne unten (Kompliment 2, Digga 3 …) gelten NICHT mehr automatisch – nur wenn analyse sie als Gewinner einstuft.
 - 23.11.: Abo-Welt Tag 1 ist schon fertig und für 13:20 auf YouTube eingeplant (von Hand) → am 23.11. KEIN Abo-Video bauen. Ab 24.11. Abo-Welt Tag 2, 3 … (pipeline/abo-welt/welt.json, tag = 2).
