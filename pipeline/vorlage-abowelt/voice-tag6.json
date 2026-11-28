@@ -1,0 +1,131 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.92,
+ "sentence_silence": 0.12,
+ "tail": 0.4,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "Kanada und die USA schließen ein Bündnis!",
+     "Kanada und die USA schließen ein Bündnis!"
+    ]
+   ],
+   "lead": 0.12,
+   "tail": 0.35
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.4
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Finny hat Kanada, Liam die USA. Die beiden sind Nachbarn!",
+     "Finny hat Kanada, Liam die USA. Die beiden sind Nachbarn!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.4
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Doch ein Nachbar fehlt noch: Mexiko ist frei!",
+     "Doch ein Nachbar fehlt noch: Mexiko ist frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.4
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Und Mexiko ist mehr als 5-mal so groß wie Deutschland!",
+     "Und Mexiko ist mehr als fünfmal so groß wie Deutschland!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Wer holt sich Mexiko und tritt dem Bündnis bei?",
+     "Wer holt sich Mexiko und tritt dem Bündnis bei?"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Und Mexiko geht an …",
+     "Und Mexiko geht an …"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 1.6
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Låki, die USA Liam, Australien Laith.",
+     "Kanada gehört Finny, Brasilien Fabertrans, Deutschland Loki, die USA, Liam, Australien, Lais."
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.5
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Die Türkei, Italien und Japan sind auch noch frei. Auf Russland sitzt Globi!",
+     "Die Türkei, Italien und Japan sind auch noch frei. Auf Russland sitzt Globi!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.7
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "5 von 195 vergeben. Noch 190 frei!",
+     "Fünf von hundertfünfundneunzig vergeben. Noch hundertneunzig frei!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 0.6
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Wer bekommt Mexiko? Abonnier und kommentier dein Wunschland – nur Abonnenten bekommen ein Land!",
+     "Wer bekommt Mexiko? Abonnier und kommentier dein Wunschland, nur Abonnenten bekommen ein Land!"
+    ]
+   ],
+   "lead": 0.1,
+   "tail": 1.5
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "ereignis": "Nordamerika-Bündnis: Kanada (FINNY) + USA (LIAM) sind Nachbarn und schließen ein Bündnis – der dritte Nachbar Mexiko ist FREI (keine neuen Besitzer)",
+ "tag": 6,
+ "datum": "2026-11-28",
+ "land": {"code": "mx", "land_de": "MEXIKO", "status": "frei – geht an den ersten echten Abonnenten, der Mexiko kommentiert (tritt dem Bündnis bei)"},
+ "fakten": [
+  {"szene": "s5", "gesprochen": "Mexiko ist mehr als fünfmal so groß wie Deutschland", "anzeige": "1.964.375 km² = 5,5 × DEUTSCHLAND (357.022 km²)",
+   "quelle": "CIA World Factbook, Geography/Area (Mexiko 1,964,375 sq km; Deutschland 357,022 sq km)", "zusatz": "https://raw.githubusercontent.com/factbook/factbook.json/master/north-america/mx.json"},
+  {"szene": "s3", "gesprochen": null, "anzeige": "GRENZE KANADA–USA: 8.891 KM",
+   "quelle": "CIA World Factbook, Canada – Land boundaries (US 8,891 km inkl. 2,475 km mit Alaska)"}
+ ],
+ "quellenzeile": "Fläche & Grenze: CIA World Factbook",
+ "frei_bleibt": ["mx", "tr", "it", "jp", "ru (bei Globi, zurückholbar per echtem Kommentar)"],
+ "zaehler": "5 / 195 vergeben – noch 190 frei"
+}

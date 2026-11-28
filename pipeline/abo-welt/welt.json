@@ -1,7 +1,7 @@
 {
   "name": "Abo-Welt: Jeder Abonnent bekommt ein Land",
   "regel": "Nur wer auf YouTube ABONNIERT und sein Wunschland kommentiert, bekommt ein Land (ein Land pro Person; ist es vergeben, das nächstgrößere freie Nachbarland vorschlagen). Name = YouTube-Handle ohne @, max. 12 Zeichen.",
-  "tag": 6,
+  "tag": 7,
   "laender_gesamt": 195,
   "kommentare_gelesen_bis": "2026-11-18T17:09:26Z",
   "besitzer": [
@@ -105,6 +105,20 @@
       ],
       "quelle": "Fläche: Bundesregierung/bpb · Haselnüsse: FAO 2023",
       "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Türkei, Italien, Japan FREI, Russland bei Globi. Noch 190 frei. YT 13:50 (43,2 s)."
+    },
+    {
+      "tag": 6,
+      "datum": "2026-11-28",
+      "art": "Nordamerika-Bündnis: Kanada (FINNY) + USA (LIAM) sind Nachbarn und schließen ein Bündnis (🤝 + ❤️); dritter Nachbar Mexiko FREI – „Wer holt sich Mexiko und tritt dem Bündnis bei?“ (Ladebalken 99 % + Trommelwirbel „Und Mexiko geht an …“, Rundflug über 5 echte Besitzer)",
+      "offen": [
+        "mx",
+        "tr",
+        "it",
+        "jp",
+        "ru"
+      ],
+      "quelle": "Fläche Mexiko 1.964.375 km² vs. Deutschland 357.022 km² (> 5 ×) und Grenze Kanada–USA 8.891 km: CIA World Factbook",
+      "hinweis": "Keine Kommentare gelesen (vidIQ in dieser Sitzung nicht verfügbar). Besitzer unverändert. Mexiko, Türkei, Italien, Japan FREI, Russland bei Globi. Noch 190 frei. Mexiko geht an den ersten echten Abonnenten, der Mexiko kommentiert (tritt dem Bündnis bei). Laith wird als „Lais“ vertont (Whisper hörte „Laith“ sonst als „live“). Video videos/2026-11-28-abowelt-tag6-mexiko.mp4 (44,3 s)."
     }
   ]
 }
