@@ -8,6 +8,15 @@
 
 ## Analyse
 
+### Stand 28.11. (Buffer-Kennzahlen 28.11. ca. 05:00; Akku T1 erst ~6 h online, TikTok-Zahlen hinken ~1 Tag)
+- Sprachnachrichten-Stadt T1: TT 8.911 Aufrufe, Ø 35,9 s, 362 Likes, 2 Komm.; IG 1.305 (Ø 38,5 s). Klarer Gewinner (1 Video, aber deutlich: 5x die anderen).
+- Kompliment-Stadt T1: TT 1.600 (Ø 26,4 s), IG 1.194, 1 Komm. -> mittelmäßig, KEIN Teil 2.
+- Liefer-Stadt T2 (Finale, 27.11. 16:30): TT 702 (Ø 16,5 s), IG 493 (Ø 44 s, kurze Laufzeit), YT noch 0 -> Fortsetzungen bleiben schwach.
+- Akku-Stadt T1 (27.11. 23:30): IG 1.277 mit Ø 49,5 s von 63,8 s (78 %, bester Wert aller Stories), TT 631 nach 6 h, 71 Likes (11,9 Eng.-Rate). Vielversprechend, TT am 29./30.11. nachmessen. Stützt die Alltags-Handy-Regel (2 Videos: Sprach, Akku).
+- Abo-Welt YT (13:00-Slot): Tag 5 Türkei 1.285 Aufrufe, 32 Komm.; Tag 4 Italien 1.515, 37 Komm. -> einziges Format mit Kommentaren (je ~2,5 %).
+- Uhrzeit: keine Änderung. Pro Uhrzeit (TT Story) 5-6 Videos, Unterschiede kommen vom Thema, nicht von 16:30 vs. 23:30 (zu wenig Daten für Schluss).
+- Aufgabe heute: 2 neue Teil 1 (Alltags-Handy-Thema, Zahlen-Hook, Gegensatz, Erzähler mit Schwäche).
+
 ### Sonderanalyse 27.11.: Warum Sprachnachrichten-Stadt T1 gewinnt
 Datenlage: Buffer-Kennzahlen TikTok zuletzt aktualisiert 27.11. 06:51 (Instagram 06:57) -> Sprachnachrichten war da erst ~7,3 h online. Buffer zeigt 1.191 TT-Aufrufe, die TikTok-App des Nutzers ~6.000 = Buffer hinkt ~1 Tag hinterher. Aufrufe in der Tabelle sind also für die letzten 1–2 Tage zu niedrig; die **Watchtime (Ø gesehen)** ist der verlässlichste Vergleich. Liefer-Stadt T2 (27.11., 16:30) noch 0 = nicht gemessen. Widerlegt: „Wachstum endet nach ~8 h“ gilt auf TikTok NICHT (Sprach 1.191 -> ~6.000).
 

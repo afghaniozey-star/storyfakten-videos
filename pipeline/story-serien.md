@@ -1,6 +1,7 @@
 # Story-Serien „In dieser Welt …“
 
 ## Plan
+- 28.11. (Analyse): Plan bestätigt = 2 NEUE Teil 1 heute. Kompliment-Stadt T2 entfällt (kein Gewinner), der Slot geht an einen neuen Teil 1. Neue Teil 1 nach Regeln aus erkenntnisse.md (Alltags-Handy-Peinlichkeit, Zahlen-Hook, Gegensatz).
 - AB 28.11.: Teil-1-Strategie (ABLAUF.md). 28.11.: 2 neue Teil 1. 29.11.: 16:30 = Sprachnachrichten-Stadt Teil 2, 23:30 = neuer Teil 1. Die alten Pläne unten (Kompliment 2, Digga 3 …) gelten NICHT mehr automatisch – nur wenn analyse sie als Gewinner einstuft.
 - 23.11.: Abo-Welt Tag 1 ist schon fertig und für 13:20 auf YouTube eingeplant (von Hand) → am 23.11. KEIN Abo-Video bauen. Ab 24.11. Abo-Welt Tag 2, 3 … (pipeline/abo-welt/welt.json, tag = 2).
 - 23.11.: Story A = „Die Zahl über dem Kopf“ Teil 3 (Teil 2 lief am 22.11. 23:30), Story B = Teil 1 einer NEUEN Serie (lustiger „In dieser Stadt …“-Stil).
@@ -15,11 +16,11 @@
 ## Teil-1-Liste TikTok/Instagram (ab 27.11.: Teil 2 nur für Gewinner, frühestens 2 Tage nach Teil 1)
 | Teil 1 | lief am | Aufrufe TT (Stand) | Teil 2? |
 |---|---|---|---|
-| Digga-Stadt | 23.11. 23:30 | ~2.000 (Buffer) | lief schon (26.11.), Finale offen – nur wenn stark |
-| Liefer-Stadt | 24.11. 23:30 | ~1.900 (Buffer) | lief schon (27.11., Finale) |
-| Kompliment-Stadt | 25.11. 23:30 | ~2.800 (Buffer) | offen – analyse entscheidet |
-| **Sprachnachrichten-Stadt** | 26.11. 23:30 | **~6.000 (TikTok-App, 27.11.)** | **JA – Teil 2 am So 29.11. 16:30 (Nutzer)** |
-| Akku-Stadt | 27.11. 23:30 (von Hand nachgebaut, 63,8 s, tools/akku1.py) | – | offen – analyse entscheidet am 29./30.11. |
+| Digga-Stadt | 23.11. 23:30 | ~2.000 (Buffer, 28.11. nicht neu gemessen) | lief schon (26.11.), Finale offen – nur wenn stark |
+| Liefer-Stadt | 24.11. 23:30 | ~1.900 (Buffer); Teil 2 (27.11. 16:30) TT 702, Ø 16,5 s = schwach | lief schon (27.11., Finale) |
+| Kompliment-Stadt | 25.11. 23:30 | TT 1.600 + IG 1.194 (Buffer 28.11.), 1 Komm., Ø 26 s (35 %) | **NEIN** – kein Gewinner (Sprach T1 TT 8.911), Wiederaufnahme nur bei klarem Kommentar-Interesse |
+| **Sprachnachrichten-Stadt** | 26.11. 23:30 | **TT 8.911 (Buffer 28.11. 04:52), Ø 35,9 s; IG 1.305** | **JA – Teil 2 am So 29.11. 16:30 (Nutzer)** |
+| Akku-Stadt | 27.11. 23:30 (von Hand nachgebaut, 63,8 s, tools/akku1.py) | TT 631 (nach ~6 h, Buffer hinkt), IG 1.277 mit Ø 49,5 s (78 %!), 36 Likes, 4 Saves | offen – TT-Zahlen am 29./30.11. nachmessen; IG-Watchtime Rekord |
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** (ABGESCHLOSSEN 25.11.) – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.
