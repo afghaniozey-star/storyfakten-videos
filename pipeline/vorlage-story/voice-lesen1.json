@@ -1,0 +1,170 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt bleibt keine Nachricht über 10 Minuten unbeantwortet.",
+     "In dieser Stadt bleibt keine Nachricht über zehn Minuten unbeantwortet."
+    ]
+   ],
+   "lead": 0.12
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Ich brauche 3 Minuten. Mia aus meiner Klasse: 41 Minuten.",
+     "Ich brauche drei Minuten. Mia aus meiner Klasse: einundvierzig Minuten."
+    ]
+   ],
+   "tail": 0.7,
+   "speed": 1.0
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Wer überzieht, trägt einen blauen Haken über dem Kopf. Mit Minutenzahl. Für alle sichtbar.",
+     "Wer überzieht, trägt einen blauen Haken über dem Kopf. Mit Minutenzahl. Für alle sichtbar."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Mia läuft mit 41 über dem Kopf. Alle glotzen. Sie tippt: „Sorry, war duschen.“",
+     "Mia läuft mit einundvierzig über dem Kopf. Alle glotzen. Sie tippt: Sorry, war duschen."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Mein Geheimnis: Ich lese alles heimlich im Flugmodus. Dann gibt es keinen Haken.",
+     "Mein Geheimnis: Ich lese alles heimlich im Flugmodus. Dann gibt es keinen Haken."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Oma antwortet in 1 Minute. Sogar dem Matratzenladen. Mit drei Herzen.",
+     "Oma antwortet in einer Minute. Sogar dem Matratzenladen. Mit drei Herzen."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Mein Kumpel Jonas antwortet nach 9 Minuten 59. Immer. Er schwitzt dabei.",
+     "Mein Kumpel Jonas antwortet nach neun Minuten neunundfünfzig. Immer. Er schwitzt dabei."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Der Bürgermeister hat 212 offene Nachrichten. Er leuchtet wie ein Weihnachtsbaum. Im Juli.",
+     "Der Bürgermeister hat zweihundertzwölf offene Nachrichten. Er leuchtet wie ein Weihnachtsbaum. Im Juli."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Ich bin Stadtbester: immer unter 3 Minuten. Die Leute klatschen, wenn ich vorbeigehe.",
+     "Ich bin Stadtbester: immer unter drei Minuten. Die Leute klatschen, wenn ich vorbeigehe."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Heute Mittag erscheint ein blauer Haken über mir. Darunter: 6 Tage.",
+     "Heute Mittag erscheint ein blauer Haken über mir. Darunter: sechs Tage."
+    ]
+   ],
+   "tail": 0.8
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Die ganze Stadt schaut hoch. Mia hält sich die Hand vor den Mund. Der Bürgermeister flüstert: „Du bist schlimmer als ich.“",
+     "Die ganze Stadt schaut hoch. Mia hält sich die Hand vor den Mund. Der Bürgermeister flüstert: Du bist schlimmer als ich."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Ich hab die Nachricht gelesen. Heimlich, im Flugmodus. Und nie wieder angefasst.",
+     "Ich hab die Nachricht gelesen. Heimlich, im Flugmodus. Und nie wieder angefasst."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Hinter ihrem Namen steht ein Herz. Mehr sag ich nicht.",
+     "Hinter ihrem Namen steht ein Herz. Mehr sag ich nicht."
+    ]
+   ],
+   "tail": 0.9,
+   "speed": 0.9
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Oma schickt mir ein Herz. Und dann eine Mahnung.",
+     "Oma schickt mir ein Herz. Und dann eine Mahnung."
+    ]
+   ],
+   "tail": 1.4,
+   "speed": 0.9
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Wessen Nachricht ignoriere ich seit 6 Tagen?",
+     "Wessen Nachricht ignoriere ich seit sechs Tagen?"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Folg mir und schreib Teil 2 in die Kommentare, dann kommt die Fortsetzung!",
+     "Folg mir und schreib Teil zwei in die Kommentare, dann kommt die Fortsetzung!"
+    ]
+   ],
+   "tail": 2.2
+  }
+ ]
+}

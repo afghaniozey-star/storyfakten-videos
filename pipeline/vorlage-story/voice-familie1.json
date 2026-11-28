@@ -1,0 +1,165 @@
+{
+ "engine": "piper",
+ "model": "omni-mann",
+ "length_scale": 0.9,
+ "speed": 1.1,
+ "sentence_silence": 0.15,
+ "tail": 0.35,
+ "lead": 0.1,
+ "scenes": [
+  {
+   "id": "s1",
+   "groups": [
+    [
+     "In dieser Stadt darf jede Familiengruppe nur 20 Nachrichten am Tag.",
+     "In dieser Stadt darf jede Familiengruppe nur zwanzig Nachrichten am Tag."
+    ]
+   ],
+   "lead": 0.12
+  },
+  {
+   "id": "s2",
+   "groups": [
+    [
+     "Ich: 2 Nachrichten. Mama: 63. Davon 40 Daumen.",
+     "Ich: zwei Nachrichten. Mama: dreiundsechzig. Davon vierzig Daumen."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s3",
+   "groups": [
+    [
+     "Über dem Rathaus hängt ein Zähler. Mama knackt die 20 schon beim Frühstück.",
+     "Über dem Rathaus hängt ein Zähler. Mama knackt die zwanzig schon beim Frühstück."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "groups": [
+    [
+     "Wer überzieht, dessen Gruppe wird laut über der ganzen Stadt vorgelesen.",
+     "Wer überzieht, dessen Gruppe wird laut über der ganzen Stadt vorgelesen."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s5",
+   "groups": [
+    [
+     "Mein Geheimnis: Ich hab die Gruppe auf stumm gestellt. 1.400 Nachrichten ungelesen.",
+     "Mein Geheimnis: Ich hab die Gruppe auf stumm gestellt. Vierzehnhundert Nachrichten ungelesen."
+    ]
+   ],
+   "tail": 0.7
+  },
+  {
+   "id": "s6",
+   "groups": [
+    [
+     "Oma schickt ein Foto von ihrem Mittagessen. Dann noch eins. Dann ein Foto vom Foto.",
+     "Oma schickt ein Foto von ihrem Mittagessen. Dann noch eins. Dann ein Foto vom Foto."
+    ]
+   ]
+  },
+  {
+   "id": "s7",
+   "groups": [
+    [
+     "Mama überzieht. Laut über der Stadt: „Wer hat die Milch gekauft?“ Der Busfahrer antwortet.",
+     "Mama überzieht. Laut über der Stadt: Wer hat die Milch gekauft? Der Busfahrer antwortet."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "groups": [
+    [
+     "Mein Kumpel Jonas schreibt nur ein Wort pro Nachricht: „Hallo. Ich. Bin. Pleite.“",
+     "Mein Kumpel Jonas schreibt nur ein Wort pro Nachricht: Hallo. Ich. Bin. Pleite."
+    ]
+   ]
+  },
+  {
+   "id": "s9",
+   "groups": [
+    [
+     "Der Bürgermeister will das Limit abschaffen. Seine Nachricht ist die 21. Laut. Für alle.",
+     "Der Bürgermeister will das Limit abschaffen. Seine Nachricht ist die einundzwanzigste. Laut. Für alle."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "groups": [
+    [
+     "Mama macht weiter. Nachricht 63. Vierzigmal hört die Stadt: „Daumen hoch.“",
+     "Mama macht weiter. Nachricht dreiundsechzig. Vierzigmal hört die Stadt: Daumen hoch."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s11",
+   "groups": [
+    [
+     "Heute piept der Zähler am lautesten. Meine stumme Gruppe wird vorgelesen. Alle 1.400.",
+     "Heute piept der Zähler am lautesten. Meine stumme Gruppe wird vorgelesen. Alle vierzehnhundert."
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s12",
+   "groups": [
+    [
+     "Die Lautsprecher knacken. Nachricht 1: „Guten Morgen, ihr Lieben!“ Die Stadt kichert.",
+     "Die Lautsprecher knacken. Nachricht eins: Guten Morgen, ihr Lieben! Die Stadt kichert."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "groups": [
+    [
+     "Nachricht 612: ein Foto von mir mit Zahnspange und Topfhaarschnitt. Die ganze Stadt schaut hoch.",
+     "Nachricht sechshundertzwölf: ein Foto von mir mit Zahnspange und Topfhaarschnitt. Die ganze Stadt schaut hoch."
+    ]
+   ],
+   "tail": 0.5
+  },
+  {
+   "id": "s14",
+   "groups": [
+    [
+     "Dann kommt Nachricht 1.347. Die Stadt hält die Luft an. Oma dreht lauter.",
+     "Dann kommt Nachricht dreizehnhundertsiebenundvierzig. Die Stadt hält die Luft an. Oma dreht lauter."
+    ]
+   ],
+   "tail": 1.4
+  },
+  {
+   "id": "s15",
+   "groups": [
+    [
+     "Was steht in Nachricht 1.347?",
+     "Was steht in Nachricht dreizehnhundertsiebenundvierzig?"
+    ]
+   ],
+   "tail": 0.6
+  },
+  {
+   "id": "s16",
+   "groups": [
+    [
+     "Folg mir und schreib Teil 2 in die Kommentare, dann kommt die Fortsetzung!",
+     "Folg mir und schreib Teil zwei in die Kommentare, dann kommt die Fortsetzung!"
+    ]
+   ],
+   "tail": 2.2
+  }
+ ]
+}

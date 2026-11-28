@@ -11,7 +11,7 @@ VOICES = {"omni-frau": ("frau-referenz.wav", "Dein Führerschein kostet im Schni
 REF, REF_TXT = VOICES[cfg["model"]]; REF = os.path.join(HERE, REF)
 torch.set_num_threads(2)
 os.makedirs(f"{root}/assets/vo/pf", exist_ok=True)
-todo = []
+todo = []; SPD = {sc["id"]: sc["speed"] for sc in cfg["scenes"] if "speed" in sc}
 for sc in cfg["scenes"]:
     text = " ".join(g[1] for g in sc["groups"])
     hk = hashlib.sha1(json.dumps([text, cfg["model"], cfg.get("length_scale"), cfg.get("sentence_silence")]).encode()).hexdigest()[:12]
@@ -21,5 +21,5 @@ if not todo: print("alles im Cache"); sys.exit()
 m = OmniVoice.from_pretrained("k2-fsa/OmniVoice", device_map="cpu", dtype=torch.float32)
 prompt = m.create_voice_clone_prompt(ref_audio=REF, ref_text=REF_TXT)
 for sid, text, cp in todo:
-    a = m.generate(text=text, voice_clone_prompt=prompt, language="de", speed=cfg.get("speed"))
+    a = m.generate(text=text, voice_clone_prompt=prompt, language="de", speed=SPD.get(sid, cfg.get("speed")))
     sf.write(cp, a[0], 24000); print(sid, round(len(a[0]) / 24000, 1), "s", flush=True)

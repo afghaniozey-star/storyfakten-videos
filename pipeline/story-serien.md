@@ -21,6 +21,8 @@
 | Kompliment-Stadt | 25.11. 23:30 | TT 1.600 + IG 1.194 (Buffer 28.11.), 1 Komm., Ø 26 s (35 %) | **NEIN** – kein Gewinner (Sprach T1 TT 8.911), Wiederaufnahme nur bei klarem Kommentar-Interesse |
 | **Sprachnachrichten-Stadt** | 26.11. 23:30 | **TT 8.911 (Buffer 28.11. 04:52), Ø 35,9 s; IG 1.305** | **JA – Teil 2 am So 29.11. 16:30 (Nutzer)** |
 | Akku-Stadt | 27.11. 23:30 (von Hand nachgebaut, 63,8 s, tools/akku1.py) | TT 631 (nach ~6 h, Buffer hinkt), IG 1.277 mit Ø 49,5 s (78 %!), 36 Likes, 4 Saves | offen – TT-Zahlen am 29./30.11. nachmessen; IG-Watchtime Rekord |
+| Familiengruppen-Stadt | 28.11. 16:30 (76,9 s, tools/familie1.py) | – | offen – nach 2–3 Tagen messen |
+| Lesebestätigungs-Stadt | 28.11. 23:30 (74,2 s, tools/lesen1.py) | – | offen – nach 2–3 Tagen messen |
 
 ## Laufende Serie
 - **Die Zahl über dem Kopf** (ABGESCHLOSSEN 25.11.) – Teil 1 fertig (21.11.): Jeder sieht über dem Kopf, wie viele Tage er noch lebt. Mia beschützt ihre Freundin Lena (Zahl 1). Um Mitternacht springt Lenas Zahl auf 22.000 – im Spiegel steht über Mias Kopf jetzt eine 1. Cliffhanger.
@@ -41,6 +43,12 @@
 
 - **Sprachnachrichten-Stadt** – Teil 1 fertig (26.11., 78,5 s, tools/sprach1.py, voice-sprach1.json; TT/IG 23:30): In dieser Stadt läuft jede Sprachnachricht über 1 Minute über die Stadt-Lautsprecher. Split-Hook: ich „0:59“ vs. Oma „14:00“ (3 min Kartoffelsalat-Rezept, Busfahrer schreibt mit). Kumpel Emil (rotes Cap) 1:01: „Mama, ich hab Angst vor Enten“ → jeden Morgen Enten vor seiner Tür. Herr Krause schickt 45 min Matheunterricht → ganze Stadt kann Bruchrechnen (sogar Tauben). Bürgermeister im Tunnel (2 min Rauschen). Wendung: ausgerechnet ich (Profi) werde gesendet – Handy hat 6 Stunden in der Hosentasche aufgenommen. Cliffhanger: „Zeit für mein größtes Geheimnis …“, Oma dreht lauter. Endbanner „TEIL 2? ➕ FOLGEN“. Frage: „Was ist mein Geheimnis?“
   Nächster Teil: Teil 2 (nach Liefer 2, Kompliment 2, Digga 3).
+
+- **Familiengruppen-Stadt** – Teil 1 fertig (28.11., 76,9 s, tools/familie1.py, voice-familie1.json; TT/IG 16:30): In dieser Stadt darf jede Familiengruppe nur 20 Nachrichten am Tag, wer überzieht, dessen Gruppe wird über die Stadt-Lautsprecher vorgelesen (Zähler überm Rathaus). Split-Hook: ich „💬 2“ vs. Mama „💬 63“ (40 Daumen). Geheimnis früh: Gruppe stumm, 1.400 ungelesen. Gags: Oma (Foto vom Foto), Milch-Frage – Busfahrer antwortet, Jonas (1 Wort pro Nachricht), Bürgermeister (21. Nachricht = „Limit weg!“), 40× „Daumen hoch“. Twist: meine stumme Gruppe wird vorgelesen – „Guten Morgen, ihr Lieben“, #612 Foto mit Zahnspange + Topfhaarschnitt, dann #1.347 – Oma dreht lauter. Frage: Was steht in Nachricht 1.347? Loop: ich „1.400“ vs. Mama „63“.
+  Nächster Teil: Teil 2 nur bei starkem Teil 1 – Nachricht 1.347 in den ersten 3 s auflösen.
+
+- **Lesebestätigungs-Stadt** – Teil 1 fertig (28.11., 74,2 s, tools/lesen1.py, voice-lesen1.json; TT/IG 23:30): In dieser Stadt bleibt keine Nachricht über 10 Minuten unbeantwortet, wer überzieht, trägt einen blauen Haken mit Minutenzahl über dem Kopf. Split-Hook: ich „3 MIN“ vs. Mia „✓✓ 41 MIN“. Geheimnis früh: ich lese heimlich im Flugmodus (kein Haken). Gags: Mia „Sorry, war duschen“, Oma antwortet dem Matratzenladen mit 3 Herzen, Jonas immer 9:59 (schwitzt), Bürgermeister 212 offen = Weihnachtsbaum im Juli, ich Stadtbester. Twist: blauer Haken über mir – 6 TAGE; Bürgermeister: „Du bist schlimmer als ich.“ Hinter ihrem Namen steht ein Herz; Oma schickt Herz + Mahnung. Frage: Wessen Nachricht ignoriere ich seit 6 Tagen? Loop: ich rot „✓✓ 6 TAGE“ vs. Mia „41 MIN“.
+  Nächster Teil: Teil 2 nur bei starkem Teil 1 – Absenderin in den ersten 3 s anteasern.
 
 ## Ideen für neue Serien (eigene Ideen, lustiger Stil „In dieser Stadt …“ bevorzugt)
 - Noch frei (Trend-Scout 26.11.): Jedes Gähnen macht 1 Jahr älter (Klasse voller Opas, Krause ein Baby); Was du googelst, musst du laut singen.
